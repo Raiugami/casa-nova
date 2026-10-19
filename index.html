@@ -95,6 +95,19 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
 .foot{padding:8px 0 96px;color:var(--muted);font-size:13px;max-width:70ch}
 @media (max-width:520px){.grid{grid-template-columns:1fr}.price{font-size:28px}.top p{font-size:13px}}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s}.card:hover{transform:translateY(-2px)}}
+.photo{cursor:zoom-in}
+.photo .cnt{position:absolute;right:10px;bottom:10px;background:rgba(10,18,15,.72);color:#fff;font-size:12px;font-weight:700;padding:4px 9px;border-radius:99px;pointer-events:none}
+#lb{position:fixed;inset:0;z-index:50;background:rgba(8,12,10,.94);display:flex;flex-direction:column;color:#fff;touch-action:pan-y}
+#lb[hidden]{display:none}
+#lb .top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;font-weight:700;font-size:14px}
+#lb .x{background:rgba(255,255,255,.14);color:#fff;border:0;border-radius:99px;width:40px;height:40px;font-size:20px;cursor:pointer}
+#lb .stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;position:relative}
+#lb .stage img{max-width:100%;max-height:100%;object-fit:contain;user-select:none}
+#lb .nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.16);color:#fff;border:0;border-radius:99px;width:44px;height:44px;font-size:22px;cursor:pointer}
+#lb .nav.p{left:10px}#lb .nav.n{right:10px}
+#lb .thumbs{display:flex;gap:6px;overflow-x:auto;padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+#lb .thumbs img{height:54px;width:74px;object-fit:cover;border-radius:6px;opacity:.5;cursor:pointer;flex:none}
+#lb .thumbs img.on{opacity:1;outline:2px solid #fff}
 </style>
 </head>
 <body>
@@ -144,6 +157,11 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
   <p class="foot" id="foot"></p>
 </main>
 
+<div id="lb" hidden role="dialog" aria-modal="true" aria-label="Fotos do anúncio">
+  <div class="top"><span id="lbN"></span><button class="x" type="button" id="lbX" aria-label="Fechar">✕</button></div>
+  <div class="stage"><button class="nav p" type="button" id="lbP" aria-label="Foto anterior">‹</button><img id="lbI" alt=""><button class="nav n" type="button" id="lbF" aria-label="Próxima foto">›</button></div>
+  <div class="thumbs" id="lbT"></div>
+</div>
 <script>
 const brl = n => n == null ? "—" : n.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0});
 const LOC = {boa:["Boa localização","b-boa",0], media:["Localização média","b-media",1], atencao:["Periférico ou morro","b-atencao",2]};
@@ -172,6 +190,30 @@ function mostraEnvio(){
   $("sendLink").href = `https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Escolhas: " + new Date().toLocaleString("pt-BR"))}&body=${encodeURIComponent(corpo)}`;
 }
 
+let fotos = {};
+fetch("fotos.json?v=" + Date.now()).then(r => r.json()).then(f => { fotos = f; dados && render(); }).catch(() => {});
+const listaFotos = i => (fotos[i.id] && fotos[i.id].length ? fotos[i.id] : (i.imagem ? [i.imagem] : []));
+let lbL = [], lbK = 0;
+function lbMostra(k){
+  lbK = (k + lbL.length) % lbL.length;
+  $("lbI").src = lbL[lbK]; $("lbN").textContent = (lbK+1) + " de " + lbL.length;
+  [...$("lbT").children].forEach((t,n) => { t.classList.toggle("on", n===lbK); if(n===lbK) t.scrollIntoView({inline:"center",block:"nearest"}); });
+  $("lbP").hidden = $("lbF").hidden = lbL.length < 2;
+}
+function lbAbre(i){
+  lbL = listaFotos(i); if(!lbL.length) return;
+  const t = $("lbT"); t.innerHTML = "";
+  lbL.forEach((u,n) => { const im = new Image(); im.src = u; im.loading = "lazy"; im.referrerPolicy = "no-referrer"; im.alt = ""; im.onclick = () => lbMostra(n); t.appendChild(im); });
+  t.hidden = lbL.length < 2; $("lb").hidden = false; document.body.style.overflow = "hidden"; lbMostra(0);
+}
+function lbFecha(){ $("lb").hidden = true; document.body.style.overflow = ""; $("lbI").removeAttribute("src"); }
+$("lbI").referrerPolicy = "no-referrer";
+$("lbX").onclick = lbFecha; $("lbP").onclick = () => lbMostra(lbK-1); $("lbF").onclick = () => lbMostra(lbK+1);
+$("lb").addEventListener("click", e => { if(e.target.classList.contains("stage")) lbFecha(); });
+document.addEventListener("keydown", e => { if($("lb").hidden) return; if(e.key==="Escape") lbFecha(); if(e.key==="ArrowLeft") lbMostra(lbK-1); if(e.key==="ArrowRight") lbMostra(lbK+1); });
+let tx = null;
+$("lb").addEventListener("touchstart", e => { tx = e.touches[0].clientX; }, {passive:true});
+$("lb").addEventListener("touchend", e => { if(tx===null) return; const dx = e.changedTouches[0].clientX - tx; tx = null; if(Math.abs(dx) > 50) lbMostra(lbK + (dx < 0 ? 1 : -1)); }, {passive:true});
 async function carregar(){
   try{ dados = await (await fetch("imoveis.json?v=" + Date.now())).json(); }
   catch(e){ $("count").textContent = "Não foi possível carregar a lista de imóveis."; return; }
@@ -252,6 +294,9 @@ function render(){
     yes.textContent = e==="aprovada" ? "✓ Aprovada" : "✓ Aprovar"; no.textContent = e==="recusada" ? "Desfazer recusa" : "✕ Recusar";
     yes.onclick = () => decidir(i.id, "aprovada"); no.onclick = () => decidir(i.id, "recusada");
     if(i.imagem){ const im = new Image(); im.alt = "Foto da casa em " + i.bairro; im.loading = "lazy"; im.referrerPolicy = "no-referrer"; im.onload = () => { el.querySelector(".none")?.remove(); }; im.onerror = () => im.remove(); im.src = i.imagem; el.querySelector(".photo").prepend(im); }
+    const ph = el.querySelector(".photo"), nf = listaFotos(i).length;
+    if(nf > 1){ const c = document.createElement("span"); c.className = "cnt"; c.textContent = "▣ " + nf + " fotos"; ph.appendChild(c); }
+    ph.onclick = () => lbAbre(i);
     g.appendChild(el);
   }
 }
