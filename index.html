@@ -1,0 +1,186 @@
+<title>Casa Nova ABC</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: faixa de filtros fixa no topo + grade de fichas de imóvel, como placas de rua de SP */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --fg:#17212f; --muted:#5a6678; --line:#d8dee8;
+  --accent:#1f4e9c; --accent-fg:#ffffff; --accent-soft:#e3ebf8;
+  --ok:#1d7a4c; --ok-soft:#e1f2e8; --mid:#8a6a12; --mid-soft:#f6efd9; --warn:#b03a2e; --warn-soft:#f8e3e0;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"Source Sans 3",ui-sans-serif,system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f141c; --surface:#171e29; --fg:#e6ebf2; --muted:#9aa6b8; --line:#2a3443;
+  --accent:#6f9be6; --accent-fg:#0f141c; --accent-soft:#1d2a40;
+  --ok:#5cc690; --ok-soft:#163023; --mid:#d9b552; --mid-soft:#2e2814; --warn:#ec8075; --warn-soft:#3a1d1a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f141c; --surface:#171e29; --fg:#e6ebf2; --muted:#9aa6b8; --line:#2a3443;
+  --accent:#6f9be6; --accent-fg:#0f141c; --accent-soft:#1d2a40;
+  --ok:#5cc690; --ok-soft:#163023; --mid:#d9b552; --mid-soft:#2e2814; --warn:#ec8075; --warn-soft:#3a1d1a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:20px}
+.sign{display:inline-block;background:var(--accent);color:var(--accent-fg);font-family:var(--f-display);font-weight:800;font-size:clamp(26px,5vw,40px);line-height:1;padding:10px 16px 12px;border-radius:6px;border:3px solid var(--accent-fg);box-shadow:0 0 0 2px var(--accent);letter-spacing:-.01em}
+.sub{color:var(--muted);margin:10px 0 0;max-width:62ch}
+.meta{font-family:var(--f-mono);font-size:12px;color:var(--muted);text-align:right}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 20px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:18px}
+.f label,.f .lbl{display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:transparent;color:var(--fg);padding:4px 10px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.chip:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+input[type=range]{width:100%;accent-color:var(--accent)}
+select{font:inherit;width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg)}
+.check{display:flex;align-items:center;gap:8px;font-size:14px;margin-top:4px;text-transform:none;letter-spacing:0;color:var(--fg);font-weight:400}
+.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.count{color:var(--muted);margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
+.foto{margin:-16px -16px 0;aspect-ratio:16/10;max-width:none;background:var(--accent-soft);border-radius:10px 10px 0 0;overflow:hidden;display:grid;place-items:center;color:var(--muted);font-size:13px}
+.foto img{width:100%;height:100%;object-fit:cover;display:block}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.city{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.bairro{font-family:var(--f-display);font-weight:600;font-size:19px;line-height:1.2;margin:2px 0 0;text-wrap:balance}
+.price{font-family:var(--f-mono);font-size:20px;white-space:nowrap}
+.specs{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px}
+.specs span b{font-family:var(--f-mono);font-weight:500}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:12px;padding:2px 8px;border-radius:4px;background:var(--accent-soft);color:var(--fg)}
+.loc-boa{background:var(--ok-soft);color:var(--ok)} .loc-media{background:var(--mid-soft);color:var(--mid)} .loc-atencao{background:var(--warn-soft);color:var(--warn)}
+.note{font-size:13px;color:var(--muted);margin:0}
+.card a.go{margin-top:auto;align-self:flex-start;color:var(--accent);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
+.empty{padding:32px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
+details{margin-top:28px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+summary{cursor:pointer;font-weight:600}
+details ul{margin:10px 0 0;padding-left:18px;color:var(--muted)}
+.foot{margin-top:18px;font-size:13px;color:var(--muted);max-width:75ch}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--accent)}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <span class="sign">Casa Nova</span>
+      <p class="sub">Casas térreas à venda com 2 quartos ou mais, até R$ 360 mil, em São Paulo, Santo André, Mauá e São Bernardo. Sem sobrado, geminada ou condomínio, e sem anúncio de dívida, financiamento em andamento ou imóvel retomado.</p>
+    </div>
+    <div class="meta" id="meta">carregando…</div>
+  </header>
+
+  <section class="filters" aria-label="Filtros">
+    <div class="f"><span class="lbl">Cidade</span><div class="chips" id="cidades"></div></div>
+    <div class="f">
+      <label for="preco">Preço máximo: <span class="num" id="precoVal"></span></label>
+      <input type="range" id="preco" min="250000" max="360000" step="5000" value="360000">
+    </div>
+    <div class="f">
+      <label for="ordem">Ordenar por</label>
+      <select id="ordem">
+        <option value="loc">Melhor localização</option>
+        <option value="preco">Menor preço</option>
+        <option value="m2">Menor preço por m²</option>
+        <option value="area">Maior área</option>
+      </select>
+    </div>
+    <div class="f">
+      <span class="lbl">Mostrar</span>
+      <label class="check"><input type="checkbox" id="ocultarAtencao" checked> Esconder bairros periféricos ou em morro</label>
+      <label class="check"><input type="checkbox" id="soTerrea"> Só térreas confirmadas</label>
+    </div>
+  </section>
+
+  <p class="count" id="count"></p>
+  <div class="grid" id="grid"></div>
+
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+const brl = n => n == null ? "—" : n.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0});
+const LOC = {boa:["Boa localização","loc-boa",0], media:["Localização média","loc-media",1], atencao:["Periférico ou morro","loc-atencao",2]};
+const BLOQ = /transfer[eê]ncia de d[ií]vida|financiamento em andamento|retomad|leil[aã]o|sobrado|geminad|condom[ií]nio/i;
+let dados = null, cidadesAtivas = new Set();
+
+function store(k,v){try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k,v);}catch(e){return null}}
+
+async function carregar(){
+  try{
+    const r = await fetch("imoveis.json?v=" + Date.now());
+    dados = await r.json();
+  }catch(e){
+    document.getElementById("meta").textContent = "Não foi possível carregar imoveis.json.";
+    return;
+  }
+  // filtro de segurança: descarta anúncios que citam dívida ou tipos evitados
+  dados.imoveis = dados.imoveis.filter(i => !BLOQ.test([i.tipo,i.extras].join(" ")) && i.preco <= 360000 && i.quartos >= 2);
+  const d = new Date(dados.atualizado_em + "T12:00:00");
+  document.getElementById("meta").innerHTML = "Atualizado em " + d.toLocaleDateString("pt-BR") + "<br>" + dados.imoveis.length + " anúncios na base";
+  document.getElementById("foot").textContent = "Fontes: " + dados.fontes_consultadas.join(", ") + ". " + dados.observacao + " A classificação de localização é uma avaliação aproximada do bairro.";
+  const cidades = [...new Set(dados.imoveis.map(i=>i.cidade))].sort();
+  cidades.forEach(c=>cidadesAtivas.add(c));
+  const box = document.getElementById("cidades");
+  cidades.forEach(c=>{
+    const b = document.createElement("button");
+    b.className="chip"; b.type="button"; b.textContent=c; b.setAttribute("aria-pressed","true");
+    b.onclick=()=>{ cidadesAtivas.has(c)?cidadesAtivas.delete(c):cidadesAtivas.add(c); b.setAttribute("aria-pressed",cidadesAtivas.has(c)); render(); };
+    box.appendChild(b);
+  });
+  const o = store("ordem"); if(o) document.getElementById("ordem").value = o;
+  render();
+}
+
+function render(){
+  const max = +document.getElementById("preco").value;
+  document.getElementById("precoVal").textContent = brl(max);
+  const ocultar = document.getElementById("ocultarAtencao").checked;
+  const soT = document.getElementById("soTerrea").checked;
+  const ordem = document.getElementById("ordem").value; store("ordem",ordem);
+  let lista = dados.imoveis.filter(i =>
+    cidadesAtivas.has(i.cidade) && i.preco <= max &&
+    !(ocultar && i.localizacao==="atencao") &&
+    !(soT && i.tipo!=="Térrea"));
+  const m2 = i => i.area ? i.preco/i.area : Infinity;
+  const sorters = {
+    loc:(a,b)=>LOC[a.localizacao][2]-LOC[b.localizacao][2] || a.preco-b.preco,
+    preco:(a,b)=>a.preco-b.preco,
+    m2:(a,b)=>m2(a)-m2(b),
+    area:(a,b)=>(b.area||0)-(a.area||0)
+  };
+  lista.sort(sorters[ordem]);
+  document.getElementById("count").textContent = lista.length + (lista.length===1?" casa encontrada":" casas encontradas");
+  const g = document.getElementById("grid"); g.innerHTML="";
+  if(!lista.length){ g.innerHTML='<div class="empty">Nenhuma casa com esses filtros. Tente subir o preço ou mostrar mais cidades.</div>'; return; }
+  for(const i of lista){
+    const [locTxt,locCls] = LOC[i.localizacao];
+    const el = document.createElement("article"); el.className="card";
+    el.innerHTML = `
+      <div class="foto">Foto no anúncio</div>
+      <div class="top"><div><div class="city"></div><h3 class="bairro"></h3></div><div class="price"></div></div>
+      <div class="specs">
+        <span><b>${i.quartos}</b> quartos</span>
+        <span><b>${i.vagas==null?"?":i.vagas}</b> vagas</span>
+        <span><b>${i.area||"?"}</b> m²</span>
+        ${i.area?`<span class="num" style="color:var(--muted)">${brl(Math.round(i.preco/i.area))}/m²</span>`:""}
+      </div>
+      <div class="tags"><span class="tag ${locCls}">${locTxt}</span><span class="tag tipo"></span><span class="tag fonte"></span></div>
+      <p class="note extras"></p><p class="note local"></p>
+      <a class="go" target="_blank" rel="noopener"></a>`;
+    el.querySelector(".city").textContent = i.cidade;
+    el.querySelector(".bairro").textContent = i.bairro;
+    el.querySelector(".price").textContent = brl(i.preco);
+    el.querySelector(".tipo").textContent = i.tipo;
+    el.querySelector(".fonte").textContent = i.fonte + (i.anuncio_data?" · "+new Date(i.anuncio_data+"T12:00:00").toLocaleDateString("pt-BR"):"");
+    const ex = el.querySelector(".extras"); i.extras ? ex.textContent=i.extras : ex.remove();
+    el.querySelector(".local").textContent = i.nota_local;
+    const a = el.querySelector(".go"); a.href=i.url; a.textContent = "Ver anúncio original";
+    if(i.imagem){ const im=new Image(); im.alt="Foto do anúncio em "+i.bairro; im.loading="lazy"; im.referrerPolicy="no-referrer"; im.src=i.imagem; im.onerror=()=>{im.remove()}; const f=el.querySelector(".foto"); f.textContent=""; f.appendChild(im); }
+    g.appendChild(el);
+  }
+}
+["preco","ocultarAtencao","soTerrea","ordem"].forEach(id=>document.getElementById(id).addEventListener("input",render));
+carregar();
+</script>
