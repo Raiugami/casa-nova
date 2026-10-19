@@ -258,6 +258,8 @@ def chaves_detalhe(par):
     if data and (date.today() - date.fromisoformat(data)).days > 365:
         return None
     img = re.search(r'"primaryImageOfPage":\{"@type":"ImageObject","url":"([^"]+)"', h)
+    if img and re.search(r"sobrado|condominio", img.group(1)):  # o nome da foto traz a categoria do anúncio
+        return None
     gar = re.search(r"(\d+) (?:garagens?|vagas?)", " ".join(descs) + " " + titulo)
     area = int(m.group(2)) if m.group(2) else None
     sb = sem_acento(bairro)
