@@ -195,6 +195,15 @@ def buscas_por_bairro(todos):
     return out
 
 
+def recusadas():
+    """Ids numéricos dos anúncios que o Gabriel recusou (decisoes.json)."""
+    try:
+        d = json.load(open("decisoes.json", encoding="utf-8"))
+    except Exception:
+        return set()
+    return {i.rsplit("-", 1)[-1] for i in d.get("recusadas", [])}
+
+
 def main():
     todos = {}
     with ThreadPoolExecutor(6) as ex:
@@ -205,10 +214,12 @@ def main():
         for achados in ex.map(links_da_busca, buscas_por_bairro(todos)):
             todos.update(achados)
     print("links de casas térreas:", len(todos))
-    cand = {p: v for p, v in todos.items() if candidato_por_slug(v[1])}
+    nao = recusadas()
+    cand = {p: v for p, v in todos.items() if p not in nao and candidato_por_slug(v[1])}
     print("candidatas pelo preço e quartos:", len(cand))
     with ThreadPoolExecutor(6) as ex:
         itens = [i for i in ex.map(detalhe, cand.items()) if i]
+    itens = [i for i in itens if i["id"].rsplit("-", 1)[-1] not in nao]
     # mesma casa em mais de um portal: mantém uma por bairro, preço e área
     vistos, unicos = set(), []
     for i in sorted(itens, key=lambda x: (x["cidade"], x["bairro"], x["preco"])):

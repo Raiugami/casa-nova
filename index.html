@@ -69,8 +69,18 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
 .photo .none{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-weight:600;font-size:14px}
 .badge{position:absolute;left:10px;top:10px;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:800}
 .b-boa{background:var(--ok-bg);color:var(--ok)} .b-media{background:var(--mid-bg);color:var(--mid)} .b-atencao{background:var(--warn-bg);color:var(--warn)}
-.fav{position:absolute;right:8px;top:8px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#18231f;display:grid;place-items:center;cursor:pointer;font-size:22px;line-height:1}
-.fav[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.stamp{position:absolute;right:10px;top:10px;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:800;background:var(--ok);color:#fff}
+.stamp.rec{background:var(--warn)}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 16px}
+.act{min-height:48px;border-radius:12px;border:2px solid var(--line);background:var(--surface);font-weight:800;font-size:15px;cursor:pointer}
+.act.yes{border-color:var(--ok);color:var(--ok)} .act.yes[aria-pressed="true"]{background:var(--ok);color:#fff}
+.act.no{border-color:var(--warn);color:var(--warn)} .act.no[aria-pressed="true"]{background:var(--warn);color:#fff}
+.seg{display:flex;background:var(--chip);border-radius:12px;padding:3px;gap:3px;margin-top:10px}
+.seg button{flex:1;border:0;background:transparent;border-radius:9px;min-height:40px;font-weight:700;cursor:pointer;padding:0 6px;font-size:13px;color:var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--surface);box-shadow:var(--shadow)}
+.send{display:none;position:fixed;left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));z-index:30;max-width:560px;margin:0 auto;box-shadow:0 8px 28px rgba(0,0,0,.28);background:var(--accent);color:var(--accent-ink);border-radius:14px;padding:12px 14px;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-weight:700;font-size:14px}
+.send.on{display:flex}
+.send a{background:var(--accent-ink);color:var(--accent);text-decoration:none;font-weight:800;border-radius:10px;padding:10px 14px;min-height:44px;display:inline-flex;align-items:center}
 .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
 .price{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
 .m2{font-size:13px;font-weight:600;color:var(--muted)}
@@ -82,7 +92,7 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
 .go{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:13px 16px;min-height:48px;background:var(--brand);color:var(--brand-ink);text-decoration:none;font-weight:700;border-radius:12px}
 .src{font-size:12px;font-weight:600;color:var(--muted)}
 .empty{grid-column:1/-1;text-align:center;padding:40px 16px;color:var(--muted);background:var(--surface);border-radius:18px}
-.foot{padding:8px 0 40px;color:var(--muted);font-size:13px;max-width:70ch}
+.foot{padding:8px 0 96px;color:var(--muted);font-size:13px;max-width:70ch}
 @media (max-width:520px){.grid{grid-template-columns:1fr}.price{font-size:28px}.top p{font-size:13px}}
 @media (prefers-reduced-motion:no-preference){.card{transition:transform .15s}.card:hover{transform:translateY(-2px)}}
 </style>
@@ -117,9 +127,14 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
     <div>
       <span class="l">Mostrar</span>
       <label class="sw"><input type="checkbox" id="ocultarAtencao" checked> Esconder bairros periféricos ou em morro</label>
-      <label class="sw"><input type="checkbox" id="soFav"> Só as que salvei</label>
     </div>
   </div>
+  <div class="seg" id="abas" role="group" aria-label="Situação">
+    <button type="button" data-v="novas" aria-pressed="true">Para avaliar</button>
+    <button type="button" data-v="aprovadas" aria-pressed="false">Aprovadas</button>
+    <button type="button" data-v="recusadas" aria-pressed="false">Recusadas</button>
+  </div>
+  <div class="send" id="send"><span id="sendTxt"></span><a id="sendLink" target="_blank" rel="noopener">Enviar escolhas</a></div>
 </div></div>
 
 <main class="wrap">
@@ -132,14 +147,39 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
 const brl = n => n == null ? "—" : n.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0});
 const LOC = {boa:["Boa localização","b-boa",0], media:["Localização média","b-media",1], atencao:["Periférico ou morro","b-atencao",2]};
 const BLOQ = /transfer[eê]ncia de d[ií]vida|financiamento em andamento|retomad|leil[aã]o|sobrado|geminad|condom[ií]nio/i;
-let dados = null, cidadesAtivas = new Set(), favs = new Set();
+const REPO = "Raiugami/casa-nova";
+let dados = null, cidadesAtivas = new Set(), aba = "novas", remoto = {aprovadas:new Set(), recusadas:new Set()}, local = {};
 const $ = id => document.getElementById(id);
 function store(k,v){try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k,v);}catch(e){return null}}
-try{ favs = new Set(JSON.parse(store("favs")||"[]")); }catch(e){}
+try{ local = JSON.parse(store("escolhas")||"{}"); }catch(e){}
+// escolha efetiva: a do aparelho (se houver) vale sobre a do repositório
+const doRepo = id => remoto.aprovadas.has(id) ? "aprovada" : remoto.recusadas.has(id) ? "recusada" : null;
+const estado = id => (id in local) ? local[id] : doRepo(id);
+function decidir(id, e){
+  local[id] = estado(id) === e ? null : e;
+  if(local[id] === doRepo(id)) delete local[id];
+  store("escolhas", JSON.stringify(local)); render();
+}
+// escolhas ainda não enviadas ao repositório viram um pedido pré-preenchido no GitHub
+function mostraEnvio(){
+  const pend = Object.entries(local);
+  const box = $("send"); box.classList.toggle("on", pend.length > 0);
+  if(!pend.length) return;
+  const lista = k => pend.filter(([,e]) => e === k).map(([id]) => id).join(",");
+  const corpo = ["aprovar: " + lista("aprovada"), "recusar: " + lista("recusada"), "desfazer: " + pend.filter(([,e]) => e === null).map(([id]) => id).join(",")].join("\n");
+  $("sendTxt").textContent = pend.length + (pend.length===1 ? " escolha ainda não enviada" : " escolhas ainda não enviadas");
+  $("sendLink").href = `https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Escolhas: " + new Date().toLocaleString("pt-BR"))}&body=${encodeURIComponent(corpo)}`;
+}
 
 async function carregar(){
   try{ dados = await (await fetch("imoveis.json?v=" + Date.now())).json(); }
   catch(e){ $("count").textContent = "Não foi possível carregar a lista de imóveis."; return; }
+  try{
+    const rd = await (await fetch("decisoes.json?v=" + Date.now())).json();
+    remoto = {aprovadas:new Set(rd.aprovadas||[]), recusadas:new Set(rd.recusadas||[])};
+    Object.keys(local).forEach(id => { if(local[id] === doRepo(id)) delete local[id]; });
+    store("escolhas", JSON.stringify(local));
+  }catch(e){}
   dados.imoveis = dados.imoveis.filter(i => !BLOQ.test([i.tipo,i.extras].join(" ")) && i.preco <= 360000 && i.quartos >= 2);
   $("sDate").textContent = "Atualizado em " + new Date(dados.atualizado_em + "T12:00:00").toLocaleDateString("pt-BR");
   $("foot").textContent = "Fontes: " + dados.fontes_consultadas.join(", ") + ". " + dados.observacao + " A classificação de localização é uma estimativa por nome de bairro.";
@@ -163,8 +203,8 @@ function chip(txt, fn){ const b=document.createElement("button"); b.type="button
 
 function render(){
   const max = +$("preco").value; $("precoVal").textContent = brl(max);
-  const ocultar = $("ocultarAtencao").checked, soFav = $("soFav").checked, ordem = $("ordem").value; store("ordem",ordem);
-  let lista = dados.imoveis.filter(i => cidadesAtivas.has(i.cidade) && i.preco <= max && !(ocultar && i.localizacao==="atencao") && !(soFav && !favs.has(i.id)));
+  const ocultar = $("ocultarAtencao").checked, ordem = $("ordem").value; store("ordem",ordem);
+  let lista = dados.imoveis.filter(i => cidadesAtivas.has(i.cidade) && i.preco <= max && !(ocultar && i.localizacao==="atencao" && aba==="novas") && ({novas:!estado(i.id), aprovadas:estado(i.id)==="aprovada", recusadas:estado(i.id)==="recusada"}[aba]));
   const m2 = i => i.area ? i.preco/i.area : Infinity;
   const S = {
     loc:(a,b)=>LOC[a.localizacao][2]-LOC[b.localizacao][2] || a.preco-b.preco,
@@ -173,6 +213,9 @@ function render(){
   };
   lista.sort(S[ordem]);
   const n = lista.length;
+  const SIT = {novas:i=>!estado(i.id), aprovadas:i=>estado(i.id)==="aprovada", recusadas:i=>estado(i.id)==="recusada"}, NOME = {novas:"Para avaliar", aprovadas:"Aprovadas", recusadas:"Recusadas"};
+  [...$("abas").children].forEach(b => { b.textContent = NOME[b.dataset.v] + " (" + dados.imoveis.filter(SIT[b.dataset.v]).length + ")"; b.setAttribute("aria-pressed", b.dataset.v===aba); });
+  mostraEnvio();
   $("count").textContent = n + (n===1 ? " casa encontrada" : " casas encontradas");
   $("sCount").innerHTML = "<b>" + dados.imoveis.length + "</b> casas na base";
   const g = $("grid"); g.innerHTML = "";
@@ -181,7 +224,7 @@ function render(){
     const [locTxt,locCls] = LOC[i.localizacao];
     const el = document.createElement("article"); el.className = "card";
     el.innerHTML = `
-      <div class="photo"><div class="none">Sem foto</div><span class="badge ${locCls}"></span><button class="fav" type="button" aria-pressed="false" aria-label="Salvar"></button></div>
+      <div class="photo"><div class="none">Sem foto</div><span class="badge ${locCls}"></span><span class="stamp" hidden></span></div>
       <div class="body">
         <div><div class="price"></div><div class="m2"></div></div>
         <div class="where"></div>
@@ -189,7 +232,8 @@ function render(){
         <p class="note"></p>
         <span class="src"></span>
       </div>
-      <a class="go" target="_blank" rel="noopener"><span>Ver anúncio original</span><span aria-hidden="true">↗</span></a>`;
+      <div class="acts"><button class="act yes" type="button" aria-pressed="false">✓ Aprovar</button><button class="act no" type="button" aria-pressed="false">✕ Recusar</button></div>
+      <a class="go" target="_blank" rel="noopener" style="margin:12px 16px 16px"><span>Ver anúncio original</span><span aria-hidden="true">↗</span></a>`;
     el.querySelector(".badge").textContent = locTxt;
     el.querySelector(".price").textContent = brl(i.preco);
     el.querySelector(".m2").textContent = i.area ? brl(Math.round(i.preco/i.area)) + " por m²" : "";
@@ -199,15 +243,19 @@ function render(){
     el.querySelector(".note").textContent = i.nota_local || "";
     el.querySelector(".src").textContent = i.fonte + (i.anuncio_data ? " · anúncio de " + new Date(i.anuncio_data+"T12:00:00").toLocaleDateString("pt-BR") : "");
     el.querySelector(".go").href = i.url;
-    const f = el.querySelector(".fav"), on = favs.has(i.id);
-    f.textContent = on ? "♥" : "♡"; f.setAttribute("aria-pressed", on); f.setAttribute("aria-label", on ? "Remover das salvas" : "Salvar");
-    f.onclick = () => { favs.has(i.id) ? favs.delete(i.id) : favs.add(i.id); store("favs", JSON.stringify([...favs])); render(); };
+    const e = estado(i.id), st = el.querySelector(".stamp");
+    if(e){ st.hidden = false; st.textContent = e==="aprovada" ? "Aprovada" : "Recusada"; st.classList.toggle("rec", e==="recusada"); }
+    const yes = el.querySelector(".yes"), no = el.querySelector(".no");
+    yes.setAttribute("aria-pressed", e==="aprovada"); no.setAttribute("aria-pressed", e==="recusada");
+    yes.textContent = e==="aprovada" ? "✓ Aprovada" : "✓ Aprovar"; no.textContent = e==="recusada" ? "Desfazer recusa" : "✕ Recusar";
+    yes.onclick = () => decidir(i.id, "aprovada"); no.onclick = () => decidir(i.id, "recusada");
     if(i.imagem){ const im = new Image(); im.alt = "Foto da casa em " + i.bairro; im.loading = "lazy"; im.referrerPolicy = "no-referrer"; im.onload = () => { el.querySelector(".none")?.remove(); }; im.onerror = () => im.remove(); im.src = i.imagem; el.querySelector(".photo").prepend(im); }
     g.appendChild(el);
   }
 }
 $("btnPanel").onclick = () => { const p = $("panel"), o = p.classList.toggle("open"); $("btnPanel").setAttribute("aria-expanded", o); };
-["preco","ocultarAtencao","soFav","ordem"].forEach(id => $(id).addEventListener("input", () => dados && render()));
+["preco","ocultarAtencao","ordem"].forEach(id => $(id).addEventListener("input", () => dados && render()));
+$("abas").onclick = ev => { const b = ev.target.closest("button"); if(b){ aba = b.dataset.v; render(); } };
 carregar();
 </script>
 </body>
