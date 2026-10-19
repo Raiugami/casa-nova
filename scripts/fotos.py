@@ -37,7 +37,10 @@ def _busca(i):
 
 def preencher(itens, antigas):
     """antigas: {id: [fotos]} da execução anterior. Devolve {id: [fotos]} só dos anúncios atuais."""
-    fotos = {i["id"]: antigas[i["id"]] for i in itens if antigas.get(i["id"])}
+    fotos = {i["id"]: i.pop("fotos") for i in itens if i.get("fotos")}  # já vieram da busca
+    fotos.update({i["id"]: antigas[i["id"]] for i in itens if i["id"] not in fotos and antigas.get(i["id"])})
+    for i in itens:
+        i.pop("fotos", None)
     falta = [i for i in itens if i["id"] not in fotos]
     with ThreadPoolExecutor(8) as ex:
         for i, achadas in zip(falta, ex.map(_busca, falta)):

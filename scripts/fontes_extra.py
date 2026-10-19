@@ -59,10 +59,12 @@ def quintoandar_pagina(url):
         if base.BLOQUEIO.search(h.get("shortSaleDescription") or ""):
             continue
         bairro = h.get("neighbourhood") or h.get("regionName") or ""
-        saida.append(monta(f"quinto-{h['id']}", "QuintoAndar", cidade, bairro, preco, q, h.get("parkingSpots"), h.get("area"),
+        item = (monta(f"quinto-{h['id']}", "QuintoAndar", cidade, bairro, preco, q, h.get("parkingSpots"), h.get("area"),
                            f"https://www.quintoandar.com.br/imovel/{h['id']}/comprar",
                            f"https://www.quintoandar.com.br/img/800x600/{h['banner']}" if h.get("banner") else None, None,
                            h.get("shortSaleDescription") or ""))
+        item["fotos"] = [f"https://www.quintoandar.com.br/img/800x600/{f['url']}" for f in h.get("photos") or [] if isinstance(f, dict) and f.get("url")][:24]
+        saida.append(item)
     return saida
 
 

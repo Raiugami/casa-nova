@@ -335,6 +335,12 @@ def main():
         from collections import Counter
         print("TESTE", len(unicos), dict(Counter(i["fonte"] for i in unicos)), dict(Counter(i["cidade"] for i in unicos)))
         return
+    import fotos
+    try:
+        antigas = json.load(open("fotos.json", encoding="utf-8"))
+    except (OSError, ValueError):
+        antigas = {}
+    todas_fotos = fotos.preencher(unicos, antigas)
     saida = {
         "atualizado_em": date.today().isoformat(),
         "fontes_consultadas": sorted({i["fonte"] for i in unicos}),
@@ -343,12 +349,7 @@ def main():
         "descartados": [],
     }
     json.dump(saida, open(ARQ, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    import fotos
-    try:
-        antigas = json.load(open("fotos.json", encoding="utf-8"))
-    except (OSError, ValueError):
-        antigas = {}
-    json.dump(fotos.preencher(unicos, antigas), open("fotos.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    json.dump(todas_fotos, open("fotos.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print("gravados:", len(unicos))
 
 
