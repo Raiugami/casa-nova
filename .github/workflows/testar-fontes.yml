@@ -1,11 +1,19 @@
 name: Testar fontes
 on:
   workflow_dispatch:
-  push:
-    paths: [scripts/testar_fontes.py]
+    inputs:
+      script:
+        description: "Script a rodar (testar_fontes.py ou sondar.py)"
+        default: "testar_fontes.py"
+      args:
+        description: "Argumentos (opcional)"
+        default: ""
 jobs:
   testar:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/testar_fontes.py
+      - env:
+          SCRIPT: ${{ inputs.script }}
+          ARGS: ${{ inputs.args }}
+        run: python3 "scripts/$SCRIPT" $ARGS
