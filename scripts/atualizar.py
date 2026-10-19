@@ -195,6 +195,92 @@ def buscas_por_bairro(todos):
     return out
 
 
+# ---------------------------------------------------------------- Chaves na Mão
+CHAVES = "https://www.chavesnamao.com.br"
+CHAVES_CIDADES = {"sp-santo-andre": "Santo André", "sp-maua": "Mauá", "sp-sao-bernardo-do-campo": "São Bernardo do Campo", "sp-sao-paulo": "São Paulo"}
+CHAVES_LINK = re.compile(r'/imovel/casa-a-venda-(\d+)-quartos?[a-z0-9-]*?-(?:(\d+)m2-)?RS(\d+)/id-(\d+)/')
+
+
+def chaves_links(caminho):
+    achados = {}
+    for n in range(1, MAX_PAGINAS + 1):
+        final, h = baixar(f"{CHAVES}{caminho}?pg={n}")
+        novos = 0
+        for m in re.finditer(r'(/imovel/casa-a-venda-[A-Za-z0-9-]+/id-(\d+)/)', h):
+            url, pid = m.group(1), m.group(2)
+            if pid not in achados:
+                achados[pid] = CHAVES + url
+                novos += 1
+        if not novos or "Página não encontrada" in h[:3000]:
+            break
+    return achados
+
+
+def chaves_busca():
+    caminhos = []
+    for cid in CHAVES_CIDADES:
+        caminhos.append(f"/casas-a-venda/{cid}/2-quartos/")
+        nome = CHAVES_CIDADES[cid]
+        for b in sorted({sem_acento(x).replace(" ", "-") for x in BOA[nome] + ATENCAO[nome]}):
+            caminhos.append(f"/casas-a-venda/{cid}/{b}/2-quartos/")
+    todos = {}
+    with ThreadPoolExecutor(8) as ex:
+        for r in ex.map(chaves_links, caminhos):
+            todos.update(r)
+    return todos
+
+
+def chaves_detalhe(par):
+    pid, url = par
+    m = CHAVES_LINK.search(url)
+    if not m or int(m.group(3)) > PRECO_MAX or int(m.group(1)) < 2:
+        return None
+    final, h = baixar(url)
+    if not h or f"/id-{pid}/" not in final:
+        return None
+    titulo = re.search(r"<title>(.*?)</title>", h, re.S)
+    titulo = re.sub(r"\s+", " ", html.unescape(titulo.group(1))) if titulo else ""
+    # "Casa com 2 quartos na Rua X, Vila Palmares, Santo André - SP - ID: 123 | Chaves na Mão"
+    t = re.match(r"Casa com \d+ quartos? (?:na|no|em) (.+?) - SP", titulo)
+    if not t:
+        return None
+    partes = [p.strip() for p in t.group(1).split(",")]
+    cidade = partes[-1]
+    if cidade not in CIDADES.values() or len(partes) < 2:
+        return None
+    bairro = partes[-2]
+    descs = re.findall(r'"description":"([^"]{40,2500})', h)
+    desc = html.unescape(max(descs, key=len)) if descs else ""
+    if BLOQUEIO.search(titulo + " " + desc):
+        return None
+    mod = re.search(r'"dateModified":"(\d{4}-\d{2}-\d{2})', h)
+    data = mod.group(1) if mod else None
+    if data and (date.today() - date.fromisoformat(data)).days > 365:
+        return None
+    img = re.search(r'"primaryImageOfPage":\{"@type":"ImageObject","url":"([^"]+)"', h)
+    gar = re.search(r"(\d+) (?:garagens?|vagas?)", " ".join(descs) + " " + titulo)
+    area = int(m.group(2)) if m.group(2) else None
+    sb = sem_acento(bairro)
+    loc = "atencao" if sb in ATENCAO.get(cidade, []) else "boa" if sb in BOA.get(cidade, []) else "media"
+    terrea = bool(re.search(r"t[eé]rrea", desc, re.I))
+    return {
+        "id": f"chaves-{pid}", "cidade": cidade, "bairro": bairro, "preco": int(m.group(3)),
+        "quartos": int(m.group(1)), "vagas": int(gar.group(1)) if gar else None, "area": area,
+        "tipo": "Térrea" if terrea else "Casa (confirmar tipo)", "extras": desc[:140],
+        "fonte": "Chaves na Mão", "url": final, "link_direto": True, "anuncio_data": data,
+        "imagem": img.group(1) if img else None, "localizacao": loc,
+        "nota_local": {"boa": "Bairro consolidado e bem servido.", "media": "Bairro residencial; confirme topografia e entorno.", "atencao": "Região periférica ou com ruas em morro."}[loc],
+    }
+
+
+def coletar_chaves(nao):
+    links = chaves_busca()
+    cand = {p: u for p, u in links.items() if p not in nao and (m := CHAVES_LINK.search(u)) and int(m.group(3)) <= PRECO_MAX and int(m.group(1)) >= 2}
+    print("chaves: links", len(links), "candidatos", len(cand))
+    with ThreadPoolExecutor(6) as ex:
+        return [i for i in ex.map(chaves_detalhe, cand.items()) if i]
+
+
 def recusadas():
     """Ids numéricos dos anúncios que o Gabriel recusou (decisoes.json)."""
     try:
@@ -219,6 +305,19 @@ def main():
     print("candidatas pelo preço e quartos:", len(cand))
     with ThreadPoolExecutor(6) as ex:
         itens = [i for i in ex.map(detalhe, cand.items()) if i]
+    fontes = [a for a in sys.argv[1:] if not a.startswith("--")]
+    try:
+        itens += coletar_chaves(nao)
+    except Exception as e:  # uma fonte fora do ar não derruba as outras
+        print("chaves falhou:", e)
+    import fontes_extra
+    for nome, coletor in fontes_extra.FONTES.items():
+        try:
+            achados = coletor()
+            print(nome + ":", len(achados), "anúncios")
+            itens += achados
+        except Exception as e:
+            print(nome, "falhou:", e)
     itens = [i for i in itens if i["id"].rsplit("-", 1)[-1] not in nao]
     # mesma casa em mais de um portal: mantém uma por bairro, preço e área
     vistos, unicos = set(), []
@@ -230,9 +329,13 @@ def main():
         unicos.append(i)
     if len(unicos) < 5:
         sys.exit("poucos resultados, mantendo o arquivo anterior")
+    if "--teste" in sys.argv:
+        from collections import Counter
+        print("TESTE", len(unicos), dict(Counter(i["fonte"] for i in unicos)), dict(Counter(i["cidade"] for i in unicos)))
+        return
     saida = {
         "atualizado_em": date.today().isoformat(),
-        "fontes_consultadas": ["ABC Imóvel", "SP Imóvel", "ZL Imóvel"],
+        "fontes_consultadas": sorted({i["fonte"] for i in unicos}),
         "observacao": "Anúncios indisponíveis, com palavras como dívida, financiamento, retomado, sobrado, geminada ou condomínio são removidos automaticamente. Confirme preço e situação com o anunciante.",
         "imoveis": unicos,
         "descartados": [],
