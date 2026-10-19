@@ -343,6 +343,12 @@ def main():
         "descartados": [],
     }
     json.dump(saida, open(ARQ, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    import fotos
+    try:
+        antigas = json.load(open("fotos.json", encoding="utf-8"))
+    except (OSError, ValueError):
+        antigas = {}
+    json.dump(fotos.preencher(unicos, antigas), open("fotos.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print("gravados:", len(unicos))
 
 
