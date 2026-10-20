@@ -1,5 +1,7 @@
 """Junta todas as fotos de cada anúncio, lendo a página do anúncio. Só busca os que ainda não têm fotos."""
 import re
+import urllib.error
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 import atualizar as base
@@ -47,3 +49,30 @@ def preencher(itens, antigas):
             fotos[i["id"]] = achadas or ([i["imagem"]] if i.get("imagem") else [])
     print("fotos: buscadas", len(falta), "de", len(itens))
     return fotos
+
+
+def _no_ar(url):
+    """False só quando a foto principal não existe mais (404/410): o anúncio saiu do ar."""
+    for metodo in ("HEAD", "GET"):
+        try:
+            req = urllib.request.Request(url, method=metodo, headers={"User-Agent": base.UA})
+            with urllib.request.urlopen(req, timeout=20):
+                return True
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                return False
+        except Exception:
+            pass
+    return True
+
+
+def so_com_foto_no_ar(itens, fotos):
+    """Tira anúncios sem foto ou cuja foto principal sumiu (QuintoAndar mantém links de anúncios já vendidos)."""
+    with ThreadPoolExecutor(16) as ex:
+        vivos = list(ex.map(lambda i: bool(fotos.get(i["id"])) and _no_ar(fotos[i["id"]][0]), itens))
+    ficam = [i for i, v in zip(itens, vivos) if v]
+    for i in itens:
+        if i not in ficam:
+            fotos.pop(i["id"], None)
+    print("fora do ar ou sem foto:", len(itens) - len(ficam))
+    return ficam

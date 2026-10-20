@@ -341,6 +341,7 @@ def main():
     except (OSError, ValueError):
         antigas = {}
     todas_fotos = fotos.preencher(unicos, antigas)
+    unicos = fotos.so_com_foto_no_ar(unicos, todas_fotos)
     saida = {
         "atualizado_em": date.today().isoformat(),
         "fontes_consultadas": sorted({i["fonte"] for i in unicos}),
