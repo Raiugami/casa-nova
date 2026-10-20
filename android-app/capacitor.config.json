@@ -1,0 +1,12 @@
+{
+  "appId": "br.com.casanova.app",
+  "appName": "Casa Nova",
+  "webDir": "www",
+  "server": {
+    "url": "https://raiugami.github.io/casa-nova/",
+    "cleartext": false
+  },
+  "android": {
+    "backgroundColor": "#16352b"
+  }
+}
