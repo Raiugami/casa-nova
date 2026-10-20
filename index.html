@@ -80,9 +80,9 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
 .seg{display:flex;background:var(--chip);border-radius:12px;padding:3px;gap:3px;margin-top:10px}
 .seg button{flex:1;border:0;background:transparent;border-radius:9px;min-height:40px;font-weight:700;cursor:pointer;padding:0 6px;font-size:13px;color:var(--ink)}
 .seg button[aria-pressed="true"]{background:var(--surface);box-shadow:var(--shadow)}
-.send{display:none;position:fixed;left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));z-index:30;max-width:560px;margin:0 auto;box-shadow:0 8px 28px rgba(0,0,0,.28);background:var(--accent);color:var(--accent-ink);border-radius:14px;padding:12px 14px;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-weight:700;font-size:14px}
+.send{display:none;position:fixed;right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));z-index:30;box-shadow:0 4px 16px rgba(0,0,0,.3);background:var(--accent);color:var(--accent-ink);border-radius:99px;padding:4px 4px 4px 14px;gap:10px;align-items:center;font-weight:700;font-size:13px;white-space:nowrap}
 .send.on{display:flex}
-.send a{background:var(--accent-ink);color:var(--accent);text-decoration:none;font-weight:800;border-radius:10px;padding:10px 14px;min-height:44px;display:inline-flex;align-items:center}
+.send a{background:var(--accent-ink);color:var(--accent);text-decoration:none;font-weight:800;border-radius:99px;padding:8px 14px;min-height:36px;display:inline-flex;align-items:center}
 .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
 .price{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1}
 .m2{font-size:13px;font-weight:600;color:var(--muted)}
@@ -150,7 +150,7 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
     <button type="button" data-v="aprovadas" aria-pressed="false">Aprovadas</button>
     <button type="button" data-v="recusadas" aria-pressed="false">Recusadas</button>
   </div>
-  <div class="send" id="send"><span id="sendTxt"></span><a id="sendLink" target="_blank" rel="noopener">Enviar escolhas</a></div>
+  <div class="send" id="send"><span id="sendTxt"></span><a id="sendLink" target="_blank" rel="noopener">Enviar</a></div>
 </div></div>
 
 <main class="wrap">
@@ -188,7 +188,7 @@ function mostraEnvio(){
   if(!pend.length) return;
   const lista = k => pend.filter(([,e]) => e === k).map(([id]) => id).join(",");
   const corpo = ["aprovar: " + lista("aprovada"), "recusar: " + lista("recusada"), "desfazer: " + pend.filter(([,e]) => e === null).map(([id]) => id).join(",")].join("\n");
-  $("sendTxt").textContent = pend.length + (pend.length===1 ? " escolha ainda não enviada" : " escolhas ainda não enviadas");
+  $("sendTxt").textContent = pend.length + (pend.length===1 ? " escolha" : " escolhas");
   $("sendLink").href = `https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Escolhas: " + new Date().toLocaleString("pt-BR"))}&body=${encodeURIComponent(corpo)}`;
 }
 
