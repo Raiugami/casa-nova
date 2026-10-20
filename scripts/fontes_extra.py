@@ -31,6 +31,9 @@ def localizacao(cidade, bairro):
     return "boa" if sb in base.BOA.get(cidade, []) else "media"
 
 
+# sinais de que a "casa" tem mais de um piso (QuintoAndar e Loft chamam sobrado de casa)
+DOIS_PISOS = re.compile(r"escada|andares|pavimento|piso superior|segundo andar|2º andar|dois andares|mezanino|sobrado|sobreposta", re.I)
+
 NOTA = {"boa": "Bairro consolidado e bem servido.", "media": "Bairro residencial; confirme topografia e entorno.", "atencao": "Região periférica ou com ruas em morro."}
 
 
@@ -57,6 +60,8 @@ def quintoandar_pagina(url):
         if not preco or preco > base.PRECO_MAX or q < 2 or cidade not in base.CIDADES.values():
             continue
         if base.BLOQUEIO.search(h.get("shortSaleDescription") or ""):
+            continue
+        if any(DOIS_PISOS.search(f.get("subtitle") or "") for f in h.get("photos") or [] if isinstance(f, dict)) or DOIS_PISOS.search(h.get("shortSaleDescription") or ""):
             continue
         bairro = h.get("neighbourhood") or h.get("regionName") or ""
         item = (monta(f"quinto-{h['id']}", "QuintoAndar", cidade, bairro, preco, q, h.get("parkingSpots"), h.get("area"),
@@ -99,7 +104,7 @@ def loft_pagina(url):
         if not preco or preco > base.PRECO_MAX or q < 2 or cidade not in base.CIDADES.values():
             continue
         desc = l.get("description") or ""
-        if base.BLOQUEIO.search(desc):
+        if base.BLOQUEIO.search(desc) or DOIS_PISOS.search(desc):
             continue
         data = (l.get("updatedAt") or "")[:10] or None
         if data and (date.today() - date.fromisoformat(data)).days > 365:
