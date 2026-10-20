@@ -53,16 +53,16 @@ def estacoes():
     est = _carrega(ESTACOES, [])
     if est:
         return est
-    q = ('[out:json][timeout:60];(node["railway"="station"]["station"~"subway|monorail"](%s,%s,%s,%s);'
-         'node["railway"="station"]["network"~"CPTM|Trens Metropolitanos|Metr"](%s,%s,%s,%s););out;') % (CAIXA * 2)
+    q = ('[out:json][timeout:90];(node["railway"="station"](%s,%s,%s,%s);node["railway"="halt"]["train"="yes"](%s,%s,%s,%s););out;') % (CAIXA * 2)
     d = _json("https://overpass-api.de/api/interpreter", ("data=" + urllib.parse.quote(q)).encode())
     vistos = {}
     for e in (d or {}).get("elements", []):
-        nome = e.get("tags", {}).get("name")
-        if nome and dentro(e["lat"], e["lon"]):
-            t = e["tags"]
-            tipo = "Metrô" if t.get("station") in ("subway", "monorail") or "Metr" in (t.get("network") or "") and "CPTM" not in (t.get("network") or "") else "Trem"
-            vistos.setdefault(nome, [nome, round(e["lat"], 5), round(e["lon"], 5), tipo])
+        t = e.get("tags", {})
+        nome = t.get("name")
+        if not nome or not dentro(e["lat"], e["lon"]) or t.get("disused") or t.get("abandoned") or t.get("railway:historic"):
+            continue
+        tipo = "Metrô" if t.get("station") in ("subway", "monorail") else "Trem"
+        vistos.setdefault(nome, [nome, round(e["lat"], 5), round(e["lon"], 5), tipo])
     est = list(vistos.values())
     if len(est) > 30:
         json.dump(est, open(ESTACOES, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
