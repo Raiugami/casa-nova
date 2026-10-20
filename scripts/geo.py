@@ -1,6 +1,6 @@
 """Distâncias em linha reta: da Cofap (Mauá) e da estação de metrô ou trem mais próxima.
 Coordenadas vêm do OpenStreetMap (Nominatim para o bairro, Overpass para as estações) e ficam em cache no repositório."""
-import json, math, time, urllib.parse, urllib.request
+import json, math, re, time, urllib.parse, urllib.request
 
 CACHE, ESTACOES = "coordenadas.json", "estacoes.json"
 UA = "casa-nova-abc/1.0 (https://github.com/Raiugami/casa-nova)"
@@ -49,6 +49,18 @@ def geocodifica(consulta):
     return None
 
 
+def _bairro(bairro, cidade):
+    """Tenta o nome do jeito que veio do anúncio e depois variações (sem parênteses, Jd/Vl, só o último trecho)."""
+    limpo = re.sub(r"\s*[(\[].*?[)\]]", "", bairro).strip()
+    variantes = [f"{bairro}, {cidade}, SP, Brasil", f"{limpo}, {cidade}, Brasil",
+                 re.sub(r"^Jardim ", "Jd. ", re.sub(r"^Vila ", "Vl. ", limpo)) + f", {cidade}, SP"]
+    for v in dict.fromkeys(variantes):
+        c = geocodifica(v)
+        if c:
+            return c
+    return None
+
+
 def estacoes():
     est = _carrega(ESTACOES, [])
     if est:
@@ -80,8 +92,8 @@ def preencher(itens):
     novos = 0
     for i in itens:
         chave = f"{i['bairro']}|{i['cidade']}"
-        if chave not in cache:
-            cache[chave] = geocodifica(f"{i['bairro']}, {i['cidade']}, SP, Brasil")
+        if chave not in cache or cache[chave] is None:  # None = falhou na versão anterior; False = desistimos
+            cache[chave] = _bairro(i["bairro"], i["cidade"]) or False
             novos += 1
             if novos % 20 == 0:
                 json.dump(cache, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
