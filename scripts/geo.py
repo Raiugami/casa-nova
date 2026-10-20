@@ -66,7 +66,11 @@ def estacoes():
     if est:
         return est
     q = ('[out:json][timeout:90];(node["railway"="station"](%s,%s,%s,%s);node["railway"="halt"]["train"="yes"](%s,%s,%s,%s););out;') % (CAIXA * 2)
-    d = _json("https://overpass-api.de/api/interpreter", ("data=" + urllib.parse.quote(q)).encode())
+    d = None
+    for servidor in ("https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://overpass-api.de/api/interpreter"):
+        d = _json(servidor, ("data=" + urllib.parse.quote(q)).encode(), tentativas=2)
+        if d and len(d.get("elements", [])) > 60:
+            break
     vistos = {}
     for e in (d or {}).get("elements", []):
         t = e.get("tags", {})
