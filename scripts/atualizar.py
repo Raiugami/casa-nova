@@ -343,6 +343,11 @@ def main():
         antigas = {}
     todas_fotos = fotos.preencher(unicos, antigas)
     unicos = fotos.so_com_foto_no_ar(unicos, todas_fotos)
+    import geo
+    try:
+        geo.preencher(unicos)
+    except Exception as e:  # sem distâncias o site continua funcionando
+        print("geo falhou:", e)
     saida = {
         "atualizado_em": date.today().isoformat(),
         "fontes_consultadas": sorted({i["fonte"] for i in unicos}),
