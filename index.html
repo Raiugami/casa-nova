@@ -142,6 +142,7 @@ select{width:100%;min-height:44px;padding:8px 12px;border:1px solid var(--line);
     <div>
       <span class="l">Mostrar</span>
       <label class="sw"><input type="checkbox" id="ocultarAtencao" checked> Esconder bairros periféricos ou em morro</label>
+      <label class="sw"><input type="checkbox" id="soVaga" checked> Só com vaga de garagem (esconde "vaga a confirmar")</label>
       <label class="sw"><input type="checkbox" id="soTerreas"> Só térreas confirmadas (sem "tipo a confirmar")</label>
     </div>
   </div>
@@ -225,7 +226,7 @@ async function carregar(){
     Object.keys(local).forEach(id => { if(local[id] === doRepo(id)) delete local[id]; });
     store("escolhas", JSON.stringify(local));
   }catch(e){}
-  dados.imoveis = dados.imoveis.filter(i => !BLOQ.test([i.tipo,i.extras].join(" ")) && i.preco <= 360000 && i.quartos >= 2);
+  dados.imoveis = dados.imoveis.filter(i => !BLOQ.test([i.tipo,i.extras].join(" ")) && i.preco <= 360000 && i.quartos >= 2 && i.vagas !== 0);
   $("sDate").textContent = "Atualizado em " + new Date(dados.atualizado_em + "T12:00:00").toLocaleDateString("pt-BR");
   $("foot").textContent = "Fontes: " + dados.fontes_consultadas.join(", ") + ". " + dados.observacao + " A classificação de localização é uma estimativa por nome de bairro.";
   const cidades = [...new Set(dados.imoveis.map(i=>i.cidade))].sort();
@@ -246,10 +247,11 @@ async function carregar(){
 }
 function chip(txt, fn){ const b=document.createElement("button"); b.type="button"; b.className="chip"; b.textContent=txt; b.onclick=fn; return b; }
 
+const temVaga = i => i.vagas > 0 || (i.vagas == null && /garagem/i.test(i.url||""));
 function render(){
   const max = +$("preco").value; $("precoVal").textContent = brl(max);
-  const soT = $("soTerreas").checked, ocultar = $("ocultarAtencao").checked, ordem = $("ordem").value; store("ordem",ordem);
-  let lista = dados.imoveis.filter(i => cidadesAtivas.has(i.cidade) && i.preco <= max && !(soT && /confirmar/i.test(i.tipo||"")) && !(ocultar && i.localizacao==="atencao" && aba==="novas") && ({novas:!estado(i.id), aprovadas:estado(i.id)==="aprovada", recusadas:estado(i.id)==="recusada"}[aba]));
+  const soV = $("soVaga").checked, soT = $("soTerreas").checked, ocultar = $("ocultarAtencao").checked, ordem = $("ordem").value; store("ordem",ordem);
+  let lista = dados.imoveis.filter(i => cidadesAtivas.has(i.cidade) && i.preco <= max && !(soV && !temVaga(i)) && !(soT && /confirmar/i.test(i.tipo||"")) && !(ocultar && i.localizacao==="atencao" && aba==="novas") && ({novas:!estado(i.id), aprovadas:estado(i.id)==="aprovada", recusadas:estado(i.id)==="recusada"}[aba]));
   const m2 = i => i.area ? i.preco/i.area : Infinity;
   const S = {
     loc:(a,b)=>LOC[a.localizacao][2]-LOC[b.localizacao][2] || a.preco-b.preco,
@@ -285,6 +287,7 @@ function render(){
     el.querySelector(".where").innerHTML = ""; const w = el.querySelector(".where"); w.append(i.bairro); const sm = document.createElement("small"); sm.textContent = i.cidade; w.appendChild(sm);
     const sp = el.querySelector(".specs");
     [[i.quartos,i.quartos===1?"quarto":"quartos"],[i.vagas,i.vagas===1?"vaga":"vagas"],[i.area,"m²"]].forEach(([v,t]) => { if(v!=null){ const s=document.createElement("span"); s.className="spec"; s.textContent = v + " " + t; sp.appendChild(s);} });
+    if(i.vagas == null){ const s=document.createElement("span"); s.className="spec"; s.textContent = temVaga(i) ? "Com garagem" : "Vaga a confirmar"; sp.appendChild(s); }
     if(/confirmar/i.test(i.tipo||"")){ const s=document.createElement("span"); s.className="spec"; s.textContent="Tipo a confirmar"; sp.appendChild(s); }
     el.querySelector(".note").textContent = i.nota_local || "";
     el.querySelector(".src").textContent = i.fonte + (i.anuncio_data ? " · anúncio de " + new Date(i.anuncio_data+"T12:00:00").toLocaleDateString("pt-BR") : "");
@@ -303,7 +306,7 @@ function render(){
   }
 }
 $("btnPanel").onclick = () => { const p = $("panel"), o = p.classList.toggle("open"); $("btnPanel").setAttribute("aria-expanded", o); };
-["preco","ocultarAtencao","soTerreas","ordem"].forEach(id => $(id).addEventListener("input", () => dados && render()));
+["preco","ocultarAtencao","soTerreas","soVaga","ordem"].forEach(id => $(id).addEventListener("input", () => dados && render()));
 $("abas").onclick = ev => { const b = ev.target.closest("button"); if(b){ aba = b.dataset.v; render(); } };
 carregar();
 </script>

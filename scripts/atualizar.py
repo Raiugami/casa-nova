@@ -321,6 +321,7 @@ def main():
         except Exception as e:
             print(nome, "falhou:", e)
     itens = [i for i in itens if i["id"].rsplit("-", 1)[-1] not in nao]
+    itens = [i for i in itens if i.get("vagas") != 0]  # anúncio que diz "0 vagas" não serve
     # mesma casa em mais de um portal: mantém uma por bairro, preço e área
     vistos, unicos = set(), []
     for i in sorted(itens, key=lambda x: (x["cidade"], x["bairro"], x["preco"])):
