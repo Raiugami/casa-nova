@@ -27,10 +27,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895629831-249.3211066834231297d92d6c-91af-467a-9a23-c2031384e20f-LEAD3P-9db37ad6-ad74-4be4-b20d-70b3fac9a00a.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895629831",
+        "quinto-895629831",
+        "quinto-895629831"
+      ],
+      "outras": [],
       "dist_cofap": 6.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 8.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 2.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4276280",
@@ -48,7 +55,12 @@
       "anuncio_data": "2026-10-19",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/3495/Imovel/4276280/E_1-338eb57dc3a28e07eee2a8cf90c907f4.jpg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4276280"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895732146",
@@ -66,7 +78,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895732146-828.72028370514444d902028-6c6b-4aa7-b309-b9739eae2d55-LEAD3P-3a58149e-42f4-48cd-aae7-d710250fce24.jpeg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895732146"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-46968882",
@@ -85,32 +102,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/1400484/46968882/sp-maua-jardim-luzitano-rua-flor-de-setembro-casa-a-venda-2-quartos-6ab2c133-00.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-46968882"
+      ],
+      "outras": [],
       "dist_cofap": 8.3,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 8.9,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "loft-q9fo0oe9",
-      "cidade": "Mauá",
-      "bairro": "Jardim Mauá",
-      "preco": 300000,
-      "quartos": 3,
-      "vagas": 3,
-      "area": 200,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Vendo Apto em Santo André, Parque Erasmo Assunção. Com 50mts² de área útil, 2 dormitórios, banheiro social, sala de jantar com canto alemão,",
-      "fonte": "Loft",
-      "url": "https://loft.com.br/imovel/q9fo0oe9?tipoTransacao=venda",
-      "link_direto": true,
-      "anuncio_data": "2026-10-16",
-      "imagem": "https://content.loft.com.br/homes/q9fo0oe9/banner_thumbnail.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 4.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-gayd44t2",
@@ -129,10 +129,46 @@
       "imagem": "https://content.loft.com.br/homes/gayd44t2/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-gayd44t2",
+        "loft-gayd44t2"
+      ],
+      "outras": [],
       "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 2.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "loft-q9fo0oe9",
+      "cidade": "Mauá",
+      "bairro": "Jardim Mauá",
+      "preco": 300000,
+      "quartos": 3,
+      "vagas": 3,
+      "area": 200,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Vendo Apto em Santo André, Parque Erasmo Assunção. Com 50mts² de área útil, 2 dormitórios, banheiro social, sala de jantar com canto alemão,",
+      "fonte": "Loft",
+      "url": "https://loft.com.br/imovel/q9fo0oe9?tipoTransacao=venda",
+      "link_direto": true,
+      "anuncio_data": "2026-10-16",
+      "imagem": "https://content.loft.com.br/homes/q9fo0oe9/banner_thumbnail.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-q9fo0oe9",
+        "loft-q9fo0oe9",
+        "loft-q9fo0oe9",
+        "loft-q9fo0oe9"
+      ],
+      "outras": [],
+      "dist_cofap": 5.7,
+      "estacao": "Mauá",
+      "dist_estacao": 2.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-46130237",
@@ -151,10 +187,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/1400484/46130237/sp-maua-jardim-miranda-d-aviz-avenida-marechal-agostinho-dos-santos-casa-a-venda-2-quartos-6a903dd1-00.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-46130237"
+      ],
+      "outras": [],
       "dist_cofap": 6.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 10.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 2.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895732153",
@@ -173,10 +214,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895732153-641.6294465238459eca6458a-6412-42a6-af43-860b948c6fee-LEAD3P-ec5a033d-eb31-41a4-9f0f-d11e47fa92ef.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895732153",
+        "quinto-895732153"
+      ],
+      "outras": [],
       "dist_cofap": 6.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 10.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 2.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-pxl7gl96",
@@ -195,10 +242,17 @@
       "imagem": "https://content.loft.com.br/homes/pxl7gl96/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-pxl7gl96",
+        "loft-pxl7gl96",
+        "loft-pxl7gl96"
+      ],
+      "outras": [],
       "dist_cofap": 6.2,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 8.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 1.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895635721",
@@ -217,32 +271,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895635721-531.86649768860163adbc830-a76f-41ca-b0c9-1a69657d56e1-LEAD3P-848fe962-f913-4aaa-9f21-24b46c3c496b.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895635721",
+        "quinto-895635721",
+        "quinto-895635721"
+      ],
+      "outras": [],
       "dist_cofap": 4.8,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.5,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "quinto-895732014",
-      "cidade": "Mauá",
-      "bairro": "Jardim Sao Gabriel",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 73,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895732014/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895732014-835.85307338153258cafc284-08d5-4628-88ea-039930abe1b6-LEAD3P-a1bd0d26-101a-480c-bf5d-7b39467ea9d3.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "dist_cofap": 6.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 10.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 1.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-1fcvfby",
@@ -261,10 +300,17 @@
       "imagem": "https://content.loft.com.br/homes/1fcvfby/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-1fcvfby",
+        "loft-1fcvfby",
+        "loft-1fcvfby"
+      ],
+      "outras": [],
       "dist_cofap": 3.4,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 1.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-as8cichy",
@@ -283,10 +329,16 @@
       "imagem": "https://content.loft.com.br/homes/as8cichy/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-as8cichy",
+        "loft-as8cichy"
+      ],
+      "outras": [],
       "dist_cofap": 3.4,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 1.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-18681967",
@@ -305,10 +357,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/462036/18681967/sp-maua-jardim-sonia-maria-viela-sebastiao-ravagnane-casa-a-venda-4-quartos-65a36298-10.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-18681967"
+      ],
+      "outras": [],
       "dist_cofap": 3.4,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 1.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895765797",
@@ -327,10 +384,20 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895765797-891.3096263695194895765797_0.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895765797",
+        "quinto-895765797",
+        "quinto-895765797",
+        "quinto-895765797",
+        "quinto-895765797",
+        "quinto-895765797"
+      ],
+      "outras": [],
       "dist_cofap": 6.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 3.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-40771030",
@@ -349,10 +416,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/661787/40771030/sp-maua-jardim-zaira-avenida-adilson-dias-de-souza-apartamento-a-venda-4-quartos-69c28ca8-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-40771030"
+      ],
+      "outras": [],
       "dist_cofap": 6.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 3.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895782840",
@@ -371,10 +443,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895782840-261.8992894367139062.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895782840",
+        "quinto-895782840"
+      ],
+      "outras": [],
       "dist_cofap": 6.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 3.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895756236",
@@ -393,10 +471,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895756236-129.479957448444347IMG5847.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895756236"
+      ],
+      "outras": [],
       "dist_cofap": 7.1,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 8.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 3.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4517772",
@@ -415,10 +498,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/4062/Imovel/4517772/E_1-.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "sp-4517772"
+      ],
+      "outras": [],
       "dist_cofap": 7.3,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 4.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-7390565",
@@ -437,10 +525,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/186608/7390565/sp-maua-vila-america-rua-custodia-maria-dos-santos-casa-a-venda-2-quartos-62601a71-1.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-7390565"
+      ],
+      "outras": [],
       "dist_cofap": 5.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 8.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 0.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-14791761",
@@ -459,10 +552,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/14791761/sp-maua-vila-ana-viela-lindolfo-luiz-da-silva-casa-a-venda-2-quartos-647f7f48-00.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-14791761"
+      ],
+      "outras": [],
       "dist_cofap": 6.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895732317",
@@ -481,10 +579,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895732317-509.134079622850548f42a96-454f-4aba-9b20-97daf3461be9-LEAD3P-ea85c4da-df03-4579-a7be-4871fe6c4aa9.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895732317",
+        "quinto-895732317",
+        "quinto-895732317",
+        "quinto-895732317"
+      ],
+      "outras": [],
       "dist_cofap": 5.1,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4498552",
@@ -503,10 +609,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/9131/Imovel/4498552/E_20260812173212_20260811234314_IMG-20260811-WA0001.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "sp-4498552"
+      ],
+      "outras": [],
       "dist_cofap": 3.3,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 10.5,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 1.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894090281",
@@ -525,10 +636,19 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894090281-969.1549687805355REN3422.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-894090281",
+        "quinto-894090281",
+        "quinto-894090281",
+        "quinto-894090281",
+        "quinto-894090281"
+      ],
+      "outras": [],
       "dist_cofap": 2.1,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4530744",
@@ -547,10 +667,22 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/1367/Imovel/4530744/E_1-QPaMc9UI-IrJ7PsRaHSaZ8j-zRLd6R5uSKwMpEfiBpJ3zgYHD9eg7VKiqbTSEWGvF6jQQEzruwjFdJ54rIP2-7fv-e43cc059.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4530744",
+        "loft-7c3g9zyo",
+        "loft-7c3g9zyo"
+      ],
+      "outras": [
+        {
+          "fonte": "Loft",
+          "url": "https://loft.com.br/imovel/7c3g9zyo?tipoTransacao=venda"
+        }
+      ],
       "dist_cofap": 2.1,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-bjaxstjf",
@@ -569,10 +701,15 @@
       "imagem": "https://content.loft.com.br/homes/bjaxstjf/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-bjaxstjf"
+      ],
+      "outras": [],
       "dist_cofap": 2.1,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895630029",
@@ -591,10 +728,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895630029-72.968886252448248984cd76-ac84-43b8-b843-96ffc1adf45b-LEAD3P-402d733f-82ae-429a-98ca-443b683c1da3.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895630029",
+        "quinto-895630029"
+      ],
+      "outras": [],
       "dist_cofap": 2.1,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-7lkxylxs",
@@ -613,10 +756,16 @@
       "imagem": "https://content.loft.com.br/homes/7lkxylxs/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-7lkxylxs",
+        "loft-7lkxylxs"
+      ],
+      "outras": [],
       "dist_cofap": 0.9,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 11.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 2.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-18975662",
@@ -635,10 +784,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/186715/18975662/sp-santo-andre-jardim-irene-rua-vitoria-da-conquista-casa-a-venda-2-quartos-65bb2b7a-1.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-18975662"
+      ],
+      "outras": [],
       "dist_cofap": 5.9,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 6.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895499448",
@@ -657,10 +811,47 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895499448-609.59909305848377e558e2b-d1ad-4c66-a88c-a22074bd678e-LEAD3P-4963a6c7-7e5b-4178-ba3d-265fa9b898d6.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895499448",
+        "quinto-895499448",
+        "quinto-895499448",
+        "quinto-895499448",
+        "quinto-895499448",
+        "quinto-895499448"
+      ],
+      "outras": [],
       "dist_cofap": 5.9,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 6.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "abc-4339274",
+      "cidade": "Santo André",
+      "bairro": "Jardim Irene",
+      "preco": 305000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 135,
+      "tipo": "Térrea",
+      "extras": "ABC Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Irene, Santo André, 135 m² por R$ 305.000,00. Ref.7593 Confira! Ótima Oportunidade!",
+      "fonte": "ABC Imóvel",
+      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-135m2-jardim-irene-santo-andre-grande-abc-sao-paulo-sp/4339274/",
+      "link_direto": true,
+      "anuncio_data": "2026-10-17",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/4371/Imovel/4339274/E_1-A-30.jpg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "abc-4339274"
+      ],
+      "outras": [],
+      "dist_cofap": 5.9,
+      "estacao": "Guapituba",
+      "dist_estacao": 6.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-10-20"
     },
     {
       "id": "loft-i95s9ibq",
@@ -679,10 +870,16 @@
       "imagem": "https://content.loft.com.br/homes/i95s9ibq/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-i95s9ibq",
+        "loft-i95s9ibq"
+      ],
+      "outras": [],
       "dist_cofap": 5.9,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 6.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-q3rln8mv",
@@ -701,32 +898,15 @@
       "imagem": "https://content.loft.com.br/homes/q3rln8mv/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-q3rln8mv"
+      ],
+      "outras": [],
       "dist_cofap": 5.9,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "chaves-9707826",
-      "cidade": "Santo André",
-      "bairro": "Jardim Irene",
-      "preco": 355000,
-      "quartos": 2,
-      "vagas": 2,
-      "area": null,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Comprar Casa no Jardim Irene em Santo André por R$ 355000 com 2 quartos, 2 garagens e com 196m². Falar com UNIIMÓVEIS, ref: do imóvel: CA031",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-jardim-irene-RS355000/id-9707826/",
-      "link_direto": true,
-      "anuncio_data": "2026-10-10",
-      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/221429/9707826/sp-santo-andre-jardim-irene-rua-romano-tognato-casa-a-venda-2-quartos-631a0738-1.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "dist_cofap": 5.9,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 6.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-f4vn5ssd",
@@ -745,10 +925,21 @@
       "imagem": "https://content.loft.com.br/homes/f4vn5ssd/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-f4vn5ssd",
+        "chaves-9707826"
+      ],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-jardim-irene-RS355000/id-9707826/"
+        }
+      ],
       "dist_cofap": 5.9,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 6.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895583492",
@@ -767,10 +958,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895583492-375.3200854848111IMG0006.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895583492",
+        "quinto-895583492"
+      ],
+      "outras": [],
       "dist_cofap": 5.1,
-      "estacao": "Sacomã",
-      "dist_estacao": 11.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895742070",
@@ -789,10 +986,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895742070-100.5825062330469814.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895742070",
+        "quinto-895742070",
+        "quinto-895742070",
+        "quinto-895742070"
+      ],
+      "outras": [],
       "dist_cofap": 5.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 5.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-kkcanc9m",
@@ -811,10 +1016,15 @@
       "imagem": "https://content.loft.com.br/homes/kkcanc9m/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-kkcanc9m"
+      ],
+      "outras": [],
       "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-85qjadqn",
@@ -833,10 +1043,15 @@
       "imagem": "https://content.loft.com.br/homes/85qjadqn/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-85qjadqn"
+      ],
+      "outras": [],
       "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-cwa6ejew",
@@ -855,10 +1070,15 @@
       "imagem": "https://content.loft.com.br/homes/cwa6ejew/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-cwa6ejew"
+      ],
+      "outras": [],
       "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4417067",
@@ -877,10 +1097,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/4371/Imovel/4417067/E_1-.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4417067"
+      ],
+      "outras": [],
       "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895369305",
@@ -899,10 +1124,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895369305-988.8774150124698001.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895369305",
+        "quinto-895369305",
+        "quinto-895369305"
+      ],
+      "outras": [],
       "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-bcdu0vow",
@@ -921,10 +1153,16 @@
       "imagem": "https://content.loft.com.br/homes/bcdu0vow/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-bcdu0vow",
+        "loft-bcdu0vow"
+      ],
+      "outras": [],
       "dist_cofap": 5.7,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 11.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893219701",
@@ -943,10 +1181,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893219701-376.59700060786594REN1538.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893219701"
+      ],
+      "outras": [],
       "dist_cofap": 5.1,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 7.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Vila União",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895744258",
@@ -965,10 +1208,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895744258-850.1439570868695GDS3694.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895744258"
+      ],
+      "outras": [],
       "dist_cofap": 5.1,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 7.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Vila União",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895610886",
@@ -987,10 +1235,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895610886-819.2320692332461052d1374-9b4a-4fbc-9d9c-cb04a3856c43-LEAD3P-5f7b93f1-13de-4a57-b437-203ef291405f.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895610886",
+        "quinto-895610886"
+      ],
+      "outras": [],
       "dist_cofap": 5.0,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 13.4,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 4.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894976766",
@@ -1009,10 +1263,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894976766-219.0788563729712REN7907.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894976766",
+        "quinto-894976766"
+      ],
+      "outras": [],
       "dist_cofap": 1.4,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 3.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895655957",
@@ -1031,10 +1291,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895655957-889.299830427042884b93dd2-1eb8-4fe2-a7b8-95e84d9104c1-LEAD3P-b83e6d70-887b-4e59-aed7-2d02be20997e.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895655957",
+        "quinto-895655957",
+        "quinto-895655957"
+      ],
+      "outras": [],
       "dist_cofap": 1.8,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 2.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895428979",
@@ -1053,10 +1320,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895428979-299.76284164950715GDS4830.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895428979"
+      ],
+      "outras": [],
       "dist_cofap": 1.8,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 2.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895663411",
@@ -1075,10 +1347,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895663411-442.172615246916452e43441e-a77f-484f-86c4-7adbba20575f-LEAD3P-21dbf6aa-c10f-41de-9deb-f36a61fd7ad0.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895663411",
+        "quinto-895663411",
+        "quinto-895663411",
+        "quinto-895663411"
+      ],
+      "outras": [],
       "dist_cofap": 1.9,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 2.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894098013",
@@ -1097,32 +1377,29 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894098013-834.9376654892665DSC0062.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894098013",
+        "quinto-894098013",
+        "quinto-894098013",
+        "quinto-894098013",
+        "quinto-895633302",
+        "quinto-895633302",
+        "quinto-895633302",
+        "quinto-895633302",
+        "quinto-895633302",
+        "quinto-895633302"
+      ],
+      "outras": [
+        {
+          "fonte": "QuintoAndar",
+          "url": "https://www.quintoandar.com.br/imovel/895633302/comprar"
+        }
+      ],
       "dist_cofap": 1.9,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.3,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "quinto-895633302",
-      "cidade": "Santo André",
-      "bairro": "Parque João Ramalho",
-      "preco": 300000,
-      "quartos": 2,
-      "vagas": 2,
-      "area": 100,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895633302/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895633302-48.149983036360090303a596-c593-4c9c-b30c-0e35fd9f81e2-LEAD3P-43f0fe7a-2283-4113-8311-ab20654586a8.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "dist_cofap": 1.9,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 2.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-21014607",
@@ -1141,10 +1418,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/21014607/sp-santo-andre-parque-miami-estrada-do-pedroso-casa-a-venda-2-quartos-662c299a-00.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-21014607"
+      ],
+      "outras": [],
       "dist_cofap": 9.3,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 10.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 7.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895499451",
@@ -1163,10 +1445,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895499451-376.6782692581555e4fd2102-0532-4430-8736-1530cb532d60-LEAD3P-19e130f6-dd22-4cc6-8c43-db2caff46052.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895499451"
+      ],
+      "outras": [],
       "dist_cofap": 2.4,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895623394",
@@ -1185,10 +1472,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895623394-292.8799626801822549f7b88f-109f-467a-8f83-487d62b0fdfc-LEAD3P-b853df60-68c6-49e0-ab2c-df6bbeeb74aa.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895623394"
+      ],
+      "outras": [],
       "dist_cofap": 2.4,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-l0mm0eru",
@@ -1207,10 +1499,16 @@
       "imagem": "https://content.loft.com.br/homes/l0mm0eru/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-l0mm0eru",
+        "loft-l0mm0eru"
+      ],
+      "outras": [],
       "dist_cofap": 3.3,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 9.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-19170074",
@@ -1229,13 +1527,18 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/19170074/sp-santo-andre-parque-oratorio-rua-siria-casa-para-alugar-1-quarto-65c3da4c-00.jpeg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-19170074"
+      ],
+      "outras": [],
       "dist_cofap": 3.3,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 9.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
-      "id": "abc-4365664",
+      "id": "sp-4365664",
       "cidade": "Santo André",
       "bairro": "Parque Oratório",
       "preco": 315000,
@@ -1243,40 +1546,29 @@
       "vagas": 1,
       "area": 150,
       "tipo": "Térrea",
-      "extras": "ABC Imóvel | Casa Térrea, 3 Quartos à Venda, Parque Oratório, Santo André, 150 m² por R$ 315.000,00. Ref.CAVSTANPQORMAPEN Confira! Ótima Opo",
-      "fonte": "ABC Imóvel",
-      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-3quartos-1vaga-150m2-parque-oratorio-santo-andre-grande-abc-sao-paulo-sp/4365664/",
+      "extras": "SP Imóvel | Casa Térrea, 3 Quartos à Venda, Parque Oratório, Santo André, 150 m² por R$ 315.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-3quartos-1vaga-150m2-parque-oratorio-santo-andre-sao-paulo-sp/4365664/",
       "link_direto": true,
       "anuncio_data": "2026-02-24",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/5723/Imovel/4365664/E_20260225002746_1.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "sp-4365664",
+        "chaves-34609344"
+      ],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-parque-oratorio-RS315000/id-34609344/"
+        }
+      ],
       "dist_cofap": 3.3,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 9.2,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "chaves-34609344",
-      "cidade": "Santo André",
-      "bairro": "Parque Oratório",
-      "preco": 315000,
-      "quartos": 3,
-      "vagas": 1,
-      "area": null,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "  Aceita permuta por outro imóvel / casa ou apartamento  Ótima casa com 3 dormitórios, 1 banheiro, sala, 1 vaga de garagem, cozinha, área de",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-parque-oratorio-RS315000/id-34609344/",
-      "link_direto": true,
-      "anuncio_data": "2026-10-11",
-      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/34609344/sp-santo-andre-parque-oratorio-rua-timor-casa-a-venda-3-quartos-68c0700e-00.jpeg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "dist_cofap": 3.3,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 9.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893998184",
@@ -1295,10 +1587,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893998184-279.08090766867946IMG6531.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-893998184"
+      ],
+      "outras": [],
       "dist_cofap": 3.3,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 9.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895229301",
@@ -1317,10 +1614,15 @@
       "imagem": null,
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895229301"
+      ],
+      "outras": [],
       "dist_cofap": 3.3,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 9.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Sapopemba",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895773572",
@@ -1339,10 +1641,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895773572-621.5775431608413008.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895773572",
+        "quinto-895773572"
+      ],
+      "outras": [],
       "dist_cofap": 8.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895371017",
@@ -1361,10 +1669,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895371017-335.3525012947181001.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895371017"
+      ],
+      "outras": [],
       "dist_cofap": 8.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895398468",
@@ -1383,10 +1696,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895398468-701.5701720883056001.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895398468"
+      ],
+      "outras": [],
       "dist_cofap": 8.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895555173",
@@ -1405,10 +1723,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895555173-40.422577797778477bd8bf43-5a74-4879-9752-578a060ca0a0-LEAD3P-faff78a5-0cfd-475b-a4c9-66eeee17563b.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895555173",
+        "quinto-895555173"
+      ],
+      "outras": [],
       "dist_cofap": 8.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 9.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 5.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-yndcn9o0",
@@ -1427,10 +1751,17 @@
       "imagem": "https://content.loft.com.br/homes/yndcn9o0/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-yndcn9o0",
+        "loft-yndcn9o0",
+        "loft-yndcn9o0"
+      ],
+      "outras": [],
       "dist_cofap": 6.1,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 7.3,
-      "tipo_estacao": "Trem"
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894754677",
@@ -1449,10 +1780,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894754677-219.31800206578222IMG4254.jpeg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-894754677"
+      ],
+      "outras": [],
       "dist_cofap": 6.3,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 5.9,
-      "tipo_estacao": "Trem"
+      "estacao": "Utinga",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894966375",
@@ -1471,10 +1807,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original894966375-868.14381083164322a07c12c-c19b-4e80-92a5-0f2031d6b3c5-LEAD3P-0e8d962d-c406-4d06-8071-d8839458e4f6.",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894966375",
+        "quinto-894966375",
+        "quinto-894966375"
+      ],
+      "outras": [],
       "dist_cofap": 4.2,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 8.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 2.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895630902",
@@ -1493,10 +1836,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895630902-172.84031076204676945fcb78-594c-4601-b377-364f24fce882-LEAD3P-c605a6e7-f1bb-4b15-b5e8-b3b5dd720935.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895630902",
+        "quinto-895630902"
+      ],
+      "outras": [],
       "dist_cofap": 4.2,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 8.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 2.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895633916",
@@ -1515,10 +1864,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895633916-387.3353941983905250d901e-8365-45a4-bdd9-9a2f91a7300d-LEAD3P-491131ec-27b6-4040-aef6-7de4aa469b62.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895633916"
+      ],
+      "outras": [],
       "dist_cofap": 4.2,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 8.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 2.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895499450",
@@ -1537,10 +1891,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895499450-257.60416726607346ae0e528-23eb-4047-a821-14c36cccbd1e-LEAD3P-bfe9af66-f5cb-4818-b14f-b9bf83332b22.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895499450",
+        "quinto-895499450"
+      ],
+      "outras": [],
       "dist_cofap": 2.8,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 9.4,
-      "tipo_estacao": "Trem"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 1.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895499467",
@@ -1559,10 +1919,43 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895499467-73.530698558160751ed9f18e-c641-44d8-bc97-c3cd141d490b-LEAD3P-59150e3c-99cb-4f9f-bf75-b9a10342d558.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895499467",
+        "quinto-895499467"
+      ],
+      "outras": [],
       "dist_cofap": 4.1,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 11.9,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "sp-4534413",
+      "cidade": "Santo André",
+      "bairro": "Vila Francisco Matarazzo",
+      "preco": 320000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 99,
+      "tipo": "Térrea",
+      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Francisco Matarazzo, Santo André, 99 m² por R$ 320.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-99m2-vila-francisco-matarazzo-santo-andre-sao-paulo-sp/4534413/",
+      "link_direto": true,
+      "anuncio_data": "2026-10-01",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/10509/Imovel/4534413/E_1-anuncioimg.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "sp-4534413"
+      ],
+      "outras": [],
+      "dist_cofap": 3.7,
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 2.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-10-20"
     },
     {
       "id": "chaves-5268158",
@@ -1581,10 +1974,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/5268158/sp-santo-andre-vila-guaraciaba-casa-a-venda-2-quartos-6169e24f-00.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-5268158"
+      ],
+      "outras": [],
       "dist_cofap": 3.5,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 4.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-3a1yxhpj",
@@ -1603,10 +2001,16 @@
       "imagem": "https://content.loft.com.br/homes/3a1yxhpj/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-3a1yxhpj",
+        "loft-3a1yxhpj"
+      ],
+      "outras": [],
       "dist_cofap": 3.5,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 4.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-2o6q48rd",
@@ -1625,10 +2029,15 @@
       "imagem": "https://content.loft.com.br/homes/2o6q48rd/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-2o6q48rd"
+      ],
+      "outras": [],
       "dist_cofap": 3.5,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 4.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893363031",
@@ -1647,10 +2056,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893363031-770.1400026327904IMG0215.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-893363031",
+        "quinto-893363031",
+        "quinto-893363031",
+        "quinto-893363031"
+      ],
+      "outras": [],
       "dist_cofap": 3.5,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 4.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894411796",
@@ -1669,10 +2086,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894411796-966.83283563361REN1401.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-894411796",
+        "quinto-894411796",
+        "quinto-894411796",
+        "quinto-894411796"
+      ],
+      "outras": [],
       "dist_cofap": 1.9,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 12.8,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-h5k553j0",
@@ -1691,10 +2116,15 @@
       "imagem": "https://content.loft.com.br/homes/h5k553j0/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-h5k553j0"
+      ],
+      "outras": [],
       "dist_cofap": 1.9,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 12.8,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-3026504",
@@ -1713,10 +2143,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/3026504/casa-a-venda-na-vila-homero-thon-em-santo-andre-sp-5f4fcfb2-00.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-3026504"
+      ],
+      "outras": [],
       "dist_cofap": 1.6,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 12.1,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895528449",
@@ -1735,10 +2170,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895528449-724.6034464789432GDS0908.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895528449",
+        "quinto-895528449",
+        "quinto-895528449",
+        "quinto-895528449"
+      ],
+      "outras": [],
       "dist_cofap": 2.2,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 12.5,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-wvfkhcmo",
@@ -1757,10 +2200,15 @@
       "imagem": "https://content.loft.com.br/homes/wvfkhcmo/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-wvfkhcmo"
+      ],
+      "outras": [],
       "dist_cofap": 2.2,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 12.5,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895731875",
@@ -1779,10 +2227,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895731875-100.6581641557562439555a23-5a7e-4abd-b3eb-3f4f10c592c0-LEAD3P-899c165d-e29a-494d-b555-03a754a94f9f.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895731875",
+        "quinto-895731875",
+        "quinto-895731875"
+      ],
+      "outras": [],
       "dist_cofap": 6.3,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 6.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893770810",
@@ -1801,10 +2256,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893770810-420.385741662209711.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893770810",
+        "quinto-893770810",
+        "quinto-893770810",
+        "quinto-893770810"
+      ],
+      "outras": [],
       "dist_cofap": 4.2,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-92hsw2uz",
@@ -1823,10 +2286,16 @@
       "imagem": "https://content.loft.com.br/homes/92hsw2uz/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-92hsw2uz",
+        "loft-92hsw2uz"
+      ],
+      "outras": [],
       "dist_cofap": 5.3,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 5.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895570529",
@@ -1845,10 +2314,24 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895570529-717.85283658318242172d4ba-5305-4d1f-804a-710c4f934922-LEAD3P-b59dae7a-6239-44fa-87a7-2a0593e8c829.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529",
+        "quinto-895570529"
+      ],
+      "outras": [],
       "dist_cofap": 7.0,
-      "estacao": "Sacomã",
-      "dist_estacao": 6.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 2.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-7lkmrgnl",
@@ -1867,10 +2350,15 @@
       "imagem": "https://content.loft.com.br/homes/7lkmrgnl/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-7lkmrgnl"
+      ],
+      "outras": [],
       "dist_cofap": 7.0,
-      "estacao": "Sacomã",
-      "dist_estacao": 6.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 2.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893981883",
@@ -1889,10 +2377,22 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893981883-347.853366362596214.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-893981883",
+        "quinto-893981883",
+        "quinto-893981883",
+        "quinto-893981883",
+        "quinto-893981883",
+        "quinto-893981883",
+        "quinto-893981883",
+        "quinto-893981883"
+      ],
+      "outras": [],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895589322",
@@ -1911,32 +2411,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895589322-479.9749872367007ce5a1b92-efe5-4903-8353-4e7d6165dea7-LEAD3P-1407dd4f-f517-4854-a6b6-15d0f1c29b5b.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895589322",
+        "quinto-895589322",
+        "quinto-895589322",
+        "quinto-895589322"
+      ],
+      "outras": [],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "quinto-895691513",
-      "cidade": "Santo André",
-      "bairro": "Vila Suíça",
-      "preco": 325000,
-      "quartos": 2,
-      "vagas": 4,
-      "area": 144,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895691513/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895691513-963.0109921250479d1ee26e0-9021-4bec-a2fe-d3053e85046e-LEAD3P-e02173a8-5d17-420e-b3aa-28c5b6fdb0c8.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893810066",
@@ -1955,10 +2441,51 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893810066-875.83288919380311.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-893810066",
+        "quinto-893810066",
+        "quinto-893810066"
+      ],
+      "outras": [],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-895691513",
+      "cidade": "Santo André",
+      "bairro": "Vila Suíça",
+      "preco": 325000,
+      "quartos": 2,
+      "vagas": 4,
+      "area": 144,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895691513/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895691513-963.0109921250479d1ee26e0-9021-4bec-a2fe-d3053e85046e-LEAD3P-e02173a8-5d17-420e-b3aa-28c5b6fdb0c8.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895691513",
+        "quinto-895691513",
+        "quinto-895691513",
+        "quinto-895691513",
+        "quinto-895691513",
+        "quinto-895691513",
+        "quinto-895691513",
+        "quinto-895691513"
+      ],
+      "outras": [],
+      "dist_cofap": 4.6,
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895629498",
@@ -1977,10 +2504,24 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895629498-184.61514763057252e93d1902-2a4b-4cd9-8316-bfdf01a430f6-LEAD3P-f612d9fa-9489-4174-88c8-7cbba35570c0.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895629498",
+        "quinto-895629498",
+        "quinto-895629498",
+        "quinto-895629498",
+        "loft-h0hc16jc"
+      ],
+      "outras": [
+        {
+          "fonte": "Loft",
+          "url": "https://loft.com.br/imovel/h0hc16jc?tipoTransacao=venda"
+        }
+      ],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-0au1yiw6",
@@ -1999,10 +2540,15 @@
       "imagem": "https://content.loft.com.br/homes/0au1yiw6/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-0au1yiw6"
+      ],
+      "outras": [],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895610891",
@@ -2021,10 +2567,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895610891-644.6219879380575a93e6441-678d-4dc2-861a-e8f43d517993-LEAD3P-61eb6c64-6e9d-4237-9028-bd00e72a071e.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895610891",
+        "quinto-895610891",
+        "quinto-895610891",
+        "quinto-895610891"
+      ],
+      "outras": [],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894642092",
@@ -2043,10 +2597,26 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894642092-727.6429789401878REN2832.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-894642092",
+        "quinto-894642092",
+        "quinto-894642092",
+        "quinto-894642092",
+        "quinto-894642092",
+        "loft-w4o3v1zn",
+        "loft-w4o3v1zn"
+      ],
+      "outras": [
+        {
+          "fonte": "Loft",
+          "url": "https://loft.com.br/imovel/w4o3v1zn?tipoTransacao=venda"
+        }
+      ],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894786722",
@@ -2065,10 +2635,26 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894786722-872.320467330811.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-894786722",
+        "quinto-894786722",
+        "quinto-894786722",
+        "quinto-894786722",
+        "quinto-894786722",
+        "loft-h87wuzp2",
+        "loft-h87wuzp2"
+      ],
+      "outras": [
+        {
+          "fonte": "Loft",
+          "url": "https://loft.com.br/imovel/h87wuzp2?tipoTransacao=venda"
+        }
+      ],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895263071",
@@ -2087,10 +2673,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895263071-970.6937705378185IMG4153.JPG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895263071",
+        "quinto-895263071",
+        "quinto-895263071"
+      ],
+      "outras": [],
       "dist_cofap": 4.6,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Mauá",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895405337",
@@ -2109,10 +2702,19 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895405337-776.9690154948211IMG0038.JPG",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895405337",
+        "quinto-895405337",
+        "quinto-895405337",
+        "quinto-895405337",
+        "quinto-895405337"
+      ],
+      "outras": [],
       "dist_cofap": 3.8,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 13.2,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 4.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895629019",
@@ -2131,10 +2733,19 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895629019-81.11819759575991479a348-3163-4a83-8127-8de62bdd0471-LEAD3P-bf7e084e-b7f6-456a-a150-cc85f135b3df.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895629019",
+        "quinto-895629019",
+        "quinto-895629019",
+        "quinto-895629019",
+        "quinto-895629019"
+      ],
+      "outras": [],
       "dist_cofap": 3.8,
-      "estacao": "Tamanduateí",
-      "dist_estacao": 13.2,
-      "tipo_estacao": "Trem"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 4.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895702010",
@@ -2153,10 +2764,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895702010-352.67763167438017115296.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895702010",
+        "quinto-895702010",
+        "quinto-895702010"
+      ],
+      "outras": [],
       "dist_cofap": 16.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Primavera - Interlagos",
+      "dist_estacao": 7.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-8403153",
@@ -2175,10 +2793,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/195905/8403153/sp-sao-bernardo-do-campo-alvarenga-rua-santana-casa-a-venda-3-quartos-656734bc-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-8403153"
+      ],
+      "outras": [],
       "dist_cofap": 16.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Primavera - Interlagos",
+      "dist_estacao": 7.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895685382",
@@ -2197,10 +2820,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895685382-223.6151814980969ingazeiros01.JPG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895685382",
+        "quinto-895685382"
+      ],
+      "outras": [],
       "dist_cofap": 16.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Primavera - Interlagos",
+      "dist_estacao": 7.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895494311",
@@ -2219,10 +2848,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895494311-696.3784416386784BRUNI03.JPG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895494311",
+        "quinto-895494311"
+      ],
+      "outras": [],
       "dist_cofap": 16.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Primavera - Interlagos",
+      "dist_estacao": 7.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895742521",
@@ -2241,32 +2876,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895742521-746.7343153487163115268.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895742521",
+        "quinto-895742521"
+      ],
+      "outras": [],
       "dist_cofap": 16.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 11.4,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "abc-4498586",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Assunção",
-      "preco": 340000,
-      "quartos": 3,
-      "vagas": 1,
-      "area": 100,
-      "tipo": "Térrea",
-      "extras": "ABC Imóvel | Casa Térrea, 3 Quartos à Venda, Assunção, São Bernardo do Campo, 100 m² por R$ 340.000,00. Ref.25835 Confira! Ótima Oportunidad",
-      "fonte": "ABC Imóvel",
-      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-3quartos-1vaga-100m2-assuncao-sao-bernardo-do-campo-grande-abc-sao-paulo-sp/4498586/",
-      "link_direto": true,
-      "anuncio_data": "2026-08-12",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/1341/Imovel/4498586/E_20260812190841_whatsapp-image-2023-03-22-at-14.10.48-2.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "dist_cofap": 10.6,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 10.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Primavera - Interlagos",
+      "dist_estacao": 7.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895778622",
@@ -2285,10 +2904,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895778622-857.1651387585038115234.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895778622",
+        "quinto-895778622"
+      ],
+      "outras": [],
       "dist_cofap": 15.9,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 14.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Grajaú",
+      "dist_estacao": 11.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-1niysbi",
@@ -2307,10 +2932,17 @@
       "imagem": "https://content.loft.com.br/homes/1niysbi/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-1niysbi",
+        "loft-1niysbi",
+        "loft-1niysbi"
+      ],
+      "outras": [],
       "dist_cofap": 15.9,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 14.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Grajaú",
+      "dist_estacao": 11.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895437386",
@@ -2329,10 +2961,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895437386-957.7717054709158115235.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895437386",
+        "quinto-895437386",
+        "quinto-895437386"
+      ],
+      "outras": [],
       "dist_cofap": 15.9,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 14.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Grajaú",
+      "dist_estacao": 11.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895670263",
@@ -2351,10 +2990,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895670263-58.2626121805500650d9335d6-74d8-41b8-8959-5d527ca6e849-LEAD3P-efa75c4a-cab5-465e-a4ed-c025df10c719.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895670263",
+        "quinto-895670263"
+      ],
+      "outras": [],
       "dist_cofap": 15.9,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 14.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Grajaú",
+      "dist_estacao": 11.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895367914",
@@ -2373,10 +3018,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895367914-429.71046270277145JANIO003.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895367914",
+        "quinto-895367914",
+        "quinto-895367914"
+      ],
+      "outras": [],
       "dist_cofap": 9.0,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 9.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 6.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894673131",
@@ -2395,10 +3047,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894673131-935.605886602521801Sala1.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894673131",
+        "quinto-894673131"
+      ],
+      "outras": [],
       "dist_cofap": 9.0,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 9.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 6.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895534540",
@@ -2417,10 +3075,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895534540-951.3533107657256MARIANAKANO07.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895534540"
+      ],
+      "outras": [],
       "dist_cofap": 13.2,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 10.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Autódromo",
+      "dist_estacao": 9.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895435551",
@@ -2439,10 +3102,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895435551-150.25238293941413VIVIANE04.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895435551"
+      ],
+      "outras": [],
       "dist_cofap": 13.2,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 10.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Autódromo",
+      "dist_estacao": 9.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-1y2y7xt",
@@ -2461,10 +3129,15 @@
       "imagem": "https://content.loft.com.br/homes/1y2y7xt/banner_thumbnail.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "loft-1y2y7xt"
+      ],
+      "outras": [],
       "dist_cofap": 11.3,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 13.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 10.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895298013",
@@ -2483,10 +3156,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895298013-546.87317104971115284.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895298013",
+        "quinto-895298013",
+        "quinto-895298013"
+      ],
+      "outras": [],
       "dist_cofap": 9.4,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 13.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 8.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894776060",
@@ -2505,10 +3185,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894776060-257.943370269158703Quarto11.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894776060"
+      ],
+      "outras": [],
       "dist_cofap": 11.0,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 9.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895334095",
@@ -2527,10 +3212,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895334095-292.70961336578483paulomachado001.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895334095",
+        "quinto-895334095"
+      ],
+      "outras": [],
       "dist_cofap": 9.1,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 10.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 6.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895407525",
@@ -2548,7 +3239,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895407525-219.8739119316071REN3726.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895407525"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895670303",
@@ -2567,10 +3263,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895670303-765.15414503055185486f8c1-0dd2-4128-bd7a-c79c85d7071b-LEAD3P-f35ec2ff-4a91-4c98-bd69-ad20be51b3ab.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895670303"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 12.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 11.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895710564",
@@ -2588,7 +3289,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895710564-535.9289412190343fb8f67f0-1169-423c-b804-d13a7eb2cc4b-LEAD3P-b08c5cf7-c751-4f04-be0b-0ca971efd582.jpeg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895710564",
+        "quinto-895710564"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895524558",
@@ -2607,10 +3314,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895524558-116.563216373346761.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895524558"
+      ],
+      "outras": [],
       "dist_cofap": 10.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 12.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 8.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895760886",
@@ -2628,7 +3340,14 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895760886-799.5778914621527b86b7fb9-7793-420b-b2fc-077d153439dc-LEAD3P-8a63d127-1ddd-446d-9634-e077c847b0b5.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895760886",
+        "quinto-895760886",
+        "quinto-895760886"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895292685",
@@ -2646,7 +3365,12 @@
       "anuncio_data": null,
       "imagem": null,
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895292685"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895645749",
@@ -2664,7 +3388,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895645749-189.231131450179IMG7058.JPG",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895645749"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895578443",
@@ -2682,7 +3411,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895578443-806.996530219234IMG5273.JPG",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895578443"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-10245263",
@@ -2701,10 +3435,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/201799/10245263/sp-sao-bernardo-do-campo-cooperativa-casa-a-venda-2-quartos-634b8090-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-10245263"
+      ],
+      "outras": [],
       "dist_cofap": 13.4,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 11.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Primavera - Interlagos",
+      "dist_estacao": 10.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895250889",
@@ -2723,10 +3462,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895250889-296.316587163527420260115095002.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895250889",
+        "quinto-895250889",
+        "quinto-895250889"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-xzkjfqdc",
@@ -2745,10 +3491,16 @@
       "imagem": "https://content.loft.com.br/homes/xzkjfqdc/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-xzkjfqdc",
+        "loft-xzkjfqdc"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895049528",
@@ -2767,10 +3519,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895049528-436.814115673408363e81bb-b130-4306-8e8b-b5cc8ea88834-LEAD3P-39e68b4c-beaa-4d47-b561-9c992cfd13b9.JPEG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895049528",
+        "quinto-895049528",
+        "quinto-895049528",
+        "quinto-895049528"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-jyhbpa28",
@@ -2789,10 +3549,15 @@
       "imagem": "https://content.loft.com.br/homes/jyhbpa28/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-jyhbpa28"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895255318",
@@ -2811,10 +3576,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895255318-353.9532373301526EDU0122.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895255318",
+        "quinto-895255318",
+        "quinto-895255318"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895299950",
@@ -2833,10 +3605,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895299950-110.99192560424542IMG0996.JPG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895299950",
+        "quinto-895299950",
+        "quinto-895299950"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895284224",
@@ -2855,10 +3634,16 @@
       "imagem": null,
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895284224",
+        "quinto-895284224"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895345435",
@@ -2877,10 +3662,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895345435-638.9043940657205IMG3812.JPG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895345435"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895682749",
@@ -2899,10 +3689,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895682749-255.7500910102779IMG0646.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895682749",
+        "quinto-895682749"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895783948",
@@ -2921,10 +3717,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895783948-890.2015231218696BAHIA003.JPG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895783948",
+        "quinto-895783948"
+      ],
+      "outras": [],
       "dist_cofap": 10.0,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 13.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895780080",
@@ -2943,10 +3745,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895780080-469.92901499257454b24801bf-cae7-4892-a249-f68625d353d2-LEAD3P-f5128932-96a7-4cb1-b15e-65b148199429.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895780080"
+      ],
+      "outras": [],
       "dist_cofap": 7.0,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 12.8,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 6.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895599077",
@@ -2965,10 +3772,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895599077-124.46342822315282IMG9427.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895599077",
+        "quinto-895599077"
+      ],
+      "outras": [],
       "dist_cofap": 12.4,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 10.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 10.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-90fi34w2",
@@ -2987,10 +3800,16 @@
       "imagem": "https://content.loft.com.br/homes/90fi34w2/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-90fi34w2",
+        "loft-90fi34w2"
+      ],
+      "outras": [],
       "dist_cofap": 9.6,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 6.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 5.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4418515",
@@ -3009,10 +3828,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/3495/Imovel/4418515/E_1-7e2e954e960ccd88871e75299eab4742.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4418515"
+      ],
+      "outras": [],
       "dist_cofap": 14.4,
-      "estacao": "Rio Grande da Serra",
-      "dist_estacao": 14.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "Guapituba",
+      "dist_estacao": 12.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895106697",
@@ -3031,10 +3855,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895106697-557.04486939626720101Sala1.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895106697",
+        "quinto-895106697"
+      ],
+      "outras": [],
       "dist_cofap": 8.3,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 13.4,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 7.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895730041",
@@ -3052,7 +3882,15 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895730041-80.6013976389035041.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895730041",
+        "quinto-895730041",
+        "quinto-895730041",
+        "quinto-895730041"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4542532",
@@ -3071,10 +3909,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/3179/Imovel/4542532/E_1-anuncioimg.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4542532"
+      ],
+      "outras": [],
       "dist_cofap": 10.7,
       "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
       "dist_estacao": 4.7,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895699281",
@@ -3093,10 +3936,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895699281-546.2967550211807IMG7462.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895699281",
+        "quinto-895699281",
+        "quinto-895699281"
+      ],
+      "outras": [],
       "dist_cofap": 10.9,
       "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
       "dist_estacao": 8.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895637627",
@@ -3115,10 +3965,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895637627-195.23588112772782IMG6627.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895637627"
+      ],
+      "outras": [],
       "dist_cofap": 11.9,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 12.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 10.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895779466",
@@ -3137,10 +3992,44 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895779466-219.15281378454088afa5921f-06cf-4eb4-859d-dd57b79c2ae7-LEAD3P-a5239c19-9203-4c16-a9e6-d3048e9e2e4e.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895779466",
+        "quinto-895779466",
+        "quinto-895779466"
+      ],
+      "outras": [],
       "dist_cofap": 6.9,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 13.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 6.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-895551821",
+      "cidade": "São Paulo",
+      "bairro": "Aricanduva",
+      "preco": 266000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 50,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa com 2 quartos e quintal disponível para compra.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895551821/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895551821-822.0630256497532IMG6092.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895551821"
+      ],
+      "outras": [],
+      "dist_cofap": 8.9,
+      "estacao": "Vila União",
+      "dist_estacao": 2.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-10-20"
     },
     {
       "id": "quinto-895720092",
@@ -3159,10 +4048,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895720092-466.64926026235065IMG6720.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895720092"
+      ],
+      "outras": [],
       "dist_cofap": 15.0,
       "estacao": "Patriarca • Vila Ré",
       "dist_estacao": 2.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893275301",
@@ -3181,10 +4075,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893275301-265.48759647951937DSC6951.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893275301"
+      ],
+      "outras": [],
       "dist_cofap": 13.6,
       "estacao": "Corinthians-Itaquera",
       "dist_estacao": 0.8,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4516632",
@@ -3203,10 +4102,21 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10349/Imovel/4516632/E_1-whatsapp-image-2026-07-28-at-17-06-19-11785333304129.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4516632",
+        "quinto-129208540"
+      ],
+      "outras": [
+        {
+          "fonte": "QuintoAndar",
+          "url": "https://www.quintoandar.com.br/imovel/129208540/comprar"
+        }
+      ],
       "dist_cofap": 10.4,
       "estacao": "Artur Alvim",
       "dist_estacao": 2.7,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895698720",
@@ -3225,10 +4135,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895698720-49.094364724637686RAY5880.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895698720"
+      ],
+      "outras": [],
       "dist_cofap": 10.4,
       "estacao": "Artur Alvim",
       "dist_estacao": 2.7,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-15045146",
@@ -3247,10 +4162,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/39608/15045146/sp-sao-paulo-cidade-lider-rua-casimiro-nisskiniz-casa-a-venda-2-quartos-64975b6f-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-15045146"
+      ],
+      "outras": [],
       "dist_cofap": 10.4,
       "estacao": "Artur Alvim",
       "dist_estacao": 2.7,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893515586",
@@ -3269,10 +4189,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893515586-52.53563209568646IMG1770.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-893515586"
+      ],
+      "outras": [],
       "dist_cofap": 10.4,
       "estacao": "Artur Alvim",
       "dist_estacao": 2.7,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-10540475",
@@ -3291,10 +4216,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/10540475/sp-sao-paulo-cidade-tiradentes-rua-apostolo-tome-casa-a-venda-2-quartos-635bef5e-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-10540475"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-1099417",
@@ -3313,10 +4243,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/2593/Imovel/1099417/E_1-anuncioimg.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-1099417"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-9570720",
@@ -3335,10 +4270,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/9570720/sp-sao-paulo-cidade-tiradentes-rua-mario-sobral-casa-a-venda-2-quartos-635b6be3-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-9570720"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4503050",
@@ -3357,10 +4297,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8871/Imovel/4503050/E_20260818163223_whatsapp-image-2026-08-18-at-13.30.11.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4503050"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895664179",
@@ -3379,10 +4324,23 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895664179-264.2593558569287bfe1535a-ec2f-4a82-8075-6c913b906921-LEAD3P-1a17ffe3-8b1b-43db-b8f0-e77c68b74d9d.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895664179",
+        "quinto-895664179",
+        "loft-3th3gzlu",
+        "loft-3th3gzlu"
+      ],
+      "outras": [
+        {
+          "fonte": "Loft",
+          "url": "https://loft.com.br/imovel/3th3gzlu?tipoTransacao=venda"
+        }
+      ],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-15121435",
@@ -3401,32 +4359,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/15121435/sp-sao-paulo-cidade-tiradentes-rua-mario-sobral-casa-a-venda-2-quartos-649c4913-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-15121435"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "chaves-9724926",
-      "cidade": "São Paulo",
-      "bairro": "Cidade Tiradentes",
-      "preco": 300000,
-      "quartos": 5,
-      "vagas": 3,
-      "area": 123,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Comprar Casa na Rua são clodoaldo, 9, Cidade Tiradentes em São Paulo por R$ 300000 com 5 quartos, 3 garagens e com 123m². Falar com MARTINS ",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-5-quartos-com-garagem-sp-sao-paulo-cidade-tiradentes-123m2-RS300000/id-9724926/",
-      "link_direto": true,
-      "anuncio_data": "2026-05-29",
-      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/9724926/sp-sao-paulo-cidade-tiradentes-rua-sao-clodoaldo-casa-a-venda-5-quartos-635b6a4a-1.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-9145662",
@@ -3445,10 +4386,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/9145662/sp-sao-paulo-cidade-tiradentes-rua-ernesto-cerreti-casa-a-venda-2-quartos-64e9ef86-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-9145662"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-pods13el",
@@ -3467,10 +4413,16 @@
       "imagem": "https://content.loft.com.br/homes/pods13el/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-pods13el",
+        "loft-pods13el"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-yt8xgzm0",
@@ -3489,10 +4441,16 @@
       "imagem": "https://content.loft.com.br/homes/yt8xgzm0/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-yt8xgzm0",
+        "loft-yt8xgzm0"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
-      "estacao": "Guaianases",
-      "dist_estacao": 4.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895446064",
@@ -3511,10 +4469,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895446064-854.7610952517746IMG20260513145752.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895446064"
+      ],
+      "outras": [],
       "dist_cofap": 13.6,
-      "estacao": "Guaianases",
-      "dist_estacao": 2.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "José Bonifácio",
+      "dist_estacao": 0.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895633404",
@@ -3533,32 +4496,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895633404-4.9396408987660845d1c5d4ef-8e17-4af0-a066-15baa4a475f4-LEAD3P-9168364f-e649-4e69-bb88-402a70eb5261.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895633404"
+      ],
+      "outras": [],
       "dist_cofap": 5.0,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 7.9,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "sp-4372447",
-      "cidade": "São Paulo",
-      "bairro": "Furnas",
-      "preco": 280000,
-      "quartos": 2,
-      "vagas": 2,
-      "area": 80,
-      "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Furnas, São Paulo, 80 m² por R$ 280.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-2vagas-80m2-furnas-sao-paulo-sp/4372447/",
-      "link_direto": true,
-      "anuncio_data": "2026-10-19",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/4/Interno/58/Imovel/4372447/E_1-19233_i9Ki3Z_1923369a7287149630.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "dist_cofap": 25.9,
-      "estacao": "Tucuruvi",
-      "dist_estacao": 4.2,
-      "tipo_estacao": "Metrô"
+      "estacao": "Fazenda da Juta",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895617050",
@@ -3577,10 +4523,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895617050-453.318392516981IMG4501.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895617050"
+      ],
+      "outras": [],
       "dist_cofap": 11.1,
-      "estacao": "Guaianases",
-      "dist_estacao": 3.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Dom Bosco",
+      "dist_estacao": 3.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4504016",
@@ -3599,10 +4550,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/9940/Imovel/4504016/E_20260819123912_whatsapp-image-2026-08-19-at-08.04.06-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4504016"
+      ],
+      "outras": [],
       "dist_cofap": 14.4,
       "estacao": "Guaianases",
       "dist_estacao": 1.4,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-19424751",
@@ -3621,10 +4577,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/487129/19424751/sp-sao-paulo-guaianases-rua-julio-salusse-casa-a-venda-3-quartos-65dd598d-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-19424751"
+      ],
+      "outras": [],
       "dist_cofap": 14.4,
       "estacao": "Guaianases",
       "dist_estacao": 1.4,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-9145359",
@@ -3643,10 +4604,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/9145359/sp-sao-paulo-guaianases-rua-mario-ferraz-de-souza-casa-a-venda-2-quartos-635b7930-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-9145359"
+      ],
+      "outras": [],
       "dist_cofap": 14.4,
       "estacao": "Guaianases",
       "dist_estacao": 1.4,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4487204",
@@ -3665,10 +4631,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10494/Imovel/4487204/E_1-2a8af07ded5db1d0dd05862811626a1e.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4487204"
+      ],
+      "outras": [],
       "dist_cofap": 14.4,
       "estacao": "Guaianases",
       "dist_estacao": 1.4,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-11885468",
@@ -3687,10 +4658,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/256810/11885468/sp-sao-paulo-guaianases-casa-a-venda-3-quartos-63bdf82e-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-11885468"
+      ],
+      "outras": [],
       "dist_cofap": 14.4,
       "estacao": "Guaianases",
       "dist_estacao": 1.4,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893272996",
@@ -3709,10 +4685,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893272996-38.913494202729495IMG4858.JPG",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-893272996",
+        "quinto-893272996"
+      ],
+      "outras": [],
       "dist_cofap": 19.6,
       "estacao": "Itaim Paulista",
       "dist_estacao": 0.9,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894723909",
@@ -3731,10 +4713,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894723909-575.5676044151834IMG9673.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-894723909",
+        "quinto-894723909",
+        "quinto-894723909"
+      ],
+      "outras": [],
       "dist_cofap": 19.6,
       "estacao": "Itaim Paulista",
       "dist_estacao": 0.9,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895452394",
@@ -3753,10 +4742,21 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895452394-127.20208665095566741b83ce-51d4-42aa-8735-288e02dda63c-LEAD3P-53d49687-0c7f-418f-884b-f14d6753cfca.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895452394",
+        "quinto-895452446"
+      ],
+      "outras": [
+        {
+          "fonte": "QuintoAndar",
+          "url": "https://www.quintoandar.com.br/imovel/895452446/comprar"
+        }
+      ],
       "dist_cofap": 12.8,
       "estacao": "Corinthians-Itaquera",
       "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895180640",
@@ -3775,10 +4775,15 @@
       "imagem": null,
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895180640"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
       "estacao": "Corinthians-Itaquera",
       "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-11501881",
@@ -3797,10 +4802,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/40097/11501881/sp-sao-paulo-itaquera-rua-professor-brito-machado-casa-a-venda-2-quartos-645eda14-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-11501881"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
       "estacao": "Corinthians-Itaquera",
       "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-9530335",
@@ -3819,32 +4829,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/218303/9530335/sp-sao-paulo-itaquera-rua-professor-brito-machado-casa-a-venda-2-quartos-660cc599-1.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-9530335"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
       "estacao": "Corinthians-Itaquera",
       "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "loft-6pzdhv",
-      "cidade": "São Paulo",
-      "bairro": "Itaquera",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": 2,
-      "area": 140,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Ótima localização 20 minutos do metro, próximo de escola, posto de saúde e grandes supermercados. Ponto de ônibus a 8 metros da casa.",
-      "fonte": "Loft",
-      "url": "https://loft.com.br/imovel/6pzdhv?tipoTransacao=venda",
-      "link_direto": true,
-      "anuncio_data": "2026-02-04",
-      "imagem": "https://content.loft.com.br/homes/6pzdhv/banner_thumbnail.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "dist_cofap": 12.8,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893803652",
@@ -3863,10 +4856,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893803652-148.15344545759902IMG20221022131932603.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893803652"
+      ],
+      "outras": [],
       "dist_cofap": 9.9,
-      "estacao": "Artur Alvim",
-      "dist_estacao": 4.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Vila União",
+      "dist_estacao": 3.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895102054",
@@ -3885,46 +4883,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895102054-107.0272368287083Foto1.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895102054"
+      ],
+      "outras": [],
       "dist_cofap": 9.9,
-      "estacao": "Artur Alvim",
-      "dist_estacao": 4.0,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "quinto-895214982",
-      "cidade": "São Paulo",
-      "bairro": "Jardim Brasil (zona Norte)",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 100,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Compra de casa com 2 quartos no Jardim Brasil (zona Norte).",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895214982/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895214982-382.09818955523866QA1.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
-    },
-    {
-      "id": "quinto-895586950",
-      "cidade": "São Paulo",
-      "bairro": "Jardim Brasil (zona Norte)",
-      "preco": 360000,
-      "quartos": 2,
-      "vagas": 2,
-      "area": 70,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa para comprar com 2 quartos.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895586950/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895586950-297.6943768471867QA.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "estacao": "Vila União",
+      "dist_estacao": 3.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-11885344",
@@ -3942,7 +4909,12 @@
       "anuncio_data": "2026-02-19",
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/256810/11885344/sp-sao-paulo-jardim-casa-pintada-casa-a-venda-4-quartos-63bdf588-1.jpg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-11885344"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4336606",
@@ -3960,7 +4932,12 @@
       "anuncio_data": "2026-01-28",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/7340/Imovel/4336606/E_1-.jpg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4336606"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894547297",
@@ -3978,7 +4955,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894547297-3.9424156647124287IMG0057.jpg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-894547297"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894825737",
@@ -3996,7 +4978,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894825737-928.38603958391IMG9544.jpg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-894825737"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895418436",
@@ -4014,7 +5001,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895418436-120.75515198311182IMG0187.JPG",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895418436",
+        "quinto-895418436"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895034348",
@@ -4032,7 +5025,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895034348-315.7835906603083IMG8956.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895034348"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "sp-4030865",
@@ -4051,10 +5049,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8232/Imovel/4030865/E_20241213154025_foto-rua-lorenzo-pena.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4030865"
+      ],
+      "outras": [],
       "dist_cofap": 21.0,
       "estacao": "Jardim Helena - Vila Mara",
       "dist_estacao": 1.5,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895557221",
@@ -4072,7 +5075,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895557221-665.9209405857353IMG3088.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895557221",
+        "quinto-895557221"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895301461",
@@ -4091,10 +5100,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895301461-540.880699929221IMG5154.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895301461"
+      ],
+      "outras": [],
       "dist_cofap": 31.3,
       "estacao": "Estação de Metrô Capão Redondo",
       "dist_estacao": 3.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895636106",
@@ -4112,7 +5126,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895636106-233.89968855207434IMG7050.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895636106"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895275901",
@@ -4130,7 +5149,15 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895275901-390.52827217686223DSCF8429.JPG",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895275901",
+        "quinto-895275901",
+        "quinto-895275901",
+        "quinto-895275901"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-892956084",
@@ -4148,7 +5175,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/892956084-726.1219512205179IMG3211.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-892956084"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895636271",
@@ -4167,10 +5199,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895636271-206.13417967114455IMG0834.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895636271"
+      ],
+      "outras": [],
       "dist_cofap": 2.2,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895315747",
@@ -4189,10 +5226,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895315747-240.75772383909398IMG20260227105645.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895315747"
+      ],
+      "outras": [],
       "dist_cofap": 2.2,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 10.0,
-      "tipo_estacao": "Metrô"
+      "estacao": "Prefeito Celso Daniel - Santo André",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894136888",
@@ -4211,10 +5253,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original894136888-34.495263046040115image.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894136888"
+      ],
+      "outras": [],
       "dist_cofap": 13.3,
       "estacao": "Saúde – Ultrafarma",
       "dist_estacao": 2.3,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-47103857",
@@ -4233,10 +5280,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/761676/47103857/sp-sao-paulo-jardim-princesa-rua-vitantonio-mastrorosa-casa-a-venda-2-quartos-00.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-47103857"
+      ],
+      "outras": [],
       "dist_cofap": 27.5,
       "estacao": "Comendador Ermelino",
       "dist_estacao": 8.5,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895640209",
@@ -4255,10 +5307,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895640209-179.4840334845429IMG4384.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895640209"
+      ],
+      "outras": [],
       "dist_cofap": 4.5,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 2.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-9707944",
@@ -4277,10 +5334,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/221429/9707944/sp-sao-paulo-jardim-peri-peri-rua-agenor-de-lima-franco-casa-a-venda-2-quartos-631a0805-1.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-9707944"
+      ],
+      "outras": [],
       "dist_cofap": 4.5,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.9,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 2.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895635576",
@@ -4298,7 +5360,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895635576-696.013238499254325563096-73be-4ac7-aaff-b03fb4233039-LEAD3P-69bb5be0-55f9-4dfc-89e0-6ed7749fb4a7.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895635576"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894523464",
@@ -4316,7 +5383,16 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894523464-170.9537624970401IMG7575.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894523464"
+      ],
+      "outras": [],
+      "dist_cofap": 23.3,
+      "estacao": "Varginha",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895682920",
@@ -4334,7 +5410,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895682920-211.93044166508583290b846-0ec5-442e-b54a-21cfcf071131-LEAD3P-c9982615-0341-463d-9599-4ad20f4d85ff.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895682920",
+        "quinto-895682920"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894105286",
@@ -4353,10 +5435,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894105286-171.44646685901344IMG2974.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894105286",
+        "quinto-894105286"
+      ],
+      "outras": [],
       "dist_cofap": 28.3,
-      "estacao": "Santo Amaro",
-      "dist_estacao": 19.3,
-      "tipo_estacao": "Metrô"
+      "estacao": "Varginha",
+      "dist_estacao": 6.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895803505",
@@ -4375,10 +5463,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895803505-448.5977602071821d9424d3f-c368-4709-8d53-92def60e60e7-LEAD3P-311b95d9-6cdb-44df-95c0-c9c413574d04.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895803505",
+        "quinto-895803505"
+      ],
+      "outras": [],
       "dist_cofap": 3.4,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 1.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893926715",
@@ -4396,7 +5490,16 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/893926715-904.3129260116012IMG9869.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893926715"
+      ],
+      "outras": [],
+      "dist_cofap": 13.5,
+      "estacao": "Guaianases",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893644672",
@@ -4414,7 +5517,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/893644672-669.2255347943446GENI0898.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893644672",
+        "quinto-893644672"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894612864",
@@ -4432,7 +5541,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894612864-808.9955403740112MG5254.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894612864"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895679937",
@@ -4450,7 +5564,16 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895679937-106.7123162169817320260825134804.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895679937"
+      ],
+      "outras": [],
+      "dist_cofap": 30.5,
+      "estacao": "Mendes - Vila Natal",
+      "dist_estacao": 7.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894779628",
@@ -4468,7 +5591,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894779628-667.4420430880326IMG4902.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894779628",
+        "quinto-894779628"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894931166",
@@ -4486,7 +5615,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894931166-48.0834626218829QuintoAndar2.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894931166",
+        "quinto-894931166"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895678609",
@@ -4504,7 +5639,17 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895678609-425.3234770307167386288813-2d97-4a53-83ec-836cf0d4c4d3-LEAD3P-cd751b8d-1b3c-4bba-9232-c71bcf6cb0d3.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895678609",
+        "quinto-895678609"
+      ],
+      "outras": [],
+      "dist_cofap": 6.1,
+      "estacao": "São Mateus",
+      "dist_estacao": 3.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-12460014",
@@ -4522,7 +5667,39 @@
       "anuncio_data": "2026-09-24",
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/12460014/sp-sao-paulo-itaquera-rua-fascinacao-casa-a-venda-4-quartos-63ddcb09-1.jpg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-12460014"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "loft-k1e34usc",
+      "cidade": "São Paulo",
+      "bairro": "Lajeado",
+      "preco": 320000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": null,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "02 CASAS EM GUAIANASES\n\nCASA DE BAIXO:\n02 DORMITÓRIOS\nSALA\nCOZINHA PLANEJADA\n01 VAGA DE GARAGEM\n\nCASA DE CIMA:\nESCRITÓRIO\n01 DORMITÓRIO\nSALA",
+      "fonte": "Loft",
+      "url": "https://loft.com.br/imovel/k1e34usc?tipoTransacao=venda",
+      "link_direto": true,
+      "anuncio_data": "2026-10-15",
+      "imagem": "https://content.loft.com.br/homes/k1e34usc/banner_thumbnail.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-k1e34usc"
+      ],
+      "outras": [],
+      "dist_cofap": 15.9,
+      "estacao": "Guaianases",
+      "dist_estacao": 1.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-10-20"
     },
     {
       "id": "quinto-895720286",
@@ -4541,10 +5718,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895720286-505.79231247008414RAY8896.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895720286"
+      ],
+      "outras": [],
       "dist_cofap": 15.9,
       "estacao": "Guaianases",
       "dist_estacao": 1.1,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-op6q4rlg",
@@ -4563,10 +5745,15 @@
       "imagem": "https://content.loft.com.br/homes/op6q4rlg/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-op6q4rlg"
+      ],
+      "outras": [],
       "dist_cofap": 22.3,
       "estacao": "Parada Inglesa",
       "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895463782",
@@ -4584,7 +5771,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895463782-706.8728929671362d875434c-c70d-4b36-af63-faabb0ba32e4-LEAD3P-6d22100b-059e-4a33-a11b-8e2b1c416052.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895463782",
+        "quinto-895463782"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895681023",
@@ -4602,7 +5795,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895681023-216.32996144147864MG6867.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895681023"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895801694",
@@ -4620,7 +5818,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895801694-856.2615506918572Imagem80.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895801694"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895741720",
@@ -4639,10 +5842,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895741720-771.7143073747105IMG4216.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895741720"
+      ],
+      "outras": [],
       "dist_cofap": 38.2,
-      "estacao": "Perus",
-      "dist_estacao": 6.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "Caieiras",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895711431",
@@ -4661,10 +5869,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895711431-573.0277860942263DJI202609261333230154D.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895711431",
+        "quinto-895711431"
+      ],
+      "outras": [],
       "dist_cofap": 38.2,
-      "estacao": "Perus",
-      "dist_estacao": 6.5,
-      "tipo_estacao": "Metrô"
+      "estacao": "Caieiras",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895756754",
@@ -4682,7 +5896,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895756754-146.84016463584416IMG3528.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895756754"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895259524",
@@ -4700,7 +5919,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895259524-33.22183185618221RAY0674.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895259524"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895728563",
@@ -4719,10 +5943,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895728563-224.03153365103745IMG8618.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895728563",
+        "quinto-895728563",
+        "quinto-895728563"
+      ],
+      "outras": [],
       "dist_cofap": 8.7,
-      "estacao": "Guaianases",
-      "dist_estacao": 8.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Jardim Colonial",
+      "dist_estacao": 5.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895657958",
@@ -4741,10 +5972,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895657958-222.0313291391552543a4c586-4582-4655-aa76-abdb0fe2730a-LEAD3P-6a672c8a-2395-492a-9181-f110835e55ff.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895657958"
+      ],
+      "outras": [],
       "dist_cofap": 8.7,
-      "estacao": "Guaianases",
-      "dist_estacao": 8.1,
-      "tipo_estacao": "Metrô"
+      "estacao": "Jardim Colonial",
+      "dist_estacao": 5.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895421784",
@@ -4763,32 +5999,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895421784-785.0116861777761IMG4281.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895421784"
+      ],
+      "outras": [],
       "dist_cofap": 12.8,
       "estacao": "Sacomã",
       "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "zl-4161154",
-      "cidade": "São Paulo",
-      "bairro": "Sapopemba",
-      "preco": 290000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 80,
-      "tipo": "Térrea",
-      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Sapopemba, São Paulo, 80 m² por R$ 290.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "ZL Imóvel",
-      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-1vaga-80m2-sapopemba-zona-leste-sao-paulo-sp/4161154/",
-      "link_direto": true,
-      "anuncio_data": "2026-09-14",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/5923/Imovel/4161154/E_1-31825aa00ccd027f136d1e895da1464a.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "dist_cofap": 6.0,
-      "estacao": "Artur Alvim",
-      "dist_estacao": 7.6,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-20934033",
@@ -4807,32 +6026,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/20934033/sp-sao-paulo-sapopemba-avenida-sapopemba-casa-a-venda-2-quartos-66288210-00.jpeg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-20934033"
+      ],
+      "outras": [],
       "dist_cofap": 6.0,
-      "estacao": "Artur Alvim",
-      "dist_estacao": 7.6,
-      "tipo_estacao": "Metrô"
-    },
-    {
-      "id": "zl-4402320",
-      "cidade": "São Paulo",
-      "bairro": "Sapopemba",
-      "preco": 320000,
-      "quartos": 2,
-      "vagas": 2,
-      "area": 100,
-      "tipo": "Térrea",
-      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Sapopemba, São Paulo, 100 m² por R$ 320.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "ZL Imóvel",
-      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-2vagas-100m2-sapopemba-zona-leste-sao-paulo-sp/4402320/",
-      "link_direto": true,
-      "anuncio_data": "2026-09-15",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/5923/Imovel/4402320/E_1-9e7a88c84831d82b12e49e03ecb6c343.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "dist_cofap": 6.0,
-      "estacao": "Artur Alvim",
-      "dist_estacao": 7.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "Jardim Planalto",
+      "dist_estacao": 0.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-7190449",
@@ -4851,10 +6053,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/181724/7190449/sp-sao-paulo-saude-casa-a-venda-2-quartos-624c5c70-1.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-7190449"
+      ],
+      "outras": [],
       "dist_cofap": 16.1,
       "estacao": "Saúde – Ultrafarma",
       "dist_estacao": 0.6,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895712788",
@@ -4873,10 +6080,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895712788-607.2571771483068IMG0765.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895712788",
+        "quinto-895712788",
+        "quinto-895712788"
+      ],
+      "outras": [],
       "dist_cofap": 4.9,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 2.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895630997",
@@ -4895,10 +6109,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895630997-331.86320796471824469ce431-20ac-49d1-9b93-05090f4017b8-LEAD3P-924fa44e-7b77-4b73-a178-98f23a8dd244.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895630997",
+        "quinto-895630997"
+      ],
+      "outras": [],
       "dist_cofap": 4.9,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 2.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895767654",
@@ -4917,10 +6137,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895767654-283.30211245496930e773c0e-9bf6-4032-b1ec-b37c60c62c2e-LEAD3P-ef21af6f-033e-4cfd-ae42-8bcb539879c2.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895767654"
+      ],
+      "outras": [],
       "dist_cofap": 4.9,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 9.6,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Mateus",
+      "dist_estacao": 2.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-41582474",
@@ -4939,10 +6164,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/157364/41582474/sp-sao-paulo-tucuruvi-nao-encontrado-a-venda-2-quartos-6ad206f4-1.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-41582474"
+      ],
+      "outras": [],
       "dist_cofap": 22.7,
       "estacao": "Tucuruvi",
       "dist_estacao": 0.1,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895720675",
@@ -4960,7 +6190,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895720675-233.0951376359024e8d311d7-d474-42f8-aced-94b7f24da139-LEAD3P-d861357e-979c-4d47-bb51-7d844ec62476.jpeg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895720675",
+        "quinto-895720675"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895329612",
@@ -4979,10 +6215,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895329612-235.507176291538701Sala1.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895329612"
+      ],
+      "outras": [],
       "dist_cofap": 13.4,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 1.8,
-      "tipo_estacao": "Metrô"
+      "estacao": "Dom Bosco",
+      "dist_estacao": 0.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895564079",
@@ -5001,10 +6242,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895564079-811.9665202700269IMG9941.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895564079"
+      ],
+      "outras": [],
       "dist_cofap": 12.5,
       "estacao": "Vila Matilde",
       "dist_estacao": 1.9,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895615932",
@@ -5023,10 +6269,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895615932-728.49281895749466f5d8f04-227c-4fe4-854c-9550b79f9036-LEAD3P-8f0ae5e1-17a7-447c-812b-f132f262cf8f.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895615932",
+        "quinto-895615932"
+      ],
+      "outras": [],
       "dist_cofap": 13.8,
       "estacao": "Alto do Ipiranga",
       "dist_estacao": 0.1,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895434769",
@@ -5045,10 +6297,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895434769-754.7192436170737DSC8656.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895434769",
+        "quinto-895434769"
+      ],
+      "outras": [],
       "dist_cofap": 13.8,
       "estacao": "Alto do Ipiranga",
       "dist_estacao": 0.1,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-klpiezkw",
@@ -5067,10 +6325,16 @@
       "imagem": "https://content.loft.com.br/homes/klpiezkw/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-klpiezkw",
+        "loft-klpiezkw"
+      ],
+      "outras": [],
       "dist_cofap": 11.4,
-      "estacao": "Carrão – Assaí Atacadista",
-      "dist_estacao": 3.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Oratório",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-7603145",
@@ -5089,10 +6353,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/102187/7603145/sp-sao-paulo-vila-formosa-rua-antonio-tracci-casa-a-venda-2-quartos-627a6a71-3.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-7603145"
+      ],
+      "outras": [],
       "dist_cofap": 11.4,
-      "estacao": "Carrão – Assaí Atacadista",
-      "dist_estacao": 3.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Oratório",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-16317389",
@@ -5111,10 +6380,15 @@
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/39608/16317389/sp-sao-paulo-vila-formosa-rua-gaspar-viana-casa-a-venda-2-quartos-64ea69ed-1.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-16317389"
+      ],
+      "outras": [],
       "dist_cofap": 11.4,
-      "estacao": "Carrão – Assaí Atacadista",
-      "dist_estacao": 3.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Oratório",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-6qzurjlc",
@@ -5133,10 +6407,43 @@
       "imagem": "https://content.loft.com.br/homes/6qzurjlc/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-6qzurjlc",
+        "loft-6qzurjlc"
+      ],
+      "outras": [],
       "dist_cofap": 11.4,
-      "estacao": "Carrão – Assaí Atacadista",
-      "dist_estacao": 3.7,
-      "tipo_estacao": "Metrô"
+      "estacao": "Oratório",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "loft-cs0qqdib",
+      "cidade": "São Paulo",
+      "bairro": "Vila Formosa",
+      "preco": 355000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 140,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "OPORTUNIDADE NA VILA FORMOSA, IMÓVEL COM DUAS CASAS NO QUINTAL \n\nCASA 01 TÉRREA: 01 DORMITÓRIO, SALA, COZINHA, BANHEIRO, ÁREA DE SERVIÇO E U",
+      "fonte": "Loft",
+      "url": "https://loft.com.br/imovel/cs0qqdib?tipoTransacao=venda",
+      "link_direto": true,
+      "anuncio_data": "2026-10-16",
+      "imagem": "https://content.loft.com.br/homes/cs0qqdib/banner_thumbnail.jpg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "loft-cs0qqdib"
+      ],
+      "outras": [],
+      "dist_cofap": 11.4,
+      "estacao": "Oratório",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-10-20"
     },
     {
       "id": "quinto-895663077",
@@ -5154,7 +6461,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895663077-640.4019719713207RAY8811.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895663077"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895479626",
@@ -5173,10 +6485,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895479626-112.389398130953054IMG6029.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895479626",
+        "quinto-895479626",
+        "quinto-895479626"
+      ],
+      "outras": [],
       "dist_cofap": 12.2,
       "estacao": "Sacomã",
       "dist_estacao": 0.6,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895359693",
@@ -5195,10 +6514,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895359693-723.239457310857801Sala3.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895359693"
+      ],
+      "outras": [],
       "dist_cofap": 17.6,
       "estacao": "Comendador Ermelino",
       "dist_estacao": 2.9,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893720713",
@@ -5217,10 +6541,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893720713-329.341157720374IMG6835.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893720713"
+      ],
+      "outras": [],
       "dist_cofap": 17.6,
       "estacao": "Comendador Ermelino",
       "dist_estacao": 2.9,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-893484576",
@@ -5239,10 +6568,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/893484576-371.8786194618143IMG3688.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-893484576"
+      ],
+      "outras": [],
       "dist_cofap": 17.6,
       "estacao": "Comendador Ermelino",
       "dist_estacao": 2.9,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895302078",
@@ -5261,10 +6595,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895302078-603.9861574889651image.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895302078"
+      ],
+      "outras": [],
       "dist_cofap": 10.4,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 4.8,
-      "tipo_estacao": "Metrô"
+      "estacao": "São Caetano do Sul - Prefeito Walter Braido",
+      "dist_estacao": 4.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895755622",
@@ -5283,10 +6622,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895755622-209.83849537084075RAY0736.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895755622"
+      ],
+      "outras": [],
       "dist_cofap": 12.1,
       "estacao": "Rio Grande da Serra",
       "dist_estacao": 2.9,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895102932",
@@ -5305,10 +6649,17 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895102932-372.6150705420362IMG064701.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895102932",
+        "quinto-895102932",
+        "quinto-895102932"
+      ],
+      "outras": [],
       "dist_cofap": 13.6,
       "estacao": "Guaianases",
       "dist_estacao": 1.5,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895773360",
@@ -5327,10 +6678,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895773360-509.57444463730064MG8265.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895773360"
+      ],
+      "outras": [],
       "dist_cofap": 23.2,
       "estacao": "Tucuruvi",
       "dist_estacao": 0.8,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895493376",
@@ -5349,13 +6705,18 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895493376-811.4431116158588IMG0127.JPG",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895493376"
+      ],
+      "outras": [],
       "dist_cofap": 15.5,
       "estacao": "Guaianases",
       "dist_estacao": 0.8,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
-      "id": "zl-4263006",
+      "id": "sp-4263006",
       "cidade": "São Paulo",
       "bairro": "Vila Nhocune",
       "preco": 276000,
@@ -5363,18 +6724,23 @@
       "vagas": 1,
       "area": 45,
       "tipo": "Térrea",
-      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Nhocune, São Paulo, 45 m² por R$ 276.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "ZL Imóvel",
-      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-1vaga-45m2-vila-nhocune-zona-leste-sao-paulo-sp/4263006/",
+      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Nhocune, São Paulo, 45 m² por R$ 276.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-1vaga-45m2-vila-nhocune-sao-paulo-sp/4263006/",
       "link_direto": true,
       "anuncio_data": "2026-07-24",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/4588/Imovel/4263006/E_1-.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4263006"
+      ],
+      "outras": [],
       "dist_cofap": 12.5,
       "estacao": "Artur Alvim",
       "dist_estacao": 1.3,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-10-20"
     },
     {
       "id": "sp-4521321",
@@ -5393,10 +6759,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/737/Imovel/4521321/E_20260918194801_folder-v573.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4521321"
+      ],
+      "outras": [],
       "dist_cofap": 12.5,
       "estacao": "Artur Alvim",
       "dist_estacao": 1.3,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894965030",
@@ -5415,10 +6786,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/894965030-631.4228915607471MG0123.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-894965030"
+      ],
+      "outras": [],
       "dist_cofap": 12.5,
       "estacao": "Artur Alvim",
       "dist_estacao": 1.3,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894327865",
@@ -5436,7 +6812,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894327865-73.22781493081997IMG3573.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894327865"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894966699",
@@ -5454,7 +6835,13 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894966699-4.018073898619967IMG4147.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894966699",
+        "quinto-894966699"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "loft-94s2s0lo",
@@ -5472,7 +6859,13 @@
       "anuncio_data": "2026-10-16",
       "imagem": "https://content.loft.com.br/homes/94s2s0lo/banner_thumbnail.jpg",
       "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro."
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "loft-94s2s0lo",
+        "loft-94s2s0lo"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895510199",
@@ -5491,10 +6884,15 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895510199-228.65749223894105Imagem104.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895510199"
+      ],
+      "outras": [],
       "dist_cofap": 18.1,
       "estacao": "Jardim Helena - Vila Mara",
       "dist_estacao": 1.7,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "zl-4227752",
@@ -5513,10 +6911,15 @@
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/2637/Imovel/4227752/E_1-Foto-01.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "zl-4227752"
+      ],
+      "outras": [],
       "dist_cofap": 14.2,
       "estacao": "Patriarca • Vila Ré",
       "dist_estacao": 0.5,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895602053",
@@ -5535,10 +6938,16 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895602053-603.82060630363180c40c0f9-f4aa-410f-a03c-498afc96e3b2-LEAD3P-8293d25f-53a9-4c84-9f50-c8989d603c88.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895602053",
+        "quinto-895602053"
+      ],
+      "outras": [],
       "dist_cofap": 16.8,
       "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
       "dist_estacao": 1.7,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "chaves-42233315",
@@ -5556,7 +6965,12 @@
       "anuncio_data": "2026-05-05",
       "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/228187/42233315/sp-sao-paulo-vila-santana-rua-cumanaxos-casa-a-venda-2-quartos-69fa33a7-00.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-42233315"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895459553",
@@ -5575,10 +6989,38 @@
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895459553-909.8552749124522IMG0852.jpeg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895459553"
+      ],
+      "outras": [],
       "dist_cofap": 14.9,
       "estacao": "Patriarca • Vila Ré",
       "dist_estacao": 1.2,
-      "tipo_estacao": "Metrô"
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "sp-4536433",
+      "cidade": "São Paulo",
+      "bairro": "Vila São Nicolau",
+      "preco": 220000,
+      "quartos": 4,
+      "vagas": 2,
+      "area": 195,
+      "tipo": "Térrea",
+      "extras": "SP Imóvel | Casa Térrea, 4 Quartos à Venda, Vila São Nicolau, São Paulo, 195 m² por R$ 220.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-4quartos-2vagas-195m2-vila-sao-nicolau-sao-paulo-sp/4536433/",
+      "link_direto": true,
+      "anuncio_data": "2026-10-19",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8561/Imovel/4536433/E_1-anuncioimg.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "sp-4536433"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-10-20"
     },
     {
       "id": "quinto-895633357",
@@ -5596,7 +7038,16 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895633357-908.913672671962e3555392-00c7-4509-b02e-0d0c55218bee-LEAD3P-eb67ba22-6cc2-4369-ab96-c469357ba759.jpeg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895633357"
+      ],
+      "outras": [],
+      "dist_cofap": 6.4,
+      "estacao": "Vila União",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-894599826",
@@ -5614,7 +7065,16 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/894599826-659.8522060160562Foto50.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894599826"
+      ],
+      "outras": [],
+      "dist_cofap": 6.4,
+      "estacao": "Vila União",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2000-01-01"
     },
     {
       "id": "quinto-895196493",
@@ -5632,7 +7092,12 @@
       "anuncio_data": null,
       "imagem": "https://www.quintoandar.com.br/img/800x600/original895196493-818.9775653799388IMG0268.jpg",
       "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno."
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895196493"
+      ],
+      "outras": [],
+      "primeira_vez": "2000-01-01"
     }
   ],
   "descartados": []

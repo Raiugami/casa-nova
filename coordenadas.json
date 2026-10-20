@@ -7,7 +7,7 @@
 -23.67372,
 -46.42893
 ],
-"Jardim Itapark Velho|Mauá": null,
+"Jardim Itapark Velho|Mauá": false,
 "Jardim Luzitano|Mauá": [
 -23.66509,
 -46.41133
@@ -236,17 +236,17 @@
 -23.70413,
 -46.56384
 ],
-"Jardim Cipreste|São Bernardo do Campo": null,
+"Jardim Cipreste|São Bernardo do Campo": false,
 "Jardim Ipe|São Bernardo do Campo": [
 -23.74193,
 -46.57624
 ],
-"Jardim Irene|São Bernardo do Campo": null,
+"Jardim Irene|São Bernardo do Campo": false,
 "Jardim Lavinia|São Bernardo do Campo": [
 -23.72605,
 -46.5606
 ],
-"Jardim Nascimento|São Bernardo do Campo": null,
+"Jardim Nascimento|São Bernardo do Campo": false,
 "Jardim Thelma|São Bernardo do Campo": [
 -23.73559,
 -46.59123
@@ -275,7 +275,7 @@
 -23.719,
 -46.53603
 ],
-"Sítio dos Vianas|São Bernardo do Campo": null,
+"Sítio dos Vianas|São Bernardo do Campo": false,
 "Taboão|São Bernardo do Campo": [
 -23.65708,
 -46.59682
@@ -341,21 +341,21 @@
 -46.50901
 ],
 "Jardim Brasil (zona Norte)|São Paulo": null,
-"Jardim Casa Pintada|São Paulo": null,
-"Jardim Colorado|São Paulo": null,
-"Jardim Galli|São Paulo": null,
+"Jardim Casa Pintada|São Paulo": false,
+"Jardim Colorado|São Paulo": false,
+"Jardim Galli|São Paulo": false,
 "Jardim Helena|São Paulo": [
 -23.47963,
 -46.41968
 ],
-"Jardim Ipanema(zona Leste)|São Paulo": null,
+"Jardim Ipanema(zona Leste)|São Paulo": false,
 "Jardim Iva|São Paulo": [
 -23.67006,
 -46.79905
 ],
-"Jardim Laone|São Paulo": null,
-"Jardim Maringa|São Paulo": null,
-"Jardim Maringá|São Paulo": null,
+"Jardim Laone|São Paulo": false,
+"Jardim Maringa|São Paulo": false,
+"Jardim Maringá|São Paulo": false,
 "Jardim Nice|São Paulo": [
 -23.64302,
 -46.50807
@@ -372,9 +372,12 @@
 -23.63023,
 -46.4575
 ],
-"Jardim Santa Adelia|São Paulo": null,
-"Jardim Sao Carlos (zona Leste)|São Paulo": null,
-"Jardim Sao Joao (Sao Rafael)|São Paulo": null,
+"Jardim Santa Adelia|São Paulo": false,
+"Jardim Sao Carlos (zona Leste)|São Paulo": [
+-23.77306,
+-46.6811
+],
+"Jardim Sao Joao (Sao Rafael)|São Paulo": false,
 "Jardim Sao Nicolau|São Paulo": [
 -23.82762,
 -46.69749
@@ -383,13 +386,22 @@
 -23.62772,
 -46.47976
 ],
-"Jardim São Carlos (zona Leste)|São Paulo": null,
-"Jardim São Francisco (zona Leste)|São Paulo": null,
-"Jardim Tango|São Paulo": null,
-"Jardim Vera Cruz(zona Leste)|São Paulo": null,
-"Jardim Vila Formosa|São Paulo": null,
-"Jardim da Conquista (Zona Leste)|São Paulo": null,
-"José Bonifácio|São Paulo": null,
+"Jardim São Carlos (zona Leste)|São Paulo": [
+-23.55818,
+-46.41406
+],
+"Jardim São Francisco (zona Leste)|São Paulo": false,
+"Jardim Tango|São Paulo": false,
+"Jardim Vera Cruz(zona Leste)|São Paulo": [
+-23.7371,
+-46.77848
+],
+"Jardim Vila Formosa|São Paulo": false,
+"Jardim da Conquista (Zona Leste)|São Paulo": [
+-23.62073,
+-46.44651
+],
+"José Bonifácio|São Paulo": false,
 "Lajeado|São Paulo": [
 -23.53488,
 -46.40889
@@ -398,12 +410,12 @@
 -23.48702,
 -46.60884
 ],
-"Parque Paulistano|São Paulo": null,
+"Parque Paulistano|São Paulo": false,
 "Parque Sao Rafael|São Paulo": [
 -23.3717,
 -46.70186
 ],
-"Parque Savoi City|São Paulo": null,
+"Parque Savoi City|São Paulo": false,
 "Recanto Verde do Sol|São Paulo": [
 -23.61466,
 -46.41914
@@ -428,7 +440,7 @@
 -23.47968,
 -46.60291
 ],
-"Vila Aparecida|São Paulo": null,
+"Vila Aparecida|São Paulo": false,
 "Vila Carmosina|São Paulo": [
 -23.54037,
 -46.45417
@@ -449,7 +461,7 @@
 -23.56688,
 -46.54632
 ],
-"Vila Helena|São Paulo": null,
+"Vila Helena|São Paulo": false,
 "Vila Heliopolis|São Paulo": [
 -23.60261,
 -46.59638
@@ -486,9 +498,9 @@
 -23.54388,
 -46.49672
 ],
-"Vila Norma|São Paulo": null,
-"Vila Primavera|São Paulo": null,
-"Vila Rica|São Paulo": null,
+"Vila Norma|São Paulo": false,
+"Vila Primavera|São Paulo": false,
+"Vila Rica|São Paulo": false,
 "Vila Rosaria|São Paulo": [
 -23.50235,
 -46.43436
@@ -501,12 +513,27 @@
 -23.65168,
 -46.65696
 ],
-"Vila Santana|São Paulo": null,
+"Vila Santana|São Paulo": false,
 "Vila Santo Henrique|São Paulo": [
 -23.52172,
 -46.4965
 ],
-"Vila Uniao (Zona Leste)|São Paulo": null,
-"Vila Uniao (zona Leste)|São Paulo": null,
-"Vila Verde|São Paulo": null
+"Vila Uniao (Zona Leste)|São Paulo": [
+-23.60297,
+-46.51557
+],
+"Vila Uniao (zona Leste)|São Paulo": [
+-23.60297,
+-46.51557
+],
+"Vila Verde|São Paulo": false,
+"Vila Francisco Matarazzo|Santo André": [
+-23.63257,
+-46.51734
+],
+"Aricanduva|São Paulo": [
+-23.57802,
+-46.51145
+],
+"Vila São Nicolau|São Paulo": false
 }
