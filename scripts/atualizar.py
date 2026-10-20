@@ -292,6 +292,72 @@ def recusadas():
     return {i.rsplit("-", 1)[-1] for i in d.get("recusadas", [])}
 
 
+RANK = ["ABC Imóvel", "SP Imóvel", "ZL Imóvel", "QuintoAndar", "Loft", "Chaves na Mão"]
+
+
+def mesma_casa(a, b):
+    """Mesma casa em portais diferentes: mesmo bairro e quartos, preço e metragem quase iguais. Na dúvida, separadas."""
+    if a["cidade"] != b["cidade"] or sem_acento(a["bairro"]) != sem_acento(b["bairro"]) or a["quartos"] != b["quartos"]:
+        return False
+    if abs(a["preco"] - b["preco"]) > 0.01 * max(a["preco"], b["preco"]):
+        return False
+    if a["area"] and b["area"]:
+        return abs(a["area"] - b["area"]) <= 0.03 * max(a["area"], b["area"])
+    return a["preco"] == b["preco"]
+
+
+def junta(itens):
+    """Uma casa por grupo; o anúncio principal é o do portal mais confiável e os demais viram links extras."""
+    grupos = []
+    for i in sorted(itens, key=lambda x: (RANK.index(x["fonte"]) if x["fonte"] in RANK else 99, x["id"])):
+        for g in grupos:
+            if mesma_casa(g, i):
+                g["ids"].append(i["id"])
+                if i["url"] != g["url"] and all(o["url"] != i["url"] for o in g["outras"]):
+                    g["outras"].append({"fonte": i["fonte"], "url": i["url"]})
+                break
+        else:
+            i["ids"], i["outras"] = [i["id"]], []
+            grupos.append(i)
+    return sorted(grupos, key=lambda x: (x["cidade"], x["bairro"], x["preco"]))
+
+
+def marca_novas(unicos):
+    """Define primeira_vez de cada casa e devolve as que entraram hoje (vazio na primeira execução com esta regra)."""
+    hoje = date.today().isoformat()
+    try:
+        antigo = json.load(open(ARQ, encoding="utf-8")).get("imoveis", [])
+    except (OSError, ValueError):
+        antigo = []
+    vistas = {}
+    for a in antigo:
+        for x in a.get("ids") or [a["id"]]:
+            vistas[x] = a.get("primeira_vez") or "2000-01-01"
+    primeira_execucao = not any(a.get("primeira_vez") for a in antigo)
+    novas = []
+    for i in unicos:
+        datas = [vistas[x] for x in i["ids"] if x in vistas]
+        i["primeira_vez"] = min(datas) if datas else hoje
+        if i["primeira_vez"] == hoje and not primeira_execucao:
+            novas.append(i)
+    return [] if primeira_execucao else novas
+
+
+def escreve_aviso(novas):
+    """Texto da issue diária com as casas novas (só as que aparecem na lista principal)."""
+    lista = [i for i in novas if (i.get("vagas") or 0) > 0 or (i.get("vagas") is None and "garagem" in i["url"].lower())]
+    if not lista:
+        return
+    linhas = [f"{len(lista)} casas novas desde a última atualização. Veja todas em https://raiugami.github.io/casa-nova/", ""]
+    for i in sorted(lista, key=lambda x: x["preco"])[:60]:
+        extra = f" · {i['dist_cofap']:.1f} km da Cofap".replace(".", ",") if i.get("dist_cofap") is not None else ""
+        vagas = f"{i['vagas']} vaga(s)" if i.get("vagas") else "com garagem"
+        linhas.append(f"- R$ {i['preco']:,}".replace(",", ".") + f" · {i['bairro']}, {i['cidade']} · {i['quartos']} quartos · {vagas}{extra} · [{i['fonte']}]({i['url']})")
+    if len(lista) > 60:
+        linhas.append(f"- e mais {len(lista) - 60} no site")
+    open("novas.md", "w", encoding="utf-8").write("\n".join(linhas) + "\n")
+
+
 def main():
     todos = {}
     with ThreadPoolExecutor(6) as ex:
@@ -320,16 +386,8 @@ def main():
             itens += achados
         except Exception as e:
             print(nome, "falhou:", e)
-    itens = [i for i in itens if i["id"].rsplit("-", 1)[-1] not in nao]
     itens = [i for i in itens if i.get("vagas") != 0]  # anúncio que diz "0 vagas" não serve
-    # mesma casa em mais de um portal: mantém uma por bairro, preço e área
-    vistos, unicos = set(), []
-    for i in sorted(itens, key=lambda x: (x["cidade"], x["bairro"], x["preco"])):
-        k = (i["cidade"], i["bairro"], i["preco"], i["area"])
-        if k in vistos:
-            continue
-        vistos.add(k)
-        unicos.append(i)
+    unicos = [g for g in junta(itens) if not ({x.rsplit("-", 1)[-1] for x in g["ids"]} & nao)]
     if len(unicos) < 5:
         sys.exit("poucos resultados, mantendo o arquivo anterior")
     if "--teste" in sys.argv:
@@ -348,6 +406,9 @@ def main():
         geo.preencher(unicos)
     except Exception as e:  # sem distâncias o site continua funcionando
         print("geo falhou:", e)
+    novas = marca_novas(unicos)
+    escreve_aviso(novas)
+    print("casas novas hoje:", len(novas))
     saida = {
         "atualizado_em": date.today().isoformat(),
         "fontes_consultadas": sorted({i["fonte"] for i in unicos}),
