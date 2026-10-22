@@ -550,5 +550,25 @@
 -46.52073
 ],
 "Jardim Santo Antonio|São Paulo": false,
-"Parque São Lucas|São Paulo": false
+"Parque São Lucas|São Paulo": false,
+"Cambuci|São Paulo": [
+-23.56591,
+-46.61368
+],
+"Cangaíba|São Paulo": [
+-23.5059,
+-46.53143
+],
+"Jardim Soares|São Paulo": [
+-23.65329,
+-46.79021
+],
+"Jardim São Pedro|São Paulo": [
+-23.72189,
+-46.79721
+],
+"Vila Buenos Aires|São Paulo": [
+-23.50726,
+-46.51462
+]
 }
