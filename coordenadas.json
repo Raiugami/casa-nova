@@ -340,7 +340,10 @@
 -23.56856,
 -46.50901
 ],
-"Jardim Brasil (zona Norte)|São Paulo": null,
+"Jardim Brasil (zona Norte)|São Paulo": [
+-23.48191,
+-46.57645
+],
 "Jardim Casa Pintada|São Paulo": false,
 "Jardim Colorado|São Paulo": false,
 "Jardim Galli|São Paulo": false,
@@ -629,5 +632,30 @@
 "Vila Alvinopolis|São Bernardo do Campo": [
 -23.68424,
 -46.56841
+],
+"Vila Rosa|São Bernardo do Campo": [
+-23.70068,
+-46.5863
+],
+"Vila Santa Luzia|São Bernardo do Campo": [
+-23.66141,
+-46.60443
+],
+"Chácara Belenzinho|São Paulo": [
+-23.56782,
+-46.56749
+],
+"Conjunto Habitacional Marechal Mascarenhas de Morais|São Paulo": false,
+"Jardim Climax|São Paulo": [
+-23.6419,
+-46.60648
+],
+"Jardim Três Marias|São Paulo": [
+-23.61217,
+-46.7877
+],
+"Parque Bristol|São Paulo": [
+-23.64364,
+-46.6083
 ]
 }
