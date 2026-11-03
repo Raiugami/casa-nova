@@ -696,5 +696,30 @@
 ],
 "Cidade Nitro Operária|São Paulo": false,
 "Conjunto Habitacional Barro Branco II|São Paulo": false,
-"Conjunto Habitacional Santa Etelvina II|São Paulo": false
+"Conjunto Habitacional Santa Etelvina II|São Paulo": false,
+"Jardim Estrela|Mauá": [
+-23.67185,
+-46.42738
+],
+"Jardim Cambuí|Santo André": [
+-23.68596,
+-46.53731
+],
+"Jardim da Conquista (zona Leste)|São Paulo": [
+-23.62073,
+-46.44651
+],
+"Santana|São Paulo": [
+-23.49932,
+-46.62893
+],
+"São Lucas|São Paulo": [
+-23.58896,
+-46.54462
+],
+"Vila Iguaçu|São Paulo": false,
+"Vila Mendes|São Paulo": [
+-23.5457,
+-46.61129
+]
 }

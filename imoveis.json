@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-02",
+  "atualizado_em": "2026-11-03",
   "fontes_consultadas": [
     "ABC Imóvel",
     "Chaves na Mão",
@@ -40,6 +40,59 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "chaves-7391144",
+      "cidade": "Mauá",
+      "bairro": "Jardim Estrela",
+      "preco": 350000,
+      "quartos": 3,
+      "vagas": 2,
+      "area": 133,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Ótimo imóvel a venda com 2 casas no quintal.  Casa 1 com 2 comodos, 1 banheiro e lavanderia.  Casa 2 com 2 dormitórios sendo um suíte com sa",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-maua-jardim-estrela-133m2-RS350000/id-7391144/",
+      "link_direto": true,
+      "anuncio_data": "2026-06-19",
+      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/186608/7391144/sp-maua-jardim-estrela-rua-sao-joao-casa-a-venda-1-quarto-62601d5d-1.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-7391144"
+      ],
+      "outras": [],
+      "dist_cofap": 6.8,
+      "estacao": "Guapituba",
+      "dist_estacao": 3.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
+    },
+    {
+      "id": "quinto-895837461",
+      "cidade": "Mauá",
+      "bairro": "Jardim Itapark Velho",
+      "preco": 220000,
+      "quartos": 2,
+      "vagas": 4,
+      "area": 78,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa mobiliada com varanda e dois quartos, disponível para compra.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895837461/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895837461-436.477785981103223IMG9012.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895837461",
+        "quinto-895837461",
+        "quinto-895837461",
+        "quinto-895837461"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-11-03"
+    },
+    {
       "id": "sp-4276280",
       "cidade": "Mauá",
       "bairro": "Jardim Itapark Velho",
@@ -52,7 +105,7 @@
       "fonte": "SP Imóvel",
       "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-3vagas-117m2-jardim-itapark-velho-maua-sao-paulo-sp/4276280/",
       "link_direto": true,
-      "anuncio_data": "2026-11-01",
+      "anuncio_data": "2026-11-02",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/3495/Imovel/4276280/E_1-338eb57dc3a28e07eee2a8cf90c907f4.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -679,6 +732,33 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "chaves-21469705",
+      "cidade": "Santo André",
+      "bairro": "Jardim Cambuí",
+      "preco": 328000,
+      "quartos": 2,
+      "vagas": 2,
+      "area": null,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa a venda/permuta na Jardim Cambuí em Santo André  Estuda permuta por outro imóvel/casa ou apartamento Excelente casa com 2 dormitórios, ",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-jardim-cambui-RS328000/id-21469705/",
+      "link_direto": true,
+      "anuncio_data": "2026-10-11",
+      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/47205/21469705/sp-santo-andre-jardim-cambui-rua-sinai-casa-a-venda-2-quartos-664371e9-00.jpeg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-21469705"
+      ],
+      "outras": [],
+      "dist_cofap": 5.7,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
+    },
+    {
       "id": "quinto-895499448",
       "cidade": "Santo André",
       "bairro": "Jardim Irene",
@@ -700,8 +780,6 @@
         "quinto-895499448",
         "quinto-895499448",
         "quinto-895499448",
-        "quinto-895499448",
-        "quinto-895499448",
         "quinto-895499448"
       ],
       "outras": [],
@@ -712,7 +790,7 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "sp-4343244",
+      "id": "abc-4343395",
       "cidade": "Santo André",
       "bairro": "Jardim Irene",
       "preco": 305000,
@@ -720,23 +798,23 @@
       "vagas": 1,
       "area": 135,
       "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Irene, Santo André, 135 m² por R$ 305.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-135m2-jardim-irene-santo-andre-sao-paulo-sp/4343244/",
+      "extras": "ABC Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Irene, Santo André, 135 m² por R$ 305.000,00. Ref.7593 Confira! Ótima Oportunidade!",
+      "fonte": "ABC Imóvel",
+      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-135m2-jardim-irene-santo-andre-grande-abc-sao-paulo-sp/4343395/",
       "link_direto": true,
-      "anuncio_data": "2026-11-02",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/4377/Imovel/4343244/E_1-A-30.jpg",
+      "anuncio_data": "2026-11-03",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/4373/Imovel/4343395/E_1-A-30.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
-        "sp-4343244"
+        "abc-4343395"
       ],
       "outras": [],
       "dist_cofap": 5.9,
       "estacao": "Guapituba",
       "dist_estacao": 6.2,
       "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-02"
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "loft-i95s9ibq",
@@ -875,6 +953,7 @@
         "quinto-895742070",
         "quinto-895742070",
         "quinto-895742070",
+        "quinto-895742070",
         "quinto-895742070"
       ],
       "outras": [],
@@ -910,33 +989,6 @@
       "dist_estacao": 5.6,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "loft-85qjadqn",
-      "cidade": "Santo André",
-      "bairro": "Jardim Santo André",
-      "preco": 200000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": null,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Excelente oportunidade no Jardim Santo André! Localizado na Rua Dominicano, nº 5, o imóvel dispõe de uma distribuição prática e funcional, c",
-      "fonte": "Loft",
-      "url": "https://loft.com.br/imovel/85qjadqn?tipoTransacao=venda",
-      "link_direto": true,
-      "anuncio_data": "2026-10-29",
-      "imagem": "https://content.loft.com.br/homes/85qjadqn/banner_thumbnail.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "loft-85qjadqn"
-      ],
-      "outras": [],
-      "dist_cofap": 5.7,
-      "estacao": "Guapituba",
-      "dist_estacao": 5.6,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-10-28"
     },
     {
       "id": "loft-cwa6ejew",
@@ -1038,7 +1090,6 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "quinto-895369305",
-        "quinto-895369305",
         "quinto-895369305"
       ],
       "outras": [],
@@ -1095,6 +1146,7 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "quinto-893219701",
+        "quinto-893219701",
         "quinto-893219701"
       ],
       "outras": [],
@@ -1149,6 +1201,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895610886",
         "quinto-895610886",
         "quinto-895610886"
       ],
@@ -1206,6 +1259,8 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "quinto-894976766",
+        "quinto-894976766",
+        "quinto-894976766",
         "quinto-894976766"
       ],
       "outras": [],
@@ -1236,6 +1291,8 @@
         "quinto-895655957",
         "quinto-895655957",
         "quinto-895655957",
+        "quinto-895655957",
+        "quinto-895655957",
         "quinto-895655957"
       ],
       "outras": [],
@@ -1263,6 +1320,8 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895428979",
+        "quinto-895428979",
         "quinto-895428979"
       ],
       "outras": [],
@@ -1290,6 +1349,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895663411",
         "quinto-895663411",
         "quinto-895663411",
         "quinto-895663411"
@@ -1323,6 +1383,8 @@
         "quinto-894098013",
         "quinto-894098013",
         "quinto-894098013",
+        "quinto-894098013",
+        "quinto-895633302",
         "quinto-895633302",
         "quinto-895633302",
         "quinto-895633302",
@@ -1387,6 +1449,7 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "quinto-895499451",
+        "quinto-895499451",
         "quinto-895499451"
       ],
       "outras": [],
@@ -1414,6 +1477,7 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
+        "quinto-895623394",
         "quinto-895623394"
       ],
       "outras": [],
@@ -1495,6 +1559,7 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
+        "quinto-893998184",
         "quinto-893998184"
       ],
       "outras": [],
@@ -1522,6 +1587,7 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
+        "quinto-895229301",
         "quinto-895229301"
       ],
       "outras": [],
@@ -1603,7 +1669,6 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "quinto-895555173",
         "quinto-895555173"
       ],
       "outras": [],
@@ -1612,6 +1677,35 @@
       "dist_estacao": 5.3,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-894754677",
+      "cidade": "Santo André",
+      "bairro": "Utinga",
+      "preco": 349000,
+      "quartos": 3,
+      "vagas": 1,
+      "area": 95,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa em Utinga com 3 quartos e quintal, ideal para comprar e ter animais.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/894754677/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/894754677-219.31800206578222IMG4254.jpeg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-894754677",
+        "quinto-894754677",
+        "quinto-894754677"
+      ],
+      "outras": [],
+      "dist_cofap": 6.3,
+      "estacao": "Utinga",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "quinto-894966375",
@@ -1631,7 +1725,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-894966375",
         "quinto-894966375",
         "quinto-894966375"
       ],
@@ -1688,6 +1781,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895633916",
         "quinto-895633916"
       ],
       "outras": [],
@@ -1701,12 +1795,12 @@
       "id": "quinto-895499450",
       "cidade": "Santo André",
       "bairro": "Vila Curuçá",
-      "preco": 350000,
+      "preco": 335000,
       "quartos": 2,
       "vagas": 1,
-      "area": 52,
+      "area": 56,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "",
+      "extras": "Casa mobiliada com 2 quartos disponível para compra.",
       "fonte": "QuintoAndar",
       "url": "https://www.quintoandar.com.br/imovel/895499450/comprar",
       "link_direto": true,
@@ -1715,7 +1809,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895499450",
         "quinto-895499450"
       ],
       "outras": [],
@@ -1826,8 +1919,6 @@
       "ids": [
         "quinto-894682048",
         "quinto-894682048",
-        "quinto-894682048",
-        "quinto-894682048",
         "quinto-894682048"
       ],
       "outras": [],
@@ -1913,6 +2004,7 @@
       "ids": [
         "quinto-894411796",
         "quinto-894411796",
+        "quinto-894411796",
         "quinto-894411796"
       ],
       "outras": [],
@@ -1969,6 +2061,8 @@
       "ids": [
         "quinto-895528449",
         "quinto-895528449",
+        "quinto-895528449",
+        "quinto-895528449",
         "quinto-895528449"
       ],
       "outras": [],
@@ -1996,7 +2090,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895731875",
         "quinto-895731875",
         "quinto-895731875"
       ],
@@ -2026,7 +2119,6 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "quinto-895359569",
-        "quinto-895359569",
         "quinto-895359569"
       ],
       "outras": [],
@@ -2054,7 +2146,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-893770810",
         "quinto-893770810",
         "quinto-893770810",
         "quinto-893770810"
@@ -2117,7 +2208,6 @@
         "quinto-895570529",
         "quinto-895570529",
         "quinto-895570529",
-        "quinto-895570529",
         "quinto-895570529"
       ],
       "outras": [],
@@ -2126,33 +2216,6 @@
       "dist_estacao": 2.7,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "abc-4348711",
-      "cidade": "Santo André",
-      "bairro": "Vila Palmares",
-      "preco": 300000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 106,
-      "tipo": "Térrea",
-      "extras": "ABC Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Palmares, Santo André, 106 m² por R$ 300.000,00. Ref.131157 Confira! Ótima Oportunidade!",
-      "fonte": "ABC Imóvel",
-      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-1vaga-106m2-vila-palmares-santo-andre-grande-abc-sao-paulo-sp/4348711/",
-      "link_direto": true,
-      "anuncio_data": "2026-07-15",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/4371/Imovel/4348711/E_1-.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "abc-4348711"
-      ],
-      "outras": [],
-      "dist_cofap": 7.0,
-      "estacao": "Prefeito Saladino",
-      "dist_estacao": 2.7,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-02"
     },
     {
       "id": "loft-7lkmrgnl",
@@ -2292,7 +2355,6 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "quinto-895629498",
-        "quinto-895629498",
         "loft-h0hc16jc"
       ],
       "outras": [
@@ -2354,7 +2416,6 @@
       "ids": [
         "quinto-895610891",
         "quinto-895610891",
-        "quinto-895610891",
         "quinto-895610891"
       ],
       "outras": [],
@@ -2382,7 +2443,6 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "quinto-894786722",
         "quinto-894786722",
         "quinto-894786722",
         "quinto-894786722",
@@ -2420,7 +2480,6 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "quinto-895263071",
         "quinto-895263071",
         "quinto-895263071"
       ],
@@ -2480,7 +2539,6 @@
         "quinto-895405337",
         "quinto-895405337",
         "quinto-895405337",
-        "quinto-895405337",
         "quinto-895405337"
       ],
       "outras": [],
@@ -2508,7 +2566,6 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
-        "quinto-895629019",
         "quinto-895629019",
         "quinto-895629019",
         "quinto-895629019",
@@ -2760,6 +2817,7 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "loft-1niysbi",
+        "loft-1niysbi",
         "loft-1niysbi"
       ],
       "outras": [],
@@ -2844,7 +2902,6 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "quinto-895367914",
-        "quinto-895367914",
         "quinto-895367914"
       ],
       "outras": [],
@@ -2855,31 +2912,31 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "quinto-894673131",
+      "id": "loft-1y2y7xt",
       "cidade": "São Bernardo do Campo",
-      "bairro": "Conjunto Habitacional Calux",
-      "preco": 324000,
-      "quartos": 2,
+      "bairro": "Demarchi",
+      "preco": 280000,
+      "quartos": 4,
       "vagas": 1,
-      "area": 150,
+      "area": 125,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "Comprar casa no Conjunto Habitacional Calux: 2 quartos, varanda, aceita pets.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/894673131/comprar",
+      "extras": "Casa à venda localizado na São Geraldo, no bairro Montanhão da cidade São Bernardo do Campo. Este imóvel conta com área construída de 125m²,",
+      "fonte": "Loft",
+      "url": "https://loft.com.br/imovel/1y2y7xt?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/894673131-935.605886602521801Sala1.jpg",
+      "anuncio_data": "2026-02-04",
+      "imagem": "https://content.loft.com.br/homes/1y2y7xt/banner_thumbnail.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-894673131"
+        "loft-1y2y7xt"
       ],
       "outras": [],
-      "dist_cofap": 9.0,
+      "dist_cofap": 11.3,
       "estacao": "Estação Santo André-Prefeito Celso Daniel",
-      "dist_estacao": 6.6,
+      "dist_estacao": 10.1,
       "tipo_estacao": "Trem",
-      "primeira_vez": "2000-01-01"
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "quinto-895802922",
@@ -2927,7 +2984,6 @@
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
         "quinto-895298013",
-        "quinto-895298013",
         "quinto-895298013"
       ],
       "outras": [],
@@ -2961,33 +3017,6 @@
       "dist_cofap": 11.0,
       "estacao": "Estação Santo André-Prefeito Celso Daniel",
       "dist_estacao": 9.8,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "quinto-895334095",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Jardim Calux",
-      "preco": 320000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 150,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa com 2 quartos para comprar. Oportunidades únicas para comprar sua casa.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895334095/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895334095-292.70961336578483paulomachado001.JPG",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895334095"
-      ],
-      "outras": [],
-      "dist_cofap": 9.1,
-      "estacao": "Estação Santo André-Prefeito Celso Daniel",
-      "dist_estacao": 6.8,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
     },
@@ -3083,6 +3112,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895292685",
         "quinto-895292685"
       ],
       "outras": [],
@@ -3263,7 +3293,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/jyhbpa28?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-02",
+      "anuncio_data": "2026-11-03",
       "imagem": "https://content.loft.com.br/homes/jyhbpa28/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -3418,33 +3448,6 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "quinto-895780080",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Nova Baeta",
-      "preco": 352000,
-      "quartos": 4,
-      "vagas": 1,
-      "area": 131,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895780080/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895780080-469.92901499257454b24801bf-cae7-4892-a249-f68625d353d2-LEAD3P-f5128932-96a7-4cb1-b15e-65b148199429.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895780080"
-      ],
-      "outras": [],
-      "dist_cofap": 7.0,
-      "estacao": "Estação Santo André-Prefeito Celso Daniel",
-      "dist_estacao": 6.0,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-10-27"
-    },
-    {
       "id": "quinto-895599077",
       "cidade": "São Bernardo do Campo",
       "bairro": "Parque das Árvores",
@@ -3571,7 +3574,6 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "quinto-895784750",
-        "quinto-895784750",
         "quinto-895784750"
       ],
       "outras": [],
@@ -3599,7 +3601,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895699281",
         "quinto-895699281",
         "quinto-895699281"
       ],
@@ -3665,60 +3666,6 @@
       "dist_estacao": 6.4,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "quinto-895168754",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Vila Santa Luzia",
-      "preco": 340000,
-      "quartos": 5,
-      "vagas": 2,
-      "area": 173,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa mobiliada na Vila Santa Luzia, 5 quartos, ideal para comprar e ter animais.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895168754/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895168754-392.5007886917736908f003d-b268-4ccd-af1c-b62ec3fdb712-LEAD3P-5e31cb57-e917-4856-8e6e-dc9322dee469.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895168754"
-      ],
-      "outras": [],
-      "dist_cofap": 11.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 4.1,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-02"
-    },
-    {
-      "id": "quinto-895589746",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Vila Santa Luzia",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 125,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895589746/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895589746-610.3800171411692dba88cc7-d6ca-4481-be0b-d4f9427cadbc-LEAD3P-13f6da1d-44cb-42cb-9db1-610e8303210c.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895589746"
-      ],
-      "outras": [],
-      "dist_cofap": 11.5,
-      "estacao": "Jabaquara - Comitê Paralímpico Brasileiro",
-      "dist_estacao": 4.1,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-02"
     },
     {
       "id": "quinto-895720092",
@@ -4060,8 +4007,8 @@
       "fonte": "SP Imóvel",
       "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-2vagas-125m2-cidade-tiradentes-sao-paulo-sp/4503050/",
       "link_direto": true,
-      "anuncio_data": "2026-11-02",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8871/Imovel/4503050/E_20260818163248_whatsapp-image-2026-08-18-at-13.30.10-3.jpg",
+      "anuncio_data": "2026-11-03",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8871/Imovel/4503050/E_20260818163246_whatsapp-image-2026-08-18-at-13.30.10-4.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
@@ -4135,33 +4082,6 @@
       "dist_estacao": 3.2,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "chaves-9724926",
-      "cidade": "São Paulo",
-      "bairro": "Cidade Tiradentes",
-      "preco": 300000,
-      "quartos": 5,
-      "vagas": 3,
-      "area": 123,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Comprar Casa na Rua são clodoaldo, 9, Cidade Tiradentes em São Paulo por R$ 300000 com 5 quartos, 3 garagens e com 123m². Falar com MARTINS ",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-5-quartos-com-garagem-sp-sao-paulo-cidade-tiradentes-123m2-RS300000/id-9724926/",
-      "link_direto": true,
-      "anuncio_data": "2026-05-29",
-      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/212774/9724926/sp-sao-paulo-cidade-tiradentes-rua-sao-clodoaldo-casa-a-venda-5-quartos-635b6a4a-1.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-9724926"
-      ],
-      "outras": [],
-      "dist_cofap": 12.8,
-      "estacao": "Antonio Gianetti Neto",
-      "dist_estacao": 3.2,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-10-31"
     },
     {
       "id": "chaves-9145662",
@@ -4293,33 +4213,6 @@
       "primeira_vez": "2026-11-01"
     },
     {
-      "id": "quinto-895446064",
-      "cidade": "São Paulo",
-      "bairro": "Conjunto Residencial José Bonifácio",
-      "preco": 200000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 44,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Compra casa no Conjunto Residencial José Bonifácio com 2 dormitórios.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895446064/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895446064-854.7610952517746IMG20260513145752.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895446064"
-      ],
-      "outras": [],
-      "dist_cofap": 13.6,
-      "estacao": "José Bonifácio",
-      "dist_estacao": 0.8,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-02"
-    },
-    {
       "id": "quinto-895633404",
       "cidade": "São Paulo",
       "bairro": "Fazenda da Juta",
@@ -4337,6 +4230,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895633404",
         "quinto-895633404"
       ],
       "outras": [],
@@ -4359,7 +4253,7 @@
       "fonte": "SP Imóvel",
       "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-2vagas-80m2-furnas-sao-paulo-sp/4372447/",
       "link_direto": true,
-      "anuncio_data": "2026-11-02",
+      "anuncio_data": "2026-11-03",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/4/Interno/58/Imovel/4372447/E_1-19233_i9Ki3Z_1923369a7287149630.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
@@ -4455,6 +4349,33 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "sp-4487204",
+      "cidade": "São Paulo",
+      "bairro": "Guaianases",
+      "preco": 299000,
+      "quartos": 3,
+      "vagas": 1,
+      "area": 90,
+      "tipo": "Térrea",
+      "extras": "SP Imóvel | Casa Térrea, 3 Quartos à Venda, Guaianases, São Paulo, 90 m² por R$ 299.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-3quartos-1vaga-90m2-guaianases-sao-paulo-sp/4487204/",
+      "link_direto": true,
+      "anuncio_data": "2026-11-02",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10494/Imovel/4487204/E_1-2a8af07ded5db1d0dd05862811626a1e.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "sp-4487204"
+      ],
+      "outras": [],
+      "dist_cofap": 14.4,
+      "estacao": "Guaianases",
+      "dist_estacao": 1.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
+    },
+    {
       "id": "chaves-11885468",
       "cidade": "São Paulo",
       "bairro": "Guaianases",
@@ -4537,33 +4458,6 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "sp-4539519",
-      "cidade": "São Paulo",
-      "bairro": "Itaquera",
-      "preco": 320000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 65,
-      "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Itaquera, São Paulo, 65 m² por R$ 320.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-65m2-itaquera-sao-paulo-sp/4539519/",
-      "link_direto": true,
-      "anuncio_data": "2026-11-01",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/3895/Imovel/4539519/E_1-b294930baf136b02c23de4bf4f22afa3.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "sp-4539519"
-      ],
-      "outras": [],
-      "dist_cofap": 12.8,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-01"
-    },
-    {
       "id": "chaves-11501881",
       "cidade": "São Paulo",
       "bairro": "Itaquera",
@@ -4617,6 +4511,33 @@
       "dist_estacao": 0.0,
       "tipo_estacao": "Metrô",
       "primeira_vez": "2026-10-20"
+    },
+    {
+      "id": "chaves-9530335",
+      "cidade": "São Paulo",
+      "bairro": "Itaquera",
+      "preco": 350000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 123,
+      "tipo": "Térrea",
+      "extras": "Casa térrea, rustica, com 123² de área total, casa da frente com 01 dormitório, sala, cozinha, wc, na casa dos fundos quarto cozinha, wc, ár",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-123m2-RS350000/id-9530335/",
+      "link_direto": true,
+      "anuncio_data": "2026-07-02",
+      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/218303/9530335/sp-sao-paulo-itaquera-rua-professor-brito-machado-casa-a-venda-2-quartos-660cc599-1.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-9530335"
+      ],
+      "outras": [],
+      "dist_cofap": 12.8,
+      "estacao": "Corinthians-Itaquera",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "quinto-893803652",
@@ -4681,11 +4602,11 @@
       "vagas": 3,
       "area": 121,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "Imóvel com 3 casas sendo:\n- Casa 1: dois quartos, sala, cozinha, banheiro.\n- Casa 2: um quarto, sala, cozinha, banheiro.\n- Casa 3: um quarto",
+      "extras": "Imóvel com 3 casas sendo:\n- Casa 1 : dois quartos, sala, cozinha, banheiro.\n- Casa 2 : um quarto, sala, cozinha, banheiro.\n- Casa 3 : um qua",
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/b18x16f7?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-02",
+      "anuncio_data": "2026-11-03",
       "imagem": "https://content.loft.com.br/homes/b18x16f7/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -5188,33 +5109,6 @@
       "primeira_vez": "2026-10-21"
     },
     {
-      "id": "quinto-894625672",
-      "cidade": "São Paulo",
-      "bairro": "Jardim Sao Carlos (zona Leste)",
-      "preco": 320000,
-      "quartos": 3,
-      "vagas": 2,
-      "area": 130,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/894625672/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/894625672-333.2862771397638semttulo107de226.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-894625672"
-      ],
-      "outras": [],
-      "dist_cofap": 23.3,
-      "estacao": "Varginha",
-      "dist_estacao": 3.2,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-02"
-    },
-    {
       "id": "quinto-894523464",
       "cidade": "São Paulo",
       "bairro": "Jardim Sao Carlos (zona Leste)",
@@ -5319,7 +5213,7 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "sp-4365900",
+      "id": "zl-4365900",
       "cidade": "São Paulo",
       "bairro": "Jardim Soares",
       "preco": 228800,
@@ -5327,23 +5221,23 @@
       "vagas": null,
       "area": 33,
       "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Soares, São Paulo, 33 m² por R$ 228.800,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-2quartos-33m2-jardim-soares-sao-paulo-sp/4365900/",
+      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Soares, São Paulo, 33 m² por R$ 228.800,00. Confira! Ótima Oportunidade!",
+      "fonte": "ZL Imóvel",
+      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-2quartos-33m2-jardim-soares-zona-leste-sao-paulo-sp/4365900/",
       "link_direto": true,
       "anuncio_data": "2026-10-26",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8774/Imovel/4365900/E_1-20260502T1504200300-114899146.jpg",
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "sp-4365900"
+        "zl-4365900"
       ],
       "outras": [],
       "dist_cofap": 30.4,
       "estacao": "Estação de Metrô Capão Redondo",
       "dist_estacao": 2.3,
       "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-01"
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "quinto-895803505",
@@ -5363,7 +5257,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895803505",
         "quinto-895803505",
         "quinto-895803505"
       ],
@@ -5424,33 +5317,6 @@
       ],
       "outras": [],
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "sp-4326215",
-      "cidade": "São Paulo",
-      "bairro": "Jardim São Pedro",
-      "preco": 250000,
-      "quartos": 3,
-      "vagas": 2,
-      "area": 100,
-      "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 3 Quartos à Venda, Jardim São Pedro, São Paulo, 100 m² por R$ 250.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-3quartos-2vagas-100m2-jardim-sao-pedro-sao-paulo-sp/4326215/",
-      "link_direto": true,
-      "anuncio_data": "2026-01-15",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/2128/Imovel/4326215/E_20260115134432_69c8af2df3ca4059153a6fbefcf71007.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "sp-4326215"
-      ],
-      "outras": [],
-      "dist_cofap": 31.9,
-      "estacao": "Estação de Metrô Capão Redondo",
-      "dist_estacao": 7.0,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-02"
     },
     {
       "id": "quinto-895329616",
@@ -5535,30 +5401,6 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "quinto-894779628",
-      "cidade": "São Paulo",
-      "bairro": "Jardim Vila Formosa",
-      "preco": 350000,
-      "quartos": 4,
-      "vagas": 1,
-      "area": 200,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/894779628/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/894779628-667.4420430880326IMG4902.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-894779628",
-        "quinto-894779628"
-      ],
-      "outras": [],
-      "primeira_vez": "2000-01-01"
-    },
-    {
       "id": "quinto-894931166",
       "cidade": "São Paulo",
       "bairro": "Jardim Vila Formosa",
@@ -5609,6 +5451,34 @@
       "dist_estacao": 3.3,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-895831231",
+      "cidade": "São Paulo",
+      "bairro": "Jardim da Conquista (zona Leste)",
+      "preco": 295000,
+      "quartos": 3,
+      "vagas": 1,
+      "area": 90,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa com 3 quartos à venda e permissão para animais de estimação.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895831231/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895831231-713.9429142408297IMG8838.JPG",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895831231",
+        "quinto-895831231"
+      ],
+      "outras": [],
+      "dist_cofap": 6.1,
+      "estacao": "São Mateus",
+      "dist_estacao": 3.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "loft-k1e34usc",
@@ -5871,29 +5741,6 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "zl-4547380",
-      "cidade": "São Paulo",
-      "bairro": "Parque São Lucas",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": null,
-      "tipo": "Térrea",
-      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Parque São Lucas, São Paulo,  por R$ 350.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "ZL Imóvel",
-      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-parque-sao-lucas-zona-leste-sao-paulo-sp/4547380/",
-      "link_direto": true,
-      "anuncio_data": "2026-10-20",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/6133/Imovel/4547380/E_1-.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "zl-4547380"
-      ],
-      "outras": [],
-      "primeira_vez": "2026-11-02"
-    },
-    {
       "id": "quinto-895728563",
       "cidade": "São Paulo",
       "bairro": "Recanto Verde do Sol",
@@ -5911,7 +5758,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895728563",
         "quinto-895728563",
         "quinto-895728563"
       ],
@@ -5975,6 +5821,60 @@
       "dist_estacao": 0.0,
       "tipo_estacao": "Metrô",
       "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-894823429",
+      "cidade": "São Paulo",
+      "bairro": "Santana",
+      "preco": 330000,
+      "quartos": 2,
+      "vagas": 2,
+      "area": 150,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Comprar casa em Santana com 2 quartos e quintal. Ideal para animais de estimação.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/894823429/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/894823429-743.0312757956438IMG4015.jpg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-894823429"
+      ],
+      "outras": [],
+      "dist_cofap": 22.3,
+      "estacao": "Santana",
+      "dist_estacao": 0.5,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-03"
+    },
+    {
+      "id": "zl-4161154",
+      "cidade": "São Paulo",
+      "bairro": "Sapopemba",
+      "preco": 290000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 80,
+      "tipo": "Térrea",
+      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Sapopemba, São Paulo, 80 m² por R$ 290.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "ZL Imóvel",
+      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-1vaga-80m2-sapopemba-zona-leste-sao-paulo-sp/4161154/",
+      "link_direto": true,
+      "anuncio_data": "2026-09-14",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/5923/Imovel/4161154/E_1-31825aa00ccd027f136d1e895da1464a.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "zl-4161154"
+      ],
+      "outras": [],
+      "dist_cofap": 6.0,
+      "estacao": "Jardim Planalto",
+      "dist_estacao": 0.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "chaves-20934033",
@@ -6056,6 +5956,34 @@
       "dist_estacao": 0.6,
       "tipo_estacao": "Metrô",
       "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-895633612",
+      "cidade": "São Paulo",
+      "bairro": "São Lucas",
+      "preco": 355000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 72,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895633612/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895633612-914.774400942628596796cd8-a52f-4e15-8876-a2e2465bb942-LEAD3P-92328aef-3915-4b81-91d3-afb17a13ef07.jpeg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895633612",
+        "quinto-895633612"
+      ],
+      "outras": [],
+      "dist_cofap": 9.2,
+      "estacao": "São Lucas",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "quinto-895712788",
@@ -6374,6 +6302,33 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "chaves-16317389",
+      "cidade": "São Paulo",
+      "bairro": "Vila Formosa",
+      "preco": 336000,
+      "quartos": 2,
+      "vagas": 2,
+      "area": null,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Comprar Casa na Vila Formosa em São Paulo por R$ 336000 com 2 quartos, 2 garagens e com 116m². Falar com IMAGINE IMÓVEIS, ref: do imóvel: CA",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-vila-formosa-RS336000/id-16317389/",
+      "link_direto": true,
+      "anuncio_data": "2026-06-03",
+      "imagem": "https://www.chavesnamao.com.br/imn/0640x0400/N/imoveis/39608/16317389/sp-sao-paulo-vila-formosa-rua-gaspar-viana-casa-a-venda-2-quartos-64ea69ed-1.jpg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-16317389"
+      ],
+      "outras": [],
+      "dist_cofap": 11.4,
+      "estacao": "Oratório",
+      "dist_estacao": 2.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
+    },
+    {
       "id": "quinto-895663077",
       "cidade": "São Paulo",
       "bairro": "Vila Helena",
@@ -6424,6 +6379,30 @@
       "dist_estacao": 0.6,
       "tipo_estacao": "Metrô",
       "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-894609606",
+      "cidade": "São Paulo",
+      "bairro": "Vila Iguaçu",
+      "preco": 340000,
+      "quartos": 8,
+      "vagas": 2,
+      "area": 120,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Comprar casa com 8 quartos e varanda.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/894609606/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/894609606-246.83218999914624IMG9332.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894609606",
+        "quinto-894609606"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "chaves-48252797",
@@ -6530,6 +6509,29 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "zl-4556710",
+      "cidade": "São Paulo",
+      "bairro": "Vila Londrina",
+      "preco": 94000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 10,
+      "tipo": "Térrea",
+      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Londrina, São Paulo, 10 m² por R$ 94.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "ZL Imóvel",
+      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-rs94000-2quartos-10m2-vila-londrina-zona-leste-sao-paulo-sp/4556710/",
+      "link_direto": true,
+      "anuncio_data": "2026-11-03",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10422/Imovel/4556710/E_1-.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "zl-4556710"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-11-03"
+    },
+    {
       "id": "quinto-895102932",
       "cidade": "São Paulo",
       "bairro": "Vila Marilena",
@@ -6557,6 +6559,34 @@
       "dist_estacao": 1.5,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "quinto-895548151",
+      "cidade": "São Paulo",
+      "bairro": "Vila Mendes",
+      "preco": 280000,
+      "quartos": 7,
+      "vagas": 2,
+      "area": 300,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895548151/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895548151-366.04175369947734292b600d-111c-4b73-86cf-4fe18623090b-LEAD3P-4dc9e097-a362-4693-a29f-d4d7aae579f3.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895548151",
+        "quinto-895548151"
+      ],
+      "outras": [],
+      "dist_cofap": 17.3,
+      "estacao": "Bresser-Mooca",
+      "dist_estacao": 0.5,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "quinto-895493376",
@@ -6661,6 +6691,33 @@
       ],
       "outras": [],
       "primeira_vez": "2000-01-01"
+    },
+    {
+      "id": "zl-4556697",
+      "cidade": "São Paulo",
+      "bairro": "Vila Pierina",
+      "preco": 84000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 10,
+      "tipo": "Térrea",
+      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Pierina, São Paulo, 10 m² por R$ 84.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "ZL Imóvel",
+      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-rs84000-2quartos-10m2-vila-pierina-zona-leste-sao-paulo-sp/4556697/",
+      "link_direto": true,
+      "anuncio_data": "2026-11-03",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10422/Imovel/4556697/E_1-.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "zl-4556697"
+      ],
+      "outras": [],
+      "dist_cofap": 16.2,
+      "estacao": "Vila Mariana",
+      "dist_estacao": 0.5,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-03"
     },
     {
       "id": "quinto-894966699",
@@ -6787,6 +6844,33 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "quinto-895459553",
+      "cidade": "São Paulo",
+      "bairro": "Vila Santo Henrique",
+      "preco": 300000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 120,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa à venda com 2 quartos. Oportunidades de compra imperdíveis.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895459553/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895459553-909.8552749124522IMG0852.jpeg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895459553"
+      ],
+      "outras": [],
+      "dist_cofap": 14.9,
+      "estacao": "Patriarca • Vila Ré",
+      "dist_estacao": 1.2,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-03"
+    },
+    {
       "id": "quinto-895633357",
       "cidade": "São Paulo",
       "bairro": "Vila Uniao (Zona Leste)",
@@ -6891,31 +6975,31 @@
       "primeira_vez": "2026-10-31"
     },
     {
-      "id": "sp-4556820",
+      "id": "zl-4556693",
       "cidade": "São Paulo",
-      "bairro": "Vila Água Funda",
-      "preco": 344000,
+      "bairro": "Água Rasa",
+      "preco": 111500,
       "quartos": 2,
-      "vagas": null,
-      "area": 62,
+      "vagas": 1,
+      "area": 10,
       "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Água Funda, São Paulo, 62 m² por R$ 344.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-62m2-vila-agua-funda-sao-paulo-sp/4556820/",
+      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Água Rasa, São Paulo, 10 m² por R$ 111.500,00. Confira! Ótima Oportunidade!",
+      "fonte": "ZL Imóvel",
+      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-rs111500-2quartos-1vaga-10m2-agua-rasa-zona-leste-sao-paulo-sp/4556693/",
       "link_direto": true,
-      "anuncio_data": "2026-10-31",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/6/Interno/3646/Imovel/4556820/E_1-.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "anuncio_data": "2026-11-03",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10422/Imovel/4556693/E_1-.jpg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
-        "sp-4556820"
+        "zl-4556693"
       ],
       "outras": [],
-      "dist_cofap": 14.3,
-      "estacao": "São Judas",
-      "dist_estacao": 1.3,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-10-31"
+      "dist_cofap": 13.1,
+      "estacao": "Oratório",
+      "dist_estacao": 2.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-03"
     }
   ],
   "descartados": []
