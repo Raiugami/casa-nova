@@ -779,5 +779,19 @@
 ],
 "Jardim Olinda|Mauá": false,
 "Jardim da Campina|São Paulo": false,
-"Jardim Centenário|São Paulo": false
+"Jardim Centenário|São Paulo": false,
+"Vila Sacadura Cabral|Santo André": [
+-23.65654,
+-46.55685
+],
+"Cohab Mal Mascarenhas de Morais|São Paulo": false,
+"Jardim Santa Terezinha (Parelheiros)|São Paulo": [
+-23.85152,
+-46.69545
+],
+"Parque Santa Madalena|São Paulo": [
+-23.61259,
+-46.51395
+],
+"Vila Industrial|São Paulo": false
 }
