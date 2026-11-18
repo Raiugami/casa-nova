@@ -793,5 +793,458 @@
 -23.61259,
 -46.51395
 ],
-"Vila Industrial|São Paulo": false
+"Vila Industrial|São Paulo": false,
+"Alto da Boa Vista|Mauá": [
+-23.64944,
+-46.449
+],
+"Capuava|Mauá": [
+-23.65823,
+-46.48982
+],
+"Chácara Maria Aparecida|Mauá": [
+-23.65645,
+-46.41893
+],
+"Chácara Maria Francisca|Mauá": [
+-23.65097,
+-46.4186
+],
+"Jardim Aracy|Mauá": [
+-23.68046,
+-46.43665
+],
+"Jardim Araguaia|Mauá": [
+-23.66948,
+-46.48211
+],
+"Jardim Bela Vista|Mauá": [
+-23.67188,
+-46.44099
+],
+"Jardim Campo Verde|Mauá": [
+-23.66769,
+-46.44187
+],
+"Jardim Canadá|Mauá": [
+-23.67037,
+-46.42101
+],
+"Jardim Cruzeiro|Mauá": [
+-23.65566,
+-46.43063
+],
+"Jardim Ipê|Mauá": [
+-23.6534,
+-46.45428
+],
+"Jardim Itapark|Mauá": [
+-23.67901,
+-46.43327
+],
+"Jardim Itapark Novo|Mauá": [
+-23.67895,
+-46.43008
+],
+"Jardim Itapeva|Mauá": [
+-23.67245,
+-46.4139
+],
+"Jardim Maria Eneida|Mauá": [
+-23.66581,
+-46.42365
+],
+"Jardim Oratório|Mauá": [
+-23.65762,
+-46.46378
+],
+"Jardim Rosina|Mauá": [
+-23.66108,
+-46.46276
+],
+"Jardim Santa Lídia|Mauá": [
+-23.67749,
+-46.45117
+],
+"Jardim São Gabriel|Mauá": [
+-23.65744,
+-46.42746
+],
+"Jardim São Jorge do Guapituba|Mauá": [
+-23.7007,
+-46.45352
+],
+"Jardim São José|Mauá": [
+-23.67694,
+-46.4176
+],
+"Jardim São Judas|Mauá": [
+-23.68864,
+-46.45819
+],
+"Jardim Sílvia Maria|Mauá": [
+-23.63432,
+-46.47728
+],
+"Parque Bandeirantes|Mauá": [
+-23.66533,
+-46.42507
+],
+"Parque Boa Esperança|Mauá": [
+-23.66274,
+-46.44551
+],
+"Vila Bocaina|Mauá": [
+-23.67362,
+-46.44539
+],
+"Vila Falchi|Mauá": [
+-23.67934,
+-46.44112
+],
+"Vila Feital|Mauá": [
+-23.65644,
+-46.42193
+],
+"Vila Guarani|Mauá": [
+-23.66626,
+-46.44895
+],
+"Vila Lisboa|Mauá": [
+-23.66277,
+-46.42782
+],
+"Vila Nova Mauá|Mauá": [
+-23.64551,
+-46.4511
+],
+"Vila Real|Mauá": false,
+"Vila Tavares|Mauá": false,
+"Casa Branca|Santo André": [
+-23.6611,
+-46.51954
+],
+"Centro|Santo André": [
+-23.65792,
+-46.52644
+],
+"Cidade Recreio da Borda do Campo|Santo André": false,
+"Condomínio Maracanã|Santo André": [
+-23.69202,
+-46.49591
+],
+"Jardim Aclimação|Santo André": [
+-23.70424,
+-46.51403
+],
+"Jardim Las Vegas|Santo André": [
+-23.69871,
+-46.53038
+],
+"Jardim Stella|Santo André": [
+-23.68217,
+-46.53634
+],
+"Miami Riviera|Santo André": [
+-23.73932,
+-46.49657
+],
+"Parque Andreense|Santo André": [
+-23.75888,
+-46.46072
+],
+"Parque Marajoara|Santo André": [
+-23.66839,
+-46.48995
+],
+"Vila América|Santo André": [
+-23.66774,
+-46.50848
+],
+"Vila Assunção|Santo André": [
+-23.67144,
+-46.52683
+],
+"Vila Bela Vista|Santo André": [
+-23.68381,
+-46.52324
+],
+"Vila Clarice|Santo André": [
+-23.62443,
+-46.51368
+],
+"Vila Eldízia|Santo André": [
+-23.68031,
+-46.52264
+],
+"Vila Linda|Santo André": [
+-23.68719,
+-46.51881
+],
+"Vila Lucinda|Santo André": [
+-23.62688,
+-46.51509
+],
+"Vila Pires|Santo André": [
+-23.67806,
+-46.50976
+],
+"Vila Tibiriçá|Santo André": [
+-23.69005,
+-46.50495
+],
+"Baeta Neves|São Bernardo do Campo": [
+-23.69098,
+-46.54068
+],
+"Centro|São Bernardo do Campo": [
+-23.7097,
+-46.55043
+],
+"Dos Casa|São Bernardo do Campo": [
+-23.74033,
+-46.57305
+],
+"Independência|São Bernardo do Campo": [
+-23.70318,
+-46.58352
+],
+"Jardim Cantareira|São Bernardo do Campo": [
+-23.73314,
+-46.58954
+],
+"Jardim Industrial|São Bernardo do Campo": [
+-23.70874,
+-46.52118
+],
+"Jardim Nossa Senhora de Fátima|São Bernardo do Campo": [
+-23.74273,
+-46.5647
+],
+"Jardim Petroni|São Bernardo do Campo": [
+-23.70404,
+-46.52757
+],
+"Jardim Pinheiros|São Bernardo do Campo": [
+-23.7606,
+-46.59892
+],
+"Jardim Silvina|São Bernardo do Campo": [
+-23.73742,
+-46.53502
+],
+"Nova Petrópolis|São Bernardo do Campo": [
+-23.70807,
+-46.53963
+],
+"Planalto|São Bernardo do Campo": [
+-23.69986,
+-46.56977
+],
+"Rio Grande|São Bernardo do Campo": [
+-23.78925,
+-46.52337
+],
+"Rudge Ramos|São Bernardo do Campo": [
+-23.65908,
+-46.56826
+],
+"Tatetos|São Bernardo do Campo": [
+-23.81547,
+-46.5766
+],
+"Vila Alcântara|São Bernardo do Campo": [
+-23.71937,
+-46.52644
+],
+"Vila São José|São Bernardo do Campo": [
+-23.73259,
+-46.53747
+],
+"Vila Vivaldi|São Bernardo do Campo": [
+-23.66425,
+-46.55798
+],
+"Vila das Valsas|São Bernardo do Campo": [
+-23.75388,
+-46.55587
+],
+"Balneário São Francisco|São Paulo": [
+-23.70486,
+-46.64407
+],
+"Capão Redondo|São Paulo": [
+-23.6719,
+-46.77944
+],
+"Carandiru|São Paulo": [
+-23.50955,
+-46.62498
+],
+"Chácara Gaivotas|São Paulo": [
+-23.73447,
+-46.66507
+],
+"Cidade Dutra|São Paulo": [
+-23.71396,
+-46.69909
+],
+"Cidade Nova América|São Paulo": false,
+"Conjunto Habitacional Brigadeiro Faria Lima|São Paulo": [
+-23.75522,
+-46.68336
+],
+"Conjunto Habitacional Sitio Conceição|São Paulo": false,
+"Conjunto Promorar Sapopemba|São Paulo": false,
+"Conjunto Residencial Prestes Maia|São Paulo": false,
+"Ermelino Matarazzo|São Paulo": [
+-23.49026,
+-46.4824
+],
+"Fazenda Aricanduva|São Paulo": false,
+"Jabaquara|São Paulo": [
+-23.64871,
+-46.64545
+],
+"Jaraguá|São Paulo": [
+-23.44659,
+-46.73618
+],
+"Jardim Arpoador|São Paulo": [
+-23.59498,
+-46.79108
+],
+"Jardim Beatriz (Zona Leste)|São Paulo": false,
+"Jardim Bela Vista (Zona Sul)|São Paulo": [
+-23.66433,
+-46.53652
+],
+"Jardim Brasil (Zona Norte)|São Paulo": [
+-23.48191,
+-46.57645
+],
+"Jardim Campo dos Ferreiros|São Paulo": false,
+"Jardim Donária|São Paulo": false,
+"Jardim Francisco Mendes|São Paulo": false,
+"Jardim Helian|São Paulo": [
+-23.57685,
+-46.45355
+],
+"Jardim Imperial|São Paulo": false,
+"Jardim Leme|São Paulo": [
+-23.63879,
+-46.78959
+],
+"Jardim Maria Sampaio|São Paulo": false,
+"Jardim Modelo|São Paulo": [
+-23.46781,
+-46.57568
+],
+"Jardim Noronha|São Paulo": [
+-23.76969,
+-46.67778
+],
+"Jardim Santo André|São Paulo": false,
+"Jardim São Bento Novo|São Paulo": [
+-23.68457,
+-46.78562
+],
+"Jardim São Gabriel|São Paulo": false,
+"Jardim Vale das Virtudes|São Paulo": false,
+"Jardim das Camélias|São Paulo": false,
+"Jardim das Oliveiras|São Paulo": [
+-23.49079,
+-46.37966
+],
+"Jaçanã|São Paulo": [
+-23.46299,
+-46.58244
+],
+"Mooca|São Paulo": [
+-23.56068,
+-46.59719
+],
+"Parque Doroteia|São Paulo": false,
+"Parque Mandaqui|São Paulo": [
+-23.4664,
+-46.63342
+],
+"Parque Primavera|São Paulo": false,
+"Parque Taipas|São Paulo": [
+-23.42852,
+-46.7137
+],
+"Penha|São Paulo": [
+-23.53349,
+-46.54267
+],
+"Quarta Parada|São Paulo": [
+-23.54667,
+-46.5821
+],
+"Tatuapé|São Paulo": [
+-23.54025,
+-46.57664
+],
+"Vila Aurea|São Paulo": false,
+"Vila Campanela|São Paulo": [
+-23.52814,
+-46.45548
+],
+"Vila Corberi|São Paulo": false,
+"Vila Curuçá|São Paulo": [
+-23.50271,
+-46.42405
+],
+"Vila Domitila|São Paulo": [
+-23.65554,
+-46.64644
+],
+"Vila Isolina Mazzei|São Paulo": [
+-23.49304,
+-46.60382
+],
+"Vila Macedopolis|São Paulo": false,
+"Vila Maria|São Paulo": [
+-23.51318,
+-46.58916
+],
+"Vila Mariana|São Paulo": [
+-23.5837,
+-46.63274
+],
+"Vila Matilde|São Paulo": [
+-23.53618,
+-46.52461
+],
+"Vila Mesquita|São Paulo": false,
+"Vila Nova Curuçá|São Paulo": [
+-23.51712,
+-46.41919
+],
+"Vila Nova Galvão|São Paulo": [
+-23.45502,
+-46.57617
+],
+"Vila Nova Utinga|São Paulo": [
+-23.61654,
+-46.52303
+],
+"Vila Nova York|São Paulo": [
+-23.57725,
+-46.50644
+],
+"Vila Ponte Rasa|São Paulo": [
+-23.508,
+-46.49881
+],
+"Vila Prado|São Paulo": [
+-23.49371,
+-46.67547
+],
+"Vila Rosária|São Paulo": [
+-23.50235,
+-46.43436
+],
+"Vila Siqueira (Zona Norte)|São Paulo": false
 }
