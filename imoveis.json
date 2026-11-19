@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-18",
+  "atualizado_em": "2026-11-19",
   "fontes_consultadas": [
     "ABC Imóvel",
     "Chaves na Mão",
@@ -63,6 +63,33 @@
       "dist_estacao": 2.5,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "chaves-24319660",
+      "cidade": "Mauá",
+      "bairro": "Alto da Boa Vista",
+      "preco": 290000,
+      "quartos": 3,
+      "vagas": null,
+      "area": 449,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-maua-alto-da-boa-vista-449m2-RS290000/id-24319660/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-24319660"
+      ],
+      "outras": [],
+      "dist_cofap": 4.4,
+      "estacao": "Mauá",
+      "dist_estacao": 2.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-44799247",
@@ -136,15 +163,9 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "chaves-47747220",
-        "chaves-48500053"
+        "chaves-47747220"
       ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-maua-alto-da-boa-vista-155m2-RS320000/id-48500053/"
-        }
-      ],
+      "outras": [],
       "dist_cofap": 4.4,
       "estacao": "Mauá",
       "dist_estacao": 2.5,
@@ -170,33 +191,6 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "chaves-47822597"
-      ],
-      "outras": [],
-      "dist_cofap": 4.4,
-      "estacao": "Mauá",
-      "dist_estacao": 2.5,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-48142278",
-      "cidade": "Mauá",
-      "bairro": "Alto da Boa Vista",
-      "preco": 320000,
-      "quartos": 2,
-      "vagas": null,
-      "area": 66,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-maua-alto-da-boa-vista-66m2-RS320000/id-48142278/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "chaves-48142278"
       ],
       "outras": [],
       "dist_cofap": 4.4,
@@ -697,8 +691,6 @@
         "quinto-895781380",
         "quinto-895781380",
         "quinto-895781380",
-        "quinto-895781380",
-        "quinto-895781380",
         "quinto-895781380"
       ],
       "outras": [],
@@ -925,33 +917,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-44346764",
-      "cidade": "Mauá",
-      "bairro": "Jardim Estrela",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": null,
-      "area": 120,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-maua-jardim-estrela-120m2-RS350000/id-44346764/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "chaves-44346764"
-      ],
-      "outras": [],
-      "dist_cofap": 6.8,
-      "estacao": "Guapituba",
-      "dist_estacao": 3.1,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
       "id": "chaves-7391144",
       "cidade": "Mauá",
       "bairro": "Jardim Estrela",
@@ -1122,7 +1087,7 @@
       "fonte": "SP Imóvel",
       "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-3vagas-117m2-jardim-itapark-velho-maua-sao-paulo-sp/4276280/",
       "link_direto": true,
-      "anuncio_data": "2026-11-17",
+      "anuncio_data": "2026-11-18",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/3495/Imovel/4276280/E_1-338eb57dc3a28e07eee2a8cf90c907f4.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -1305,14 +1270,14 @@
       "id": "chaves-40937584",
       "cidade": "Mauá",
       "bairro": "Jardim Itapeva",
-      "preco": 341000,
+      "preco": 320000,
       "quartos": 2,
       "vagas": null,
       "area": 55,
       "tipo": "Casa (confirmar tipo)",
       "extras": "",
       "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-maua-jardim-itapeva-55m2-RS341000/id-40937584/",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-maua-jardim-itapeva-55m2-RS320000/id-40937584/",
       "link_direto": true,
       "anuncio_data": null,
       "imagem": null,
@@ -1606,33 +1571,6 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "chaves-19882624"
-      ],
-      "outras": [],
-      "dist_cofap": 5.7,
-      "estacao": "Mauá",
-      "dist_estacao": 2.4,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-24320264",
-      "cidade": "Mauá",
-      "bairro": "Jardim Mauá",
-      "preco": 350000,
-      "quartos": 3,
-      "vagas": null,
-      "area": 300,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-maua-jardim-maua-300m2-RS350000/id-24320264/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-24320264"
       ],
       "outras": [],
       "dist_cofap": 5.7,
@@ -2469,7 +2407,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/as8cichy?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/as8cichy/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -2869,6 +2807,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-45615097",
+      "cidade": "Mauá",
+      "bairro": "Jardim Zaira",
+      "preco": 250000,
+      "quartos": 4,
+      "vagas": null,
+      "area": 300,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-4-quartos-sp-maua-jardim-zaira-300m2-RS250000/id-45615097/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-45615097"
+      ],
+      "outras": [],
+      "dist_cofap": 6.0,
+      "estacao": "Mauá",
+      "dist_estacao": 3.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-18"
+    },
+    {
       "id": "chaves-44799157",
       "cidade": "Mauá",
       "bairro": "Jardim Zaira",
@@ -2977,33 +2942,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-45615097",
-      "cidade": "Mauá",
-      "bairro": "Jardim Zaira",
-      "preco": 270000,
-      "quartos": 4,
-      "vagas": null,
-      "area": 300,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-4-quartos-sp-maua-jardim-zaira-300m2-RS270000/id-45615097/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-45615097"
-      ],
-      "outras": [],
-      "dist_cofap": 6.0,
-      "estacao": "Mauá",
-      "dist_estacao": 3.6,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
       "id": "chaves-48869053",
       "cidade": "Mauá",
       "bairro": "Jardim Zaira",
@@ -3075,7 +3013,6 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "quinto-895765797",
         "quinto-895765797",
         "quinto-895765797",
         "quinto-895765797",
@@ -4303,6 +4240,35 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "quinto-895832454",
+      "cidade": "Mauá",
+      "bairro": "Rp8 (regiões de Planejamento)",
+      "preco": 250000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 50,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa de 2 quartos para compra.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895832454/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895832454-475.34067387712463IMG4156.jpeg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895832454",
+        "quinto-895832454",
+        "quinto-895832454",
+        "quinto-895832454",
+        "quinto-895832454",
+        "quinto-895832454",
+        "quinto-895832454"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-46526123",
       "cidade": "Mauá",
       "bairro": "Sítio Bela Vista",
@@ -4867,14 +4833,9 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "chaves-47895408",
-        "chaves-47895514",
         "chaves-47896532"
       ],
       "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-maua-vila-nova-maua-175m2-RS298000/id-47895514/"
-        },
         {
           "fonte": "Chaves na Mão",
           "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-maua-vila-nova-maua-175m2-RS298000/id-47896532/"
@@ -5196,11 +5157,11 @@
       "vagas": 2,
       "area": 125,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa à venda na Cidade São Jorge - Santo André/SP.<br><br>02 dormitórios, 1 sala dois ambientes, cozinha, 02 banheiros e 02 vagas de garagem",
+      "extras": "Casa à venda na Cidade São Jorge - Santo André/SP. \n\n02 dormitórios, 1 sala dois ambientes, cozinha, 02 banheiros e 02 vagas de garagem. Pos",
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/bjaxstjf?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/bjaxstjf/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -5537,7 +5498,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/7lkxylxs?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/7lkxylxs/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -5661,7 +5622,7 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "abc-3770267",
+      "id": "sp-3770267",
       "cidade": "Santo André",
       "bairro": "Jardim Cristiane",
       "preco": 360000,
@@ -5669,23 +5630,23 @@
       "vagas": 2,
       "area": 102,
       "tipo": "Térrea",
-      "extras": "ABC Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Cristiane, Santo André, 102 m² por R$ 360.000,00. Ref.CA0752 Confira! Ótima Oportunidade",
-      "fonte": "ABC Imóvel",
-      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-350mil-ate-400mil-2quartos-2vagas-102m2-jardim-cristiane-santo-andre-grande-abc-sao-paulo-sp/3770267/",
+      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Cristiane, Santo André, 102 m² por R$ 360.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-350mil-ate-400mil-2quartos-2vagas-102m2-jardim-cristiane-santo-andre-sao-paulo-sp/3770267/",
       "link_direto": true,
       "anuncio_data": "2026-11-17",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/5597/Imovel/3770267/E_1-FAOdl0NXnrRgGfIJV7dVorEZUXkD4enz.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "abc-3770267"
+        "sp-3770267"
       ],
       "outras": [],
       "dist_cofap": 5.1,
       "estacao": "Estação Santo André-Prefeito Celso Daniel",
       "dist_estacao": 3.8,
       "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-45339101",
@@ -5732,6 +5693,7 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
+        "quinto-895499448",
         "quinto-895499448",
         "quinto-895499448",
         "quinto-895499448",
@@ -5854,10 +5816,25 @@
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
         "sp-4339274",
+        "sp-4342915",
+        "sp-4343067",
+        "sp-4343244",
         "sp-4343395",
         "chaves-38899181"
       ],
       "outras": [
+        {
+          "fonte": "SP Imóvel",
+          "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-135m2-jardim-irene-santo-andre-sao-paulo-sp/4342915/"
+        },
+        {
+          "fonte": "SP Imóvel",
+          "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-135m2-jardim-irene-santo-andre-sao-paulo-sp/4343067/"
+        },
+        {
+          "fonte": "SP Imóvel",
+          "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-135m2-jardim-irene-santo-andre-sao-paulo-sp/4343244/"
+        },
         {
           "fonte": "SP Imóvel",
           "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-135m2-jardim-irene-santo-andre-sao-paulo-sp/4343395/"
@@ -6028,39 +6005,6 @@
       "primeira_vez": "2026-11-17"
     },
     {
-      "id": "loft-xqltigpw",
-      "cidade": "Santo André",
-      "bairro": "Jardim Irene",
-      "preco": 345000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 130,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Código do Imóvel: CM2033398-1. Oportunidade para quem busca o conforto de uma casa térrea em uma das localizações mais estratégicas do Jardi",
-      "fonte": "Loft",
-      "url": "https://loft.com.br/imovel/xqltigpw?tipoTransacao=venda",
-      "link_direto": true,
-      "anuncio_data": "2026-11-17",
-      "imagem": "https://content.loft.com.br/homes/xqltigpw/banner_thumbnail.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "loft-xqltigpw",
-        "chaves-48879413"
-      ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-jardim-irene-130m2-RS345000/id-48879413/"
-        }
-      ],
-      "dist_cofap": 5.9,
-      "estacao": "Guapituba",
-      "dist_estacao": 6.2,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-14"
-    },
-    {
       "id": "quinto-895387314",
       "cidade": "Santo André",
       "bairro": "Jardim Irene",
@@ -6100,7 +6044,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/q3rln8mv?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/q3rln8mv/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
@@ -6193,7 +6137,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/f4vn5ssd?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/f4vn5ssd/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
@@ -6364,6 +6308,33 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "sp-3673148",
+      "cidade": "Santo André",
+      "bairro": "Jardim Santa Cristina",
+      "preco": 300000,
+      "quartos": 2,
+      "vagas": 2,
+      "area": 135,
+      "tipo": "Térrea",
+      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Santa Cristina, Santo André, 135 m² por R$ 300.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-2vagas-135m2-jardim-santa-cristina-santo-andre-sao-paulo-sp/3673148/",
+      "link_direto": true,
+      "anuncio_data": "2026-11-19",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/9216/Imovel/3673148/E_1-anuncioimg.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "sp-3673148"
+      ],
+      "outras": [],
+      "dist_cofap": 5.4,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 5.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-46208886",
       "cidade": "Santo André",
       "bairro": "Jardim Santo Alberto",
@@ -6403,7 +6374,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/nyaopo9h?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-17",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/nyaopo9h/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -6507,11 +6478,11 @@
       "vagas": 1,
       "area": 60,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa térrea na Vila Luzita, Santo André.\n\n2 dormitórios, espaços aconchegantes e bem ventilados. \n1 banheiro, funcional e bem distribuído. \n",
+      "extras": "Casa térrea na Vila Luzita, Santo André. \n\n2 dormitórios, espaços aconchegantes e bem ventilados. \n1 banheiro funcional e bem distribuído. \n",
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/cwa6ejew?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-17",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/cwa6ejew/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -6684,6 +6655,8 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "quinto-895369305",
+        "quinto-895369305",
+        "quinto-895369305",
         "quinto-895369305"
       ],
       "outras": [],
@@ -6727,26 +6700,32 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-48064451",
+      "id": "chaves-45817829",
       "cidade": "Santo André",
       "bairro": "Jardim Santo André",
       "preco": 350000,
       "quartos": 2,
       "vagas": null,
-      "area": 125,
+      "area": null,
       "tipo": "Casa (confirmar tipo)",
       "extras": "",
       "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-jardim-santo-andre-125m2-RS350000/id-48064451/",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-jardim-santo-andre-RS350000/id-45817829/",
       "link_direto": true,
       "anuncio_data": null,
       "imagem": null,
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
+        "chaves-45817829",
         "chaves-48064451"
       ],
-      "outras": [],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-jardim-santo-andre-125m2-RS350000/id-48064451/"
+        }
+      ],
       "dist_cofap": 5.7,
       "estacao": "Guapituba",
       "dist_estacao": 5.6,
@@ -6891,6 +6870,61 @@
       "primeira_vez": "2026-10-30"
     },
     {
+      "id": "quinto-894731715",
+      "cidade": "Santo André",
+      "bairro": "Jardim Utinga",
+      "preco": 335800,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 111,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Comprar casa com 2 quartos e quintal.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/894731715/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/894731715-161.85142595736423GDS5774HDR.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894731715"
+      ],
+      "outras": [],
+      "dist_cofap": 5.1,
+      "estacao": "Vila União",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
+      "id": "quinto-895249238",
+      "cidade": "Santo André",
+      "bairro": "Jardim do Mirante",
+      "preco": 355000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 191,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Venda de casa no Jardim do Mirante com 2 quartos.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895249238/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895249238-715.417988483052920260115141503.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895249238",
+        "quinto-895249238"
+      ],
+      "outras": [],
+      "dist_cofap": 4.2,
+      "estacao": "Mauá",
+      "dist_estacao": 4.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-35910571",
       "cidade": "Santo André",
       "bairro": "Miami Riviera",
@@ -6948,7 +6982,7 @@
       "id": "quinto-895821530",
       "cidade": "Santo André",
       "bairro": "Paraíso",
-      "preco": 360000,
+      "preco": 350000,
       "quartos": 2,
       "vagas": 1,
       "area": 55,
@@ -6964,17 +6998,36 @@
       "ids": [
         "quinto-895821530",
         "quinto-895821530",
-        "quinto-895821530",
-        "quinto-895821530",
-        "quinto-895821530",
+        "quinto-895821530"
+      ],
+      "outras": [],
+      "dist_cofap": 4.8,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 2.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-10-29"
+    },
+    {
+      "id": "chaves-48576675",
+      "cidade": "Santo André",
+      "bairro": "Paraíso",
+      "preco": 360000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 55,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-paraiso-55m2-RS360000/id-48576675/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
         "chaves-48576675"
       ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-paraiso-55m2-RS360000/id-48576675/"
-        }
-      ],
+      "outras": [],
       "dist_cofap": 4.8,
       "estacao": "Estação Santo André-Prefeito Celso Daniel",
       "dist_estacao": 2.5,
@@ -7084,7 +7137,6 @@
         "quinto-895655957",
         "quinto-895655957",
         "quinto-895655957",
-        "quinto-895655957",
         "quinto-895655957"
       ],
       "outras": [],
@@ -7141,7 +7193,6 @@
       "ids": [
         "quinto-895663411",
         "quinto-895663411",
-        "quinto-895663411",
         "quinto-895663411"
       ],
       "outras": [],
@@ -7172,8 +7223,6 @@
         "quinto-894098013",
         "quinto-894098013",
         "quinto-894098013",
-        "quinto-894098013",
-        "quinto-895633302",
         "quinto-895633302",
         "quinto-895633302",
         "quinto-895633302",
@@ -7475,39 +7524,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "quinto-893998184",
-      "cidade": "Santo André",
-      "bairro": "Parque Oratório",
-      "preco": 330000,
-      "quartos": 3,
-      "vagas": 1,
-      "area": 100,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Comprar casa com 3 quartos.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/893998184/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/893998184-279.08090766867946IMG6531.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "quinto-893998184",
-        "chaves-48583858"
-      ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-parque-oratorio-100m2-RS330000/id-48583858/"
-        }
-      ],
-      "dist_cofap": 3.3,
-      "estacao": "Sapopemba",
-      "dist_estacao": 1.8,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-12"
-    },
-    {
       "id": "chaves-40440122",
       "cidade": "Santo André",
       "bairro": "Parque Oratório",
@@ -7533,6 +7549,33 @@
       "dist_estacao": 1.8,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "chaves-48583858",
+      "cidade": "Santo André",
+      "bairro": "Parque Oratório",
+      "preco": 330000,
+      "quartos": 3,
+      "vagas": null,
+      "area": 100,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-parque-oratorio-100m2-RS330000/id-48583858/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-48583858"
+      ],
+      "outras": [],
+      "dist_cofap": 3.3,
+      "estacao": "Sapopemba",
+      "dist_estacao": 1.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-12"
     },
     {
       "id": "quinto-895229301",
@@ -7587,6 +7630,33 @@
       "dist_estacao": 1.8,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "quinto-895865134",
+      "cidade": "Santo André",
+      "bairro": "Recreio da Borda do Campo",
+      "preco": 340000,
+      "quartos": 2,
+      "vagas": 2,
+      "area": 150,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa com dois quartos, varanda e quintal disponível para compra.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895865134/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895865134-64.157351010715841000288793.jpg",
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "quinto-895865134"
+      ],
+      "outras": [],
+      "dist_cofap": 8.4,
+      "estacao": "Guapituba",
+      "dist_estacao": 5.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "quinto-895371017",
@@ -7827,7 +7897,6 @@
         "quinto-895730041",
         "quinto-895730041",
         "quinto-895730041",
-        "quinto-895730041",
         "quinto-895730041"
       ],
       "outras": [],
@@ -7892,6 +7961,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-48577622",
+      "cidade": "Santo André",
+      "bairro": "Utinga",
+      "preco": 344999,
+      "quartos": 3,
+      "vagas": null,
+      "area": 95,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-utinga-95m2-RS344999/id-48577622/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-48577622"
+      ],
+      "outras": [],
+      "dist_cofap": 6.3,
+      "estacao": "Utinga",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-18"
+    },
+    {
       "id": "chaves-33045195",
       "cidade": "Santo André",
       "bairro": "Utinga",
@@ -7909,15 +8005,9 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
-        "chaves-33045195",
-        "chaves-48577622"
+        "chaves-33045195"
       ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-utinga-95m2-RS349000/id-48577622/"
-        }
-      ],
+      "outras": [],
       "dist_cofap": 6.3,
       "estacao": "Utinga",
       "dist_estacao": 0.0,
@@ -8276,6 +8366,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "quinto-895338790",
+      "cidade": "Santo André",
+      "bairro": "Vila Bela Vista",
+      "preco": 353000,
+      "quartos": 4,
+      "vagas": 2,
+      "area": 161,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa com 4 quartos disponível para compra.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895338790/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895338790-649.5361115599244DSC2794.JPG",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895338790"
+      ],
+      "outras": [],
+      "dist_cofap": 4.4,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-48578395",
       "cidade": "Santo André",
       "bairro": "Vila Clarice",
@@ -8303,34 +8420,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "quinto-895499450",
-      "cidade": "Santo André",
-      "bairro": "Vila Curuçá",
-      "preco": 335000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 56,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa mobiliada com 2 quartos disponível para compra.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895499450/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895499450-257.60416726607346ae0e528-23eb-4047-a821-14c36cccbd1e-LEAD3P-bfe9af66-f5cb-4818-b14f-b9bf83332b22.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895499450",
-        "quinto-895499450"
-      ],
-      "outras": [],
-      "dist_cofap": 2.8,
-      "estacao": "Prefeito Celso Daniel - Santo André",
-      "dist_estacao": 1.5,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2000-01-01"
-    },
-    {
       "id": "quinto-895499467",
       "cidade": "Santo André",
       "bairro": "Vila Eldizia",
@@ -8348,6 +8437,7 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
+        "quinto-895499467",
         "quinto-895499467"
       ],
       "outras": [],
@@ -8565,7 +8655,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/2o6q48rd?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/2o6q48rd/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
@@ -9015,11 +9105,11 @@
       "vagas": 4,
       "area": 114,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa à venda - Vila Humaitá - Santo André/SP.<br><br>Casa com 02 dormitórios, sala, cozinha, lavanderia, lavabo, 04 vagas de garagem, com um",
+      "extras": "Casa à venda - Vila Humaitá - Santo André.<br><br>Casa com 02 dormitórios, sala, cozinha, lavanderia, lavabo, 04 vagas de garagem, com um sa",
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/0v48y32o?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/0v48y32o/banner_thumbnail.jpg",
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
@@ -9241,6 +9331,7 @@
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
         "quinto-895731875",
+        "quinto-895731875",
         "quinto-895731875"
       ],
       "outras": [],
@@ -9276,6 +9367,35 @@
       "dist_estacao": 4.6,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "quinto-894716530",
+      "cidade": "Santo André",
+      "bairro": "Vila Junqueira",
+      "preco": 355000,
+      "quartos": 3,
+      "vagas": 2,
+      "area": 150,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa à venda com varanda, quintal e 3 quartos.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/894716530/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/894716530-340.6011952892983520241218145441.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894716530",
+        "quinto-894716530",
+        "quinto-894716530"
+      ],
+      "outras": [],
+      "dist_cofap": 4.3,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 4.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-30088891",
@@ -9349,6 +9469,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-893770810",
         "quinto-893770810",
         "quinto-893770810",
         "quinto-893770810"
@@ -9553,14 +9674,14 @@
       "id": "chaves-16967174",
       "cidade": "Santo André",
       "bairro": "Vila Palmares",
-      "preco": 250000,
+      "preco": 250050,
       "quartos": 4,
       "vagas": null,
       "area": 185,
       "tipo": "Casa (confirmar tipo)",
       "extras": "",
       "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-4-quartos-sp-santo-andre-vila-palmares-185m2-RS250000/id-16967174/",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-4-quartos-sp-santo-andre-vila-palmares-185m2-RS250050/id-16967174/",
       "link_direto": true,
       "anuncio_data": null,
       "imagem": null,
@@ -9611,6 +9732,59 @@
       "primeira_vez": "2000-01-01"
     },
     {
+      "id": "abc-4348711",
+      "cidade": "Santo André",
+      "bairro": "Vila Palmares",
+      "preco": 300000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 106,
+      "tipo": "Térrea",
+      "extras": "ABC Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Palmares, Santo André, 106 m² por R$ 300.000,00. Ref.131157 Confira! Ótima Oportunidade!",
+      "fonte": "ABC Imóvel",
+      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-1vaga-106m2-vila-palmares-santo-andre-grande-abc-sao-paulo-sp/4348711/",
+      "link_direto": true,
+      "anuncio_data": "2026-07-15",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/4371/Imovel/4348711/E_1-.jpg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "abc-4348711",
+        "chaves-38970129",
+        "chaves-38970149",
+        "chaves-38970164",
+        "chaves-38970179",
+        "chaves-38970196"
+      ],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970129/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970149/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970164/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970179/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970196/"
+        }
+      ],
+      "dist_cofap": 7.0,
+      "estacao": "Prefeito Saladino",
+      "dist_estacao": 2.7,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-18"
+    },
+    {
       "id": "chaves-37472102",
       "cidade": "Santo André",
       "bairro": "Vila Palmares",
@@ -9638,80 +9812,26 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-38970129",
+      "id": "chaves-29708139",
       "cidade": "Santo André",
       "bairro": "Vila Palmares",
-      "preco": 300000,
-      "quartos": 2,
+      "preco": 310000,
+      "quartos": 3,
       "vagas": null,
-      "area": 106,
+      "area": 200,
       "tipo": "Casa (confirmar tipo)",
       "extras": "",
       "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970129/",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-vila-palmares-200m2-RS310000/id-29708139/",
       "link_direto": true,
       "anuncio_data": null,
       "imagem": null,
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
-        "chaves-38970129",
-        "chaves-38970149",
-        "chaves-38970164",
-        "chaves-38970179",
-        "chaves-38970196"
-      ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970149/"
-        },
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970164/"
-        },
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970179/"
-        },
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-santo-andre-vila-palmares-106m2-RS300000/id-38970196/"
-        }
-      ],
-      "dist_cofap": 7.0,
-      "estacao": "Prefeito Saladino",
-      "dist_estacao": 2.7,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "abc-4257488",
-      "cidade": "Santo André",
-      "bairro": "Vila Palmares",
-      "preco": 310000,
-      "quartos": 3,
-      "vagas": 1,
-      "area": 200,
-      "tipo": "Térrea",
-      "extras": "ABC Imóvel | Casa Térrea, 3 Quartos à Venda, Vila Palmares, Santo André, 200 m² por R$ 310.000,00. Ref.CA0027_KAY Confira! Ótima Oportunidad",
-      "fonte": "ABC Imóvel",
-      "url": "https://www.abcimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-3quartos-1vaga-200m2-vila-palmares-santo-andre-grande-abc-sao-paulo-sp/4257488/",
-      "link_direto": true,
-      "anuncio_data": "2026-10-19",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/1/Interno/1301/Imovel/4257488/E_1-5ERTOf4O0nOULOvI3-ggd7cLILbj63DPLP3-iNfdIS46F23-XAiSecxZ5RB6UaFU7WXtyB1lLyGzaQeDOP8p4bo7-07e40bea.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "abc-4257488",
         "chaves-29708139"
       ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-vila-palmares-200m2-RS310000/id-29708139/"
-        }
-      ],
+      "outras": [],
       "dist_cofap": 7.0,
       "estacao": "Prefeito Saladino",
       "dist_estacao": 2.7,
@@ -9990,6 +10110,36 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "quinto-895795013",
+      "cidade": "Santo André",
+      "bairro": "Vila Príncipe de Gales",
+      "preco": 310500,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 47,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895795013/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895795013-174.07721851395698a78b7890-5513-4ff1-a951-6d06df10c238-LEAD3P-f5f96c5c-f4e1-4bc6-90eb-8249e5a73ada.jpeg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895795013",
+        "quinto-895795013",
+        "quinto-895795013",
+        "quinto-895795013"
+      ],
+      "outras": [],
+      "dist_cofap": 6.1,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 2.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-18997691",
       "cidade": "Santo André",
       "bairro": "Vila Sacadura Cabral",
@@ -10197,6 +10347,7 @@
         "quinto-895629498",
         "quinto-895629498",
         "quinto-895629498",
+        "quinto-895629498",
         "loft-h0hc16jc",
         "chaves-42289882",
         "chaves-43089408"
@@ -10230,11 +10381,11 @@
       "vagas": 2,
       "area": 125,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa Térrea 125 m² | 3 Dormitórios | 2 Vagas | Vila Suíça - Santo André/SP | Valor abaixo de mercado!<br><br>Ótima localização próximo a Av.",
+      "extras": "Casa Térrea 125 m² | 3 Dormitórios | 2 Vagas | Vila Suíça - Santo André/SP | Valor abaixo de mercado!\n\nÓtima localização próximo a Av. Dom P",
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/0au1yiw6?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-16",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/0au1yiw6/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -10360,6 +10511,7 @@
       "ids": [
         "quinto-895610891",
         "quinto-895610891",
+        "quinto-895610891",
         "quinto-895610891"
       ],
       "outras": [],
@@ -10418,6 +10570,7 @@
         "quinto-894786722",
         "quinto-894786722",
         "quinto-894786722",
+        "quinto-894786722",
         "loft-h87wuzp2",
         "loft-h87wuzp2",
         "chaves-45916122"
@@ -10456,6 +10609,7 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
+        "quinto-895263071",
         "quinto-895263071",
         "quinto-895263071",
         "quinto-895263071",
@@ -10663,33 +10817,6 @@
       "primeira_vez": "2000-01-01"
     },
     {
-      "id": "chaves-41347180",
-      "cidade": "Santo André",
-      "bairro": "Vila Vitória",
-      "preco": 360000,
-      "quartos": 3,
-      "vagas": null,
-      "area": 85,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-santo-andre-vila-vitoria-85m2-RS360000/id-41347180/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "chaves-41347180"
-      ],
-      "outras": [],
-      "dist_cofap": 3.8,
-      "estacao": "Estação Santo André-Prefeito Celso Daniel",
-      "dist_estacao": 4.2,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
       "id": "chaves-44885218",
       "cidade": "Santo André",
       "bairro": "Vila Vitória",
@@ -10871,33 +10998,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-36953076",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Alvarenga",
-      "preco": 240000,
-      "quartos": 3,
-      "vagas": null,
-      "area": 60,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-alvarenga-60m2-RS240000/id-36953076/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-36953076"
-      ],
-      "outras": [],
-      "dist_cofap": 16.5,
-      "estacao": "Primavera - Interlagos",
-      "dist_estacao": 7.8,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
       "id": "quinto-895779466",
       "cidade": "São Bernardo do Campo",
       "bairro": "Alvarenga",
@@ -10931,33 +11031,6 @@
       "dist_estacao": 7.8,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "chaves-18867301",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Alvarenga",
-      "preco": 250000,
-      "quartos": 3,
-      "vagas": null,
-      "area": 145,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-alvarenga-145m2-RS250000/id-18867301/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-18867301"
-      ],
-      "outras": [],
-      "dist_cofap": 16.5,
-      "estacao": "Primavera - Interlagos",
-      "dist_estacao": 7.8,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
     },
     {
       "id": "quinto-895702010",
@@ -11162,6 +11235,39 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-18867301",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Alvarenga",
+      "preco": 320000,
+      "quartos": 3,
+      "vagas": null,
+      "area": 145,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-alvarenga-145m2-RS320000/id-18867301/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-18867301",
+        "chaves-43904762"
+      ],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-alvarenga-RS320000/id-43904762/"
+        }
+      ],
+      "dist_cofap": 16.5,
+      "estacao": "Primavera - Interlagos",
+      "dist_estacao": 7.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-18"
+    },
+    {
       "id": "chaves-22623026",
       "cidade": "São Bernardo do Campo",
       "bairro": "Alvarenga",
@@ -11180,17 +11286,12 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "chaves-22623026",
-        "chaves-39366015",
-        "chaves-43904762"
+        "chaves-39366015"
       ],
       "outras": [
         {
           "fonte": "Chaves na Mão",
           "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-alvarenga-129m2-RS320000/id-39366015/"
-        },
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-alvarenga-RS320000/id-43904762/"
         }
       ],
       "dist_cofap": 16.5,
@@ -11569,33 +11670,6 @@
           "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-sp-sao-bernardo-do-campo-assuncao-90m2-RS200000/id-48585056/"
         }
       ],
-      "dist_cofap": 10.6,
-      "estacao": "Estação Santo André-Prefeito Celso Daniel",
-      "dist_estacao": 8.5,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-9311050",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Assunção",
-      "preco": 250000,
-      "quartos": 3,
-      "vagas": null,
-      "area": null,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-assuncao-RS250000/id-9311050/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "chaves-9311050"
-      ],
-      "outras": [],
       "dist_cofap": 10.6,
       "estacao": "Estação Santo André-Prefeito Celso Daniel",
       "dist_estacao": 8.5,
@@ -12112,15 +12186,9 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
-        "chaves-45006673",
-        "chaves-48580128"
+        "chaves-45006673"
       ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-baeta-neves-96m2-RS324760/id-48580128/"
-        }
-      ],
+      "outras": [],
       "dist_cofap": 6.3,
       "estacao": "Estação Santo André-Prefeito Celso Daniel",
       "dist_estacao": 4.5,
@@ -12366,6 +12434,39 @@
       "dist_estacao": 4.5,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "chaves-48579082",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Baeta Neves",
+      "preco": 350000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 150,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-bernardo-do-campo-baeta-neves-150m2-RS350000/id-48579082/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-48579082",
+        "chaves-48582999"
+      ],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-bernardo-do-campo-baeta-neves-150m2-RS350000/id-48582999/"
+        }
+      ],
+      "dist_cofap": 6.3,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 4.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "quinto-895838144",
@@ -12661,6 +12762,33 @@
       "dist_estacao": 11.6,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "chaves-48767838",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Batistini",
+      "preco": 330000,
+      "quartos": 3,
+      "vagas": null,
+      "area": 121,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-com-garagem-sp-sao-bernardo-do-campo-batistini-121m2-RS330000/id-48767838/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-48767838"
+      ],
+      "outras": [],
+      "dist_cofap": 15.9,
+      "estacao": "Grajaú",
+      "dist_estacao": 11.6,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-46314858",
@@ -13796,6 +13924,7 @@
         "quinto-895298013",
         "quinto-895298013",
         "quinto-895298013",
+        "quinto-895298013",
         "chaves-39707790",
         "chaves-48578112"
       ],
@@ -14105,6 +14234,34 @@
       "primeira_vez": "2026-11-16"
     },
     {
+      "id": "quinto-895469604",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Jardim Las Vegas",
+      "preco": 308200,
+      "quartos": 3,
+      "vagas": 2,
+      "area": 62,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Comprar casa no Jardim Las Vegas, 3 quartos.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895469604/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895469604-498.01473681790566IMG0837.JPG",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895469604",
+        "quinto-895469604"
+      ],
+      "outras": [],
+      "dist_cofap": 6.3,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 5.8,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "quinto-895292685",
       "cidade": "São Bernardo do Campo",
       "bairro": "Jardim Nascimento",
@@ -14122,6 +14279,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895292685",
         "quinto-895292685"
       ],
       "outras": [],
@@ -14448,6 +14606,66 @@
       "dist_estacao": 10.3,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "chaves-48583396",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Jardim do Mar",
+      "preco": 355000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 73,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-sp-sao-bernardo-do-campo-jardim-do-mar-73m2-RS355000/id-48583396/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-48583396"
+      ],
+      "outras": [],
+      "dist_cofap": 7.6,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 5.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
+      "id": "chaves-28256253",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Montanhão",
+      "preco": 180000,
+      "quartos": 2,
+      "vagas": null,
+      "area": null,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-bernardo-do-campo-montanhao-RS180000/id-28256253/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-28256253",
+        "chaves-39034231"
+      ],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-bernardo-do-campo-montanhao-RS180000/id-39034231/"
+        }
+      ],
+      "dist_cofap": 10.0,
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-27818332",
@@ -14979,11 +15197,11 @@
       "vagas": 2,
       "area": 130,
       "tipo": "Casa (confirmar tipo)",
-      "extras": "Imóvel com 2 moradias. Ótimo preço. Casa principal com 2 dormitórios, sala, cozinha, 2 banheiros e área de serviço. A outra casa possui 1 do",
+      "extras": "Imóvel com 2 moradias.  \n\nÓtimo preço  \n\nCasa principal com 2 dormitórios, sala, cozinha, 2 banheiros e área de serviço.  \n\nA outra casa pos",
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/jyhbpa28?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/jyhbpa28/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -15050,6 +15268,33 @@
       "dist_estacao": 9.5,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "chaves-48900017",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Montanhão",
+      "preco": 300000,
+      "quartos": 3,
+      "vagas": null,
+      "area": 57,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-3-quartos-sp-sao-bernardo-do-campo-montanhao-57m2-RS300000/id-48900017/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-48900017"
+      ],
+      "outras": [],
+      "dist_cofap": 10.0,
+      "estacao": "Guapituba",
+      "dist_estacao": 9.5,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-31021266",
@@ -15267,6 +15512,7 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
+        "quinto-895682749",
         "quinto-895682749",
         "quinto-895682749",
         "chaves-38894511",
@@ -15517,6 +15763,7 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "quinto-895783948",
+        "quinto-895783948",
         "quinto-895783948"
       ],
       "outras": [],
@@ -15604,6 +15851,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895780080",
         "quinto-895780080"
       ],
       "outras": [],
@@ -16638,6 +16886,7 @@
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
         "quinto-895106697",
+        "quinto-895106697",
         "quinto-895106697"
       ],
       "outras": [],
@@ -16851,6 +17100,7 @@
       "ids": [
         "quinto-895699281",
         "quinto-895699281",
+        "quinto-895699281",
         "quinto-895699281"
       ],
       "outras": [],
@@ -16945,14 +17195,14 @@
       "id": "chaves-33307590",
       "cidade": "São Bernardo do Campo",
       "bairro": "Vila Vivaldi",
-      "preco": 298000,
+      "preco": 298050,
       "quartos": 2,
       "vagas": null,
       "area": 80,
       "tipo": "Casa (confirmar tipo)",
       "extras": "",
       "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-bernardo-do-campo-vila-vivaldi-80m2-RS298000/id-33307590/",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-bernardo-do-campo-vila-vivaldi-80m2-RS298050/id-33307590/",
       "link_direto": true,
       "anuncio_data": null,
       "imagem": null,
@@ -16967,6 +17217,36 @@
       "dist_estacao": 3.3,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "quinto-895159839",
+      "cidade": "São Bernardo do Campo",
+      "bairro": "Vila Vivaldi",
+      "preco": 320000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 90,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Comprar casa de 2 quartos na Vila Vivaldi.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895159839/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895159839-28.461010475377524IMG9518.JPG",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895159839",
+        "quinto-895159839",
+        "quinto-895159839",
+        "quinto-895159839"
+      ],
+      "outras": [],
+      "dist_cofap": 6.8,
+      "estacao": "Estação Santo André-Prefeito Celso Daniel",
+      "dist_estacao": 3.3,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-33432899",
@@ -16986,39 +17266,18 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "chaves-33432899"
+        "chaves-33432899",
+        "chaves-48806566"
       ],
-      "outras": [],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-bernardo-do-campo-vila-vivaldi-85m2-RS350000/id-48806566/"
+        }
+      ],
       "dist_cofap": 6.8,
       "estacao": "Estação Santo André-Prefeito Celso Daniel",
       "dist_estacao": 3.3,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-47895506",
-      "cidade": "São Bernardo do Campo",
-      "bairro": "Vila das Valsas",
-      "preco": 300000,
-      "quartos": 2,
-      "vagas": null,
-      "area": 95,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-sp-sao-bernardo-do-campo-vila-das-valsas-95m2-RS300000/id-47895506/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "chaves-47895506"
-      ],
-      "outras": [],
-      "dist_cofap": 12.7,
-      "estacao": "Estação Santo André-Prefeito Celso Daniel",
-      "dist_estacao": 11.6,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-18"
     },
@@ -17776,33 +18035,6 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "chaves-35810323"
-      ],
-      "outras": [],
-      "dist_cofap": 10.4,
-      "estacao": "Artur Alvim",
-      "dist_estacao": 2.7,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-36995222",
-      "cidade": "São Paulo",
-      "bairro": "Cidade Líder",
-      "preco": 275000,
-      "quartos": 2,
-      "vagas": null,
-      "area": 52,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-cidade-lider-52m2-RS275000/id-36995222/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-36995222"
       ],
       "outras": [],
       "dist_cofap": 10.4,
@@ -18599,6 +18831,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-48698223",
+      "cidade": "São Paulo",
+      "bairro": "Cidade Líder",
+      "preco": 359000,
+      "quartos": 2,
+      "vagas": null,
+      "area": null,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-cidade-lider-RS359000/id-48698223/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-48698223"
+      ],
+      "outras": [],
+      "dist_cofap": 10.4,
+      "estacao": "Artur Alvim",
+      "dist_estacao": 2.7,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-45127765",
       "cidade": "São Paulo",
       "bairro": "Cidade Nova América",
@@ -18649,6 +18908,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-30421434",
+      "cidade": "São Paulo",
+      "bairro": "Cidade Tiradentes",
+      "preco": 220000,
+      "quartos": 4,
+      "vagas": null,
+      "area": null,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-4-quartos-com-garagem-sp-sao-paulo-cidade-tiradentes-RS220000/id-30421434/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-30421434"
+      ],
+      "outras": [],
+      "dist_cofap": 12.8,
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-36246674",
       "cidade": "São Paulo",
       "bairro": "Cidade Tiradentes",
@@ -18688,8 +18974,8 @@
       "fonte": "SP Imóvel",
       "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-2quartos-2vagas-60m2-cidade-tiradentes-sao-paulo-sp/4559715/",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8871/Imovel/4559715/E_20261106220411_whatsapp-image-2026-11-06-at-18.58.25-1.jpg",
+      "anuncio_data": "2026-11-19",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8871/Imovel/4559715/E_20261106220019_whatsapp-image-2026-11-03-at-15.45.59.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
@@ -18757,6 +19043,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-41785027",
+      "cidade": "São Paulo",
+      "bairro": "Cidade Tiradentes",
+      "preco": 250000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 125,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-cidade-tiradentes-125m2-RS250000/id-41785027/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-41785027"
+      ],
+      "outras": [],
+      "dist_cofap": 12.8,
+      "estacao": "Antonio Gianetti Neto",
+      "dist_estacao": 3.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-46746245",
       "cidade": "São Paulo",
       "bairro": "Cidade Tiradentes",
@@ -18796,8 +19109,8 @@
       "fonte": "SP Imóvel",
       "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-2quartos-2vagas-125m2-cidade-tiradentes-sao-paulo-sp/4503050/",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8871/Imovel/4503050/E_20260818163223_whatsapp-image-2026-08-18-at-13.30.11.jpg",
+      "anuncio_data": "2026-11-19",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8871/Imovel/4503050/E_20260818163230_whatsapp-image-2026-08-18-at-13.30.11-2.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
@@ -18828,7 +19141,6 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "quinto-895664179",
         "quinto-895664179",
         "chaves-48040850"
       ],
@@ -19454,7 +19766,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895838814",
         "quinto-895838814"
       ],
       "outras": [],
@@ -19705,33 +20016,6 @@
       "dist_estacao": 0.0,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "quinto-895617050",
-      "cidade": "São Paulo",
-      "bairro": "Gleba do Pêssego",
-      "preco": 308511,
-      "quartos": 3,
-      "vagas": 2,
-      "area": 96,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Casa com 3 quartos na Gleba do Pêssego para comprar.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895617050/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895617050-453.318392516981IMG4501.JPG",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895617050"
-      ],
-      "outras": [],
-      "dist_cofap": 11.1,
-      "estacao": "Dom Bosco",
-      "dist_estacao": 3.6,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-12"
     },
     {
       "id": "chaves-42775819",
@@ -20016,33 +20300,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "sp-4487204",
-      "cidade": "São Paulo",
-      "bairro": "Guaianases",
-      "preco": 299000,
-      "quartos": 3,
-      "vagas": 1,
-      "area": 90,
-      "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 3 Quartos à Venda, Guaianases, São Paulo, 90 m² por R$ 299.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-250mil-ate-300mil-3quartos-1vaga-90m2-guaianases-sao-paulo-sp/4487204/",
-      "link_direto": true,
-      "anuncio_data": "2026-11-17",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10494/Imovel/4487204/E_1-2a8af07ded5db1d0dd05862811626a1e.jpg",
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "sp-4487204"
-      ],
-      "outras": [],
-      "dist_cofap": 14.4,
-      "estacao": "Guaianases",
-      "dist_estacao": 1.4,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
       "id": "chaves-32201817",
       "cidade": "São Paulo",
       "bairro": "Guaianases",
@@ -20313,6 +20570,39 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-35802238",
+      "cidade": "São Paulo",
+      "bairro": "Guaianases",
+      "preco": 350000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 138,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-guaianases-138m2-RS350000/id-35802238/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "atencao",
+      "nota_local": "Região periférica ou com ruas em morro.",
+      "ids": [
+        "chaves-35802238",
+        "chaves-47106090"
+      ],
+      "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-guaianases-139m2-RS350000/id-47106090/"
+        }
+      ],
+      "dist_cofap": 14.4,
+      "estacao": "Guaianases",
+      "dist_estacao": 1.4,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-18"
+    },
+    {
       "id": "chaves-40386026",
       "cidade": "São Paulo",
       "bairro": "Guaianases",
@@ -20331,33 +20621,6 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "chaves-40386026"
-      ],
-      "outras": [],
-      "dist_cofap": 14.4,
-      "estacao": "Guaianases",
-      "dist_estacao": 1.4,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-47106090",
-      "cidade": "São Paulo",
-      "bairro": "Guaianases",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": null,
-      "area": 139,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-guaianases-139m2-RS350000/id-47106090/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-47106090"
       ],
       "outras": [],
       "dist_cofap": 14.4,
@@ -20666,6 +20929,7 @@
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
+        "quinto-893272996",
         "quinto-893272996"
       ],
       "outras": [],
@@ -20748,33 +21012,6 @@
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
         "chaves-48918616"
-      ],
-      "outras": [],
-      "dist_cofap": 19.6,
-      "estacao": "Itaim Paulista",
-      "dist_estacao": 0.9,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-15595932",
-      "cidade": "São Paulo",
-      "bairro": "Itaim Paulista",
-      "preco": 300000,
-      "quartos": 2,
-      "vagas": null,
-      "area": null,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaim-paulista-RS300000/id-15595932/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-15595932"
       ],
       "outras": [],
       "dist_cofap": 19.6,
@@ -21866,54 +22103,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-21234402",
-      "cidade": "São Paulo",
-      "bairro": "Itaquera",
-      "preco": 318000,
-      "quartos": 2,
-      "vagas": null,
-      "area": 65,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS318000/id-21234402/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-21234402",
-        "chaves-35810494",
-        "chaves-47405606",
-        "chaves-47405761",
-        "chaves-47405861"
-      ],
-      "outras": [
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-64m2-RS320000/id-35810494/"
-        },
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS320000/id-47405606/"
-        },
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS320000/id-47405761/"
-        },
-        {
-          "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS320000/id-47405861/"
-        }
-      ],
-      "dist_cofap": 12.8,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-18"
-    },
-    {
       "id": "chaves-45571863",
       "cidade": "São Paulo",
       "bairro": "Itaquera",
@@ -21941,32 +22130,50 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-24261523",
+      "id": "sp-4539519",
       "cidade": "São Paulo",
       "bairro": "Itaquera",
       "preco": 320000,
       "quartos": 2,
-      "vagas": null,
-      "area": 150,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-150m2-RS320000/id-24261523/",
+      "vagas": 1,
+      "area": 65,
+      "tipo": "Térrea",
+      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Itaquera, São Paulo, 65 m² por R$ 320.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "SP Imóvel",
+      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-65m2-itaquera-sao-paulo-sp/4539519/",
       "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
+      "anuncio_data": "2026-11-19",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/3895/Imovel/4539519/E_1-b294930baf136b02c23de4bf4f22afa3.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "chaves-24261523",
+        "sp-4539519",
+        "chaves-21234402",
+        "chaves-35810494",
+        "chaves-36334763",
         "chaves-40797539",
         "chaves-42479655",
         "chaves-44688662",
         "chaves-45736612",
+        "chaves-47405606",
+        "chaves-47405761",
+        "chaves-47405861",
         "chaves-47708103",
         "chaves-47783764"
       ],
       "outras": [
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS318000/id-21234402/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-64m2-RS320000/id-35810494/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS323000/id-36334763/"
+        },
         {
           "fonte": "Chaves na Mão",
           "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-RS320000/id-40797539/"
@@ -21982,6 +22189,18 @@
         {
           "fonte": "Chaves na Mão",
           "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-RS320000/id-45736612/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS320000/id-47405606/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS320000/id-47405761/"
+        },
+        {
+          "fonte": "Chaves na Mão",
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS320000/id-47405861/"
         },
         {
           "fonte": "Chaves na Mão",
@@ -22249,59 +22468,32 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "chaves-36334763",
+      "id": "chaves-37117874",
       "cidade": "São Paulo",
       "bairro": "Itaquera",
-      "preco": 323000,
+      "preco": 325000,
       "quartos": 2,
       "vagas": null,
       "area": 65,
       "tipo": "Casa (confirmar tipo)",
       "extras": "",
       "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS323000/id-36334763/",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS325000/id-37117874/",
       "link_direto": true,
       "anuncio_data": null,
       "imagem": null,
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
       "ids": [
-        "chaves-36334763",
-        "chaves-37117874"
+        "chaves-37117874",
+        "chaves-45586939"
       ],
       "outras": [
         {
           "fonte": "Chaves na Mão",
-          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-65m2-RS325000/id-37117874/"
+          "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-RS325000/id-45586939/"
         }
       ],
-      "dist_cofap": 12.8,
-      "estacao": "Corinthians-Itaquera",
-      "dist_estacao": 0.0,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "chaves-45586939",
-      "cidade": "São Paulo",
-      "bairro": "Itaquera",
-      "preco": 325000,
-      "quartos": 2,
-      "vagas": null,
-      "area": null,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "Chaves na Mão",
-      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-itaquera-RS325000/id-45586939/",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": null,
-      "localizacao": "atencao",
-      "nota_local": "Região periférica ou com ruas em morro.",
-      "ids": [
-        "chaves-45586939"
-      ],
-      "outras": [],
       "dist_cofap": 12.8,
       "estacao": "Corinthians-Itaquera",
       "dist_estacao": 0.0,
@@ -23345,6 +23537,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-39727417",
+      "cidade": "São Paulo",
+      "bairro": "Jardim Camargo Novo",
+      "preco": 350000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 125,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-jardim-camargo-novo-125m2-RS350000/id-39727417/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-39727417"
+      ],
+      "outras": [],
+      "dist_cofap": 20.1,
+      "estacao": "Jardim Romano",
+      "dist_estacao": 2.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-48311792",
       "cidade": "São Paulo",
       "bairro": "Jardim Campo dos Ferreiros",
@@ -23368,6 +23587,29 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "zl-3647705",
+      "cidade": "São Paulo",
+      "bairro": "Jardim Carolina",
+      "preco": 250000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 90,
+      "tipo": "Térrea",
+      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Carolina, São Paulo, 90 m² por R$ 250.000,00. Confira! Ótima Oportunidade!",
+      "fonte": "ZL Imóvel",
+      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-2quartos-1vaga-90m2-jardim-carolina-zona-leste-sao-paulo-sp/3647705/",
+      "link_direto": true,
+      "anuncio_data": "2026-04-17",
+      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/9295/Imovel/3647705/G_1-00b6937fb95afe83037bb65632ae069e.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "zl-3647705"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "loft-b18x16f7",
       "cidade": "São Paulo",
       "bairro": "Jardim Casa Pintada",
@@ -23380,7 +23622,7 @@
       "fonte": "Loft",
       "url": "https://loft.com.br/imovel/b18x16f7?tipoTransacao=venda",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://content.loft.com.br/homes/b18x16f7/banner_thumbnail.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -23529,6 +23771,29 @@
       ],
       "outras": [],
       "primeira_vez": "2026-11-18"
+    },
+    {
+      "id": "chaves-31627943",
+      "cidade": "São Paulo",
+      "bairro": "Jardim Edith",
+      "preco": 300000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 134,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-com-garagem-sp-sao-paulo-jardim-edith-134m2-RS300000/id-31627943/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "chaves-31627943"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "chaves-46800953",
@@ -24114,7 +24379,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895640209",
         "quinto-895640209"
       ],
       "outras": [],
@@ -24244,7 +24508,6 @@
       "ids": [
         "quinto-895806055",
         "quinto-895806055",
-        "quinto-895806055",
         "quinto-895806055"
       ],
       "outras": [],
@@ -24268,7 +24531,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895682920",
         "quinto-895682920"
       ],
       "outras": [],
@@ -24301,33 +24563,6 @@
       "dist_estacao": 6.6,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "zl-4365900",
-      "cidade": "São Paulo",
-      "bairro": "Jardim Soares",
-      "preco": 228800,
-      "quartos": 2,
-      "vagas": null,
-      "area": 33,
-      "tipo": "Térrea",
-      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Jardim Soares, São Paulo, 33 m² por R$ 228.800,00. Confira! Ótima Oportunidade!",
-      "fonte": "ZL Imóvel",
-      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-2quartos-33m2-jardim-soares-zona-leste-sao-paulo-sp/4365900/",
-      "link_direto": true,
-      "anuncio_data": "2026-10-26",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/8774/Imovel/4365900/E_1-20260502T1504200300-114899146.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "zl-4365900"
-      ],
-      "outras": [],
-      "dist_cofap": 30.4,
-      "estacao": "Estação de Metrô Capão Redondo",
-      "dist_estacao": 2.3,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-18"
     },
     {
       "id": "quinto-895803505",
@@ -24458,33 +24693,6 @@
       ],
       "outras": [],
       "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "zl-4326215",
-      "cidade": "São Paulo",
-      "bairro": "Jardim São Pedro",
-      "preco": 250000,
-      "quartos": 3,
-      "vagas": 2,
-      "area": 100,
-      "tipo": "Térrea",
-      "extras": "ZL Imóvel | Casa Térrea, 3 Quartos à Venda, Jardim São Pedro, São Paulo, 100 m² por R$ 250.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "ZL Imóvel",
-      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-210mil-ate-250mil-3quartos-2vagas-100m2-jardim-sao-pedro-zona-leste-sao-paulo-sp/4326215/",
-      "link_direto": true,
-      "anuncio_data": "2026-01-15",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/2128/Imovel/4326215/E_20260115134432_69c8af2df3ca4059153a6fbefcf71007.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "zl-4326215"
-      ],
-      "outras": [],
-      "dist_cofap": 31.9,
-      "estacao": "Estação de Metrô Capão Redondo",
-      "dist_estacao": 7.0,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-17"
     },
     {
       "id": "sp-3647649",
@@ -24637,6 +24845,30 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "quinto-894779628",
+      "cidade": "São Paulo",
+      "bairro": "Jardim Vila Formosa",
+      "preco": 360000,
+      "quartos": 4,
+      "vagas": 1,
+      "area": 200,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/894779628/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original894779628-667.4420430880326IMG4902.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-894779628",
+        "quinto-894779628"
+      ],
+      "outras": [],
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "quinto-894931166",
       "cidade": "São Paulo",
       "bairro": "Jardim Vila Formosa",
@@ -24677,7 +24909,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895678609",
         "quinto-895678609"
       ],
       "outras": [],
@@ -25498,6 +25729,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-49025310",
+      "cidade": "São Paulo",
+      "bairro": "Mooca",
+      "preco": 348000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 52,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-sp-sao-paulo-mooca-52m2-RS348000/id-49025310/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-49025310"
+      ],
+      "outras": [],
+      "dist_cofap": 15.1,
+      "estacao": "Juventus - Mooca",
+      "dist_estacao": 1.2,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-29833601",
       "cidade": "São Paulo",
       "bairro": "Mooca",
@@ -26000,6 +26258,33 @@
       "primeira_vez": "2026-11-17"
     },
     {
+      "id": "quinto-895860316",
+      "cidade": "São Paulo",
+      "bairro": "Parque Sao Rafael",
+      "preco": 280000,
+      "quartos": 3,
+      "vagas": 1,
+      "area": 50,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa com 3 quartos para comprar.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895860316/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895860316-172.143140431366481000870761.jpg",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895860316"
+      ],
+      "outras": [],
+      "dist_cofap": 38.2,
+      "estacao": "Caieiras",
+      "dist_estacao": 5.1,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "quinto-895741720",
       "cidade": "São Paulo",
       "bairro": "Parque Sao Rafael",
@@ -26132,6 +26417,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "chaves-49025670",
+      "cidade": "São Paulo",
+      "bairro": "Penha",
+      "preco": 330000,
+      "quartos": 2,
+      "vagas": null,
+      "area": 50,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "",
+      "fonte": "Chaves na Mão",
+      "url": "https://www.chavesnamao.com.br/imovel/casa-a-venda-2-quartos-sp-sao-paulo-penha-50m2-RS330000/id-49025670/",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": null,
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "chaves-49025670"
+      ],
+      "outras": [],
+      "dist_cofap": 14.6,
+      "estacao": "Penha - Lojas Besni",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-22526972",
       "cidade": "São Paulo",
       "bairro": "Quarta Parada",
@@ -26176,7 +26488,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895728563",
         "quinto-895728563"
       ],
       "outras": [],
@@ -26185,33 +26496,6 @@
       "dist_estacao": 5.4,
       "tipo_estacao": "Trem",
       "primeira_vez": "2000-01-01"
-    },
-    {
-      "id": "quinto-895657958",
-      "cidade": "São Paulo",
-      "bairro": "Recanto Verde do Sol",
-      "preco": 320000,
-      "quartos": 4,
-      "vagas": 2,
-      "area": 200,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895657958/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895657958-222.0313291391552543a4c586-4582-4655-aa76-abdb0fe2730a-LEAD3P-6a672c8a-2395-492a-9181-f110835e55ff.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "quinto-895657958"
-      ],
-      "outras": [],
-      "dist_cofap": 8.7,
-      "estacao": "Jardim Colonial",
-      "dist_estacao": 5.4,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-12"
     },
     {
       "id": "chaves-42277705",
@@ -26376,6 +26660,33 @@
       "primeira_vez": "2026-11-18"
     },
     {
+      "id": "quinto-895421784",
+      "cidade": "São Paulo",
+      "bairro": "Sacomã",
+      "preco": 340000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 64,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Casa com 2 quartos disponível para compra. Oportunidades únicas para você.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895421784/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895421784-785.0116861777761IMG4281.jpg",
+      "localizacao": "boa",
+      "nota_local": "Bairro consolidado e bem servido.",
+      "ids": [
+        "quinto-895421784"
+      ],
+      "outras": [],
+      "dist_cofap": 12.8,
+      "estacao": "Sacomã",
+      "dist_estacao": 0.0,
+      "tipo_estacao": "Metrô",
+      "primeira_vez": "2026-11-19"
+    },
+    {
       "id": "chaves-42277211",
       "cidade": "São Paulo",
       "bairro": "Sacomã",
@@ -26474,6 +26785,7 @@
       "localizacao": "boa",
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
+        "quinto-894823429",
         "quinto-894823429",
         "chaves-33143007",
         "chaves-48801455"
@@ -27280,7 +27592,6 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
-        "quinto-895712788",
         "quinto-895712788",
         "quinto-895712788",
         "quinto-895712788"
@@ -28664,6 +28975,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895615932",
         "quinto-895615932"
       ],
       "outras": [],
@@ -28691,6 +29003,7 @@
       "localizacao": "media",
       "nota_local": "Bairro residencial; confirme topografia e entorno.",
       "ids": [
+        "quinto-895434769",
         "quinto-895434769"
       ],
       "outras": [],
@@ -28921,33 +29234,6 @@
       "dist_estacao": 2.3,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-03"
-    },
-    {
-      "id": "quinto-895650514",
-      "cidade": "São Paulo",
-      "bairro": "Vila Formosa",
-      "preco": 350000,
-      "quartos": 4,
-      "vagas": 1,
-      "area": 140,
-      "tipo": "Casa (confirmar tipo)",
-      "extras": "Comprar casa com 4 quartos e varanda.",
-      "fonte": "QuintoAndar",
-      "url": "https://www.quintoandar.com.br/imovel/895650514/comprar",
-      "link_direto": true,
-      "anuncio_data": null,
-      "imagem": "https://www.quintoandar.com.br/img/800x600/original895650514-466.66720385406967IMG6168.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "quinto-895650514"
-      ],
-      "outras": [],
-      "dist_cofap": 11.4,
-      "estacao": "Oratório",
-      "dist_estacao": 2.3,
-      "tipo_estacao": "Trem",
-      "primeira_vez": "2026-11-07"
     },
     {
       "id": "chaves-33486397",
@@ -29215,6 +29501,33 @@
       "dist_estacao": 2.9,
       "tipo_estacao": "Trem",
       "primeira_vez": "2026-11-09"
+    },
+    {
+      "id": "quinto-895359693",
+      "cidade": "São Paulo",
+      "bairro": "Vila Jacuí",
+      "preco": 332000,
+      "quartos": 2,
+      "vagas": 1,
+      "area": 147,
+      "tipo": "Casa (confirmar tipo)",
+      "extras": "Compra casa Vila Jacuí: 2 quartos.",
+      "fonte": "QuintoAndar",
+      "url": "https://www.quintoandar.com.br/imovel/895359693/comprar",
+      "link_direto": true,
+      "anuncio_data": null,
+      "imagem": "https://www.quintoandar.com.br/img/800x600/original895359693-723.239457310857801Sala3.JPG",
+      "localizacao": "media",
+      "nota_local": "Bairro residencial; confirme topografia e entorno.",
+      "ids": [
+        "quinto-895359693"
+      ],
+      "outras": [],
+      "dist_cofap": 17.6,
+      "estacao": "Comendador Ermelino",
+      "dist_estacao": 2.9,
+      "tipo_estacao": "Trem",
+      "primeira_vez": "2026-11-19"
     },
     {
       "id": "quinto-893720713",
@@ -30101,7 +30414,7 @@
       "fonte": "SP Imóvel",
       "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-350mil-ate-400mil-3quartos-129m2-vila-nhocune-sao-paulo-sp/4521321/",
       "link_direto": true,
-      "anuncio_data": "2026-11-18",
+      "anuncio_data": "2026-11-19",
       "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/737/Imovel/4521321/E_20260918194801_folder-v573.jpg",
       "localizacao": "atencao",
       "nota_local": "Região periférica ou com ruas em morro.",
@@ -30274,33 +30587,6 @@
       "primeira_vez": "2026-11-18"
     },
     {
-      "id": "zl-4556697",
-      "cidade": "São Paulo",
-      "bairro": "Vila Pierina",
-      "preco": 84000,
-      "quartos": 2,
-      "vagas": null,
-      "area": 10,
-      "tipo": "Térrea",
-      "extras": "ZL Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Pierina, São Paulo, 10 m² por R$ 84.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "ZL Imóvel",
-      "url": "https://www.zlimovel.com.br/imovel/casa-terrea-venda-rs84000-2quartos-10m2-vila-pierina-zona-leste-sao-paulo-sp/4556697/",
-      "link_direto": true,
-      "anuncio_data": "2026-11-18",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/10422/Imovel/4556697/E_1-.jpg",
-      "localizacao": "media",
-      "nota_local": "Bairro residencial; confirme topografia e entorno.",
-      "ids": [
-        "zl-4556697"
-      ],
-      "outras": [],
-      "dist_cofap": 16.2,
-      "estacao": "Vila Mariana",
-      "dist_estacao": 0.5,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-18"
-    },
-    {
       "id": "chaves-27115861",
       "cidade": "São Paulo",
       "bairro": "Vila Ponte Rasa",
@@ -30400,33 +30686,6 @@
       "nota_local": "Bairro consolidado e bem servido.",
       "ids": [
         "chaves-40031312"
-      ],
-      "outras": [],
-      "dist_cofap": 12.3,
-      "estacao": "Vila Prudente",
-      "dist_estacao": 0.1,
-      "tipo_estacao": "Metrô",
-      "primeira_vez": "2026-11-18"
-    },
-    {
-      "id": "sp-3975765",
-      "cidade": "São Paulo",
-      "bairro": "Vila Prudente",
-      "preco": 350000,
-      "quartos": 2,
-      "vagas": 1,
-      "area": 156,
-      "tipo": "Térrea",
-      "extras": "SP Imóvel | Casa Térrea, 2 Quartos à Venda, Vila Prudente, São Paulo, 156 m² por R$ 350.000,00. Confira! Ótima Oportunidade!",
-      "fonte": "SP Imóvel",
-      "url": "https://www.spimovel.com.br/imovel/casa-terrea-venda-300mil-ate-350mil-2quartos-1vaga-156m2-vila-prudente-sao-paulo-sp/3975765/",
-      "link_direto": true,
-      "anuncio_data": "2026-09-11",
-      "imagem": "https://d31hw7dq38n1ek.cloudfront.net/Imagens/3/Interno/9215/Imovel/3975765/E_1-2024102212142837.jpg",
-      "localizacao": "boa",
-      "nota_local": "Bairro consolidado e bem servido.",
-      "ids": [
-        "sp-3975765"
       ],
       "outras": [],
       "dist_cofap": 12.3,
